@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a39ecdfa-4469-4079-8531-414741cab7f8")
+	(paper "A4")
+	(title_block
+		(title "Telethon PBX Sniffer")
+		(date "2026-02-03")
+		(rev "v0.1")
+		(company "M5")
+		(comment 4 "Tobe Cynar")
+	)
+	(lib_symbols)
+)
