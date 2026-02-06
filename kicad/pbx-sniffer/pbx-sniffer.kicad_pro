@@ -653,6 +653,10 @@
     [
       "bcc2d39f-170c-4a52-880c-ce8759f83294",
       "Output Phone Jacks"
+    ],
+    [
+      "5440b238-ad38-4f50-b001-ed881622e44b",
+      "Power"
     ]
   ],
   "text_variables": {}
