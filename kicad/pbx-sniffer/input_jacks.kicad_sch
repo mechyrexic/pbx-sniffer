@@ -186,7 +186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 203.2 54.61 0)
 			(effects
 				(font
@@ -270,7 +270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 81.28 54.61 0)
 			(effects
 				(font
@@ -353,7 +353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 85.09 54.61 0)
 			(effects
 				(font
@@ -437,7 +437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 81.28 95.25 0)
 			(effects
 				(font
@@ -520,7 +520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 203.2 115.57 0)
 			(effects
 				(font
@@ -603,7 +603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 85.09 74.93 0)
 			(effects
 				(font
@@ -687,7 +687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 81.28 135.89 0)
 			(effects
 				(font
@@ -770,7 +770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 203.2 95.25 0)
 			(effects
 				(font
@@ -853,7 +853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 203.2 34.29 0)
 			(effects
 				(font
@@ -936,7 +936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 85.09 115.57 0)
 			(effects
 				(font
@@ -1020,7 +1020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 81.28 115.57 0)
 			(effects
 				(font
@@ -1104,7 +1104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 199.39 135.89 0)
 			(effects
 				(font
@@ -1188,7 +1188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 81.28 74.93 0)
 			(effects
 				(font
@@ -1272,7 +1272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 199.39 34.29 0)
 			(effects
 				(font
@@ -1356,7 +1356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 199.39 115.57 0)
 			(effects
 				(font
@@ -1439,7 +1439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 85.09 95.25 0)
 			(effects
 				(font
@@ -1523,7 +1523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 81.28 34.29 0)
 			(effects
 				(font
@@ -1607,7 +1607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 199.39 74.93 0)
 			(effects
 				(font
@@ -1690,7 +1690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 203.2 74.93 0)
 			(effects
 				(font
@@ -1773,7 +1773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 85.09 135.89 0)
 			(effects
 				(font
@@ -1857,7 +1857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 199.39 95.25 0)
 			(effects
 				(font
@@ -1940,7 +1940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 203.2 135.89 0)
 			(effects
 				(font
@@ -2024,7 +2024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 199.39 54.61 0)
 			(effects
 				(font
@@ -2107,7 +2107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Phones:Molex 0955016649"
 			(at 85.09 34.29 0)
 			(effects
 				(font
