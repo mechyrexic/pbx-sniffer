@@ -657,6 +657,10 @@
     [
       "5440b238-ad38-4f50-b001-ed881622e44b",
       "Power"
+    ],
+    [
+      "11d81b46-994e-4f58-8697-a646ee6448ef",
+      "Wiretap"
     ]
   ],
   "text_variables": {}

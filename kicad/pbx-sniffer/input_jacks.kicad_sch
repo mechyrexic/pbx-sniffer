@@ -12,6 +12,312 @@
 		(comment 4 "Tobe Cynar")
 	)
 	(lib_symbols
+		(symbol "Device:D_45deg"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_45deg"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, rotated by 45°"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*Bridge* D*Rectifier*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_45deg_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 1.27) (xy 0.635 -0.635) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0.635) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.635 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_45deg_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Phones:Jack 6P4C RJ11"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -159,6 +465,310 @@
 			)
 		)
 		(uuid "b3f7d915-c068-41b6-ac3f-e49c8c8d87ad")
+	)
+	(text "5uA max on hook current\nhigher off hook current, ~35mA"
+		(exclude_from_sim no)
+		(at 81.28 22.225 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe2cfeb4-a840-4a37-988e-8af4d39f897d")
+	)
+	(junction
+		(at 42.545 38.735)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01579530-b1d5-4706-90e0-21e69fba6233")
+	)
+	(junction
+		(at 42.545 47.625)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04cf1b45-7e30-4f88-99f5-cb4359e7f620")
+	)
+	(junction
+		(at 65.405 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3427446c-0840-4791-8f7f-4ed6dda02e8c")
+	)
+	(junction
+		(at 37.465 42.545)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3795037f-4d90-46bb-93cb-80d913bf15eb")
+	)
+	(junction
+		(at 50.8 43.815)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e2e25ad-473f-4870-9874-0160ff2fc31f")
+	)
+	(junction
+		(at 65.405 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad7c587c-ab77-42eb-866b-a1f29fba25c0")
+	)
+	(junction
+		(at 45.72 47.625)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae23211a-3521-486f-9d3f-22237a3cb4bd")
+	)
+	(junction
+		(at 45.72 38.735)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e02bb05e-f532-41b3-843e-c41bf149fa3e")
+	)
+	(wire
+		(pts
+			(xy 37.465 33.655) (xy 37.465 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0123f725-c9ae-40c2-a3d4-fdb5e5af4fe0")
+	)
+	(wire
+		(pts
+			(xy 65.405 47.625) (xy 60.96 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060cea44-c06e-405a-9ac3-2bca88dbe57d")
+	)
+	(wire
+		(pts
+			(xy 42.545 38.735) (xy 45.72 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c976b4-9c44-45e1-9502-96ad14e6fa83")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.735) (xy 53.34 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136e4ec3-debb-4f6f-aee2-786f2b8e1879")
+	)
+	(wire
+		(pts
+			(xy 65.405 44.45) (xy 65.405 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1883eef9-4f36-4f2e-bb87-3d115d0a3320")
+	)
+	(wire
+		(pts
+			(xy 76.2 44.45) (xy 65.405 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ef1c69-fdc2-45ee-8a04-af464c430ae6")
+	)
+	(wire
+		(pts
+			(xy 37.465 42.545) (xy 37.465 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a79ba96-0eda-4f14-a2ab-31c06414b5a4")
+	)
+	(wire
+		(pts
+			(xy 45.72 47.625) (xy 53.34 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf29721-d42a-4173-bab3-b961f6c5b240")
+	)
+	(wire
+		(pts
+			(xy 50.8 33.02) (xy 50.8 43.815)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319a4261-faa7-413b-a9df-ff1148fc3e4c")
+	)
+	(wire
+		(pts
+			(xy 64.135 41.91) (xy 65.405 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b27d84-1eb0-4dff-8bd5-57cc9e3a3d51")
+	)
+	(wire
+		(pts
+			(xy 60.96 38.735) (xy 65.405 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e0c0dd-d5fd-4c26-96f0-8f24d6a46738")
+	)
+	(wire
+		(pts
+			(xy 32.385 47.625) (xy 42.545 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79355475-ea93-49e9-8604-082977395e2b")
+	)
+	(wire
+		(pts
+			(xy 32.385 38.735) (xy 42.545 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a92e36ac-ab21-4db1-aa10-66ff6788cd4c")
+	)
+	(wire
+		(pts
+			(xy 42.545 47.625) (xy 45.72 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab311334-b067-40eb-9697-c4690be892e5")
+	)
+	(wire
+		(pts
+			(xy 64.135 44.45) (xy 65.405 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd647b1-347b-443f-b4f1-7ebf938eb9b9")
+	)
+	(wire
+		(pts
+			(xy 65.405 41.91) (xy 76.2 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbf0d56-9f80-47c0-8c6c-65e3a36ee8ce")
+	)
+	(wire
+		(pts
+			(xy 65.405 38.735) (xy 65.405 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e674dd-4f52-4a86-b73b-d3bba06e48e5")
+	)
+	(wire
+		(pts
+			(xy 50.8 43.815) (xy 50.8 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b24407-48de-47d6-8134-a211d641f64f")
+	)
+	(hierarchical_label "-ADC7"
+		(shape input)
+		(at 32.385 47.625 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b54a41d-c641-4150-ab84-4bdce46140c3")
+	)
+	(hierarchical_label "ptRX7"
+		(shape input)
+		(at 76.2 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3475890e-81b6-43a8-9c26-263f32ff555a")
+	)
+	(hierarchical_label "ptTX7"
+		(shape input)
+		(at 76.2 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48f8a550-70d6-4ba2-bf74-e21eb9eb8e63")
+	)
+	(hierarchical_label "T7"
+		(shape input)
+		(at 64.135 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4d1ae8f-9dad-4368-b027-0e1dc19ca8f8")
+	)
+	(hierarchical_label "+ADC7"
+		(shape input)
+		(at 32.385 38.735 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db4968f8-84ed-47c4-b91c-92fb2ec1e2c7")
+	)
+	(hierarchical_label "R7"
+		(shape input)
+		(at 64.135 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db97c705-d6d1-4674-842b-6aa36add3bfb")
 	)
 	(symbol
 		(lib_id "Phones:Jack 6P4C RJ11")
@@ -661,6 +1271,177 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_45deg")
+		(at 48.26 50.165 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ccf8579-84f6-4ebb-a3bf-aea6aa02f9c3")
+		(property "Reference" "D3"
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_45deg"
+			(at 48.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 48.26 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 48.26 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54c3e6a8-a6fd-4c52-be0c-08adaeca825c")
+		)
+		(pin "2"
+			(uuid "ad42b130-597f-431a-803f-f04844df4a57")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_45deg")
+		(at 40.005 45.085 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "307ec35e-a85d-422a-a02f-816da9d15155")
+		(property "Reference" "D4"
+			(at 34.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_45deg"
+			(at 34.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.005 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.005 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 40.005 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 40.005 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.005 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4295036f-0c4f-4bd3-8bf6-511429187c34")
+		)
+		(pin "2"
+			(uuid "7450276b-e8da-48cc-9b3a-b0e0a93c33cd")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Phones:Jack 6P4C RJ11")
 		(at 81.28 135.89 0)
 		(mirror y)
@@ -988,6 +1769,160 @@
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 57.15 38.735 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b6d834d-8623-42c7-b00b-634042079fdd")
+		(property "Reference" "R2"
+			(at 57.15 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16M"
+			(at 57.15 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 40.513 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.15 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56077880-c046-41de-8204-e40e0e71adac")
+		)
+		(pin "2"
+			(uuid "a5077d29-937b-4316-a420-478af7afef19")
+		)
+		(instances
+			(project ""
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_45deg")
+		(at 48.26 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cdf3974-0cdf-4348-bd2f-f07115ce3fa1")
+		(property "Reference" "D2"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_45deg"
+			(at 48.26 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 48.26 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 48.26 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f3573d0-7e91-4327-840d-d6eca43234a8")
+		)
+		(pin "2"
+			(uuid "32b2e9fa-9359-4bad-be22-dbd392007ee0")
+		)
+		(instances
+			(project ""
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -1408,6 +2343,74 @@
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
 					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 57.15 47.625 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96bc0e93-f89a-43b0-86bb-46bbea7808b0")
+		(property "Reference" "R3"
+			(at 57.15 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16M"
+			(at 57.15 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 49.403 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.15 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b140b24-072d-45cb-b55d-97e2459df33c")
+		)
+		(pin "2"
+			(uuid "e8592bc9-abb3-4442-845e-1f7ffff9454d")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2076,6 +3079,92 @@
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_45deg")
+		(at 40.005 36.195 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8eaf570-a9b1-40b0-9332-dd8dfc42cb46")
+		(property "Reference" "D5"
+			(at 40.005 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_45deg"
+			(at 40.005 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.005 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.005 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, rotated by 45°"
+			(at 40.005 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 40.005 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.005 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84e6e4bb-76ff-4bf1-bf07-effef4af3527")
+		)
+		(pin "2"
+			(uuid "d00d06ae-66ca-43a6-a3bf-94a34eced3e0")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
+					(reference "D5")
 					(unit 1)
 				)
 			)

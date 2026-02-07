@@ -3109,6 +3109,48 @@
 		)
 	)
 	(sheet
+		(at 161.29 15.875)
+		(size 39.37 18.415)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "11d81b46-994e-4f58-8697-a646ee6448ef")
+		(property "Sheetname" "Wiretap"
+			(at 161.29 15.1634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 161.29 34.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 115.57 15.24)
 		(size 34.29 17.78)
 		(exclude_from_sim no)
