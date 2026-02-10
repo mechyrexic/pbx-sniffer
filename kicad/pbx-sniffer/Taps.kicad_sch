@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "618092c3-07cf-4c9b-a72a-7f82ce555224")
 	(paper "A4")
+	(title_block
+		(title "Telethon PBX Sniffer")
+		(date "2026-02-03")
+		(rev "v0.1")
+		(company "M5")
+		(comment 4 "Tobe Cynar, Ian Butler")
+		(comment 5 "Ian Butler")
+	)
 	(lib_symbols
 		(symbol "Isolator:Optocoupler_DC_PhotoNPN_AKEC"
 			(exclude_from_sim no)

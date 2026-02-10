@@ -9,7 +9,7 @@
 		(date "2026-02-03")
 		(rev "v0.1")
 		(company "M5")
-		(comment 4 "Tobe Cynar")
+		(comment 4 "Tobe Cynar, Ian Butler")
 	)
 	(lib_symbols
 		(symbol "MCU_ST_STM32H7:STM32H7R3V8Tx"

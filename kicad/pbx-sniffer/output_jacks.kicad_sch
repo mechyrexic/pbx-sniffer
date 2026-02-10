@@ -9,7 +9,8 @@
 		(date "2026-02-03")
 		(rev "v0.1")
 		(company "M5")
-		(comment 4 "Tobe Cynar")
+		(comment 4 "Tobe Cynar, Ian Butler")
+		(comment 5 "Ian Butler")
 	)
 	(lib_symbols
 		(symbol "Phones:Jack 6P4C RJ11"
