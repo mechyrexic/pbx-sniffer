@@ -4758,6 +4758,108 @@
 		)
 	)
 	(sheet
+		(at 207.645 15.24)
+		(size 44.45 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "992e173b-e387-457c-8c0b-8a825a1cd866")
+		(property "Sheetname" "Line Control"
+			(at 207.645 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relays.kicad_sch"
+			(at 207.645 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "controlSW" input
+			(at 240.665 36.83 270)
+			(uuid "4721e3b3-49ce-4d59-ad0f-7f7991b23c40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "hookSW" input
+			(at 243.205 36.83 270)
+			(uuid "1e43770d-5f4f-470d-8eef-6decfc99d712")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ri" input
+			(at 207.645 34.29 180)
+			(uuid "32118abf-a16c-4b10-ace5-f72ff3f6c133")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ro" input
+			(at 252.095 34.29 0)
+			(uuid "424b362b-c762-4faa-97ea-83675998c426")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Ti" input
+			(at 207.645 18.415 180)
+			(uuid "6e31cdb8-814d-478d-b4e8-c563cef05fc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "To" input
+			(at 252.095 18.415 0)
+			(uuid "47273672-7c34-4696-a495-59bba7f26777")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 63.5 15.24)
 		(size 40.64 17.78)
 		(exclude_from_sim no)

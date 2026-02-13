@@ -13,6 +13,130 @@
 		(comment 5 "Ian Butler")
 	)
 	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Isolator:Optocoupler_DC_PhotoNPN_AKEC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -316,6 +440,240 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SparkFun-PowerSymbol:VDDA"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDDA"
+				(at 0 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDA\""
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDDA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "determine resistor value based on selected optocoupler\n"
+		(exclude_from_sim no)
+		(at 88.9 46.355 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "060717c6-2269-439a-98f5-5c222fe5d468")
 	)
 	(text "differential voltage tracker, when voltage is <7, ADC is connected, else disconnected. control signal can on/off hook line."
 		(exclude_from_sim no)
@@ -329,7 +687,7 @@
 	)
 	(text "5uA max on hook current in theory, in practice current can go over 5mA\nhigher off hook current, ~35mA"
 		(exclude_from_sim no)
-		(at 83.185 46.99 0)
+		(at 83.185 73.025 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -337,9 +695,85 @@
 		)
 		(uuid "de3783fc-2034-4f76-b1e5-f09a1f6e316a")
 	)
+	(junction
+		(at 57.785 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92321b57-0e8f-45d9-b06b-327abcc953d7")
+	)
+	(wire
+		(pts
+			(xy 34.925 31.75) (xy 42.545 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5b1332-6003-42bc-ae63-804c0e7829b3")
+	)
+	(wire
+		(pts
+			(xy 57.785 45.72) (xy 57.785 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22601c9b-d8a7-49c7-b899-53f6a2314239")
+	)
+	(wire
+		(pts
+			(xy 57.785 38.1) (xy 57.785 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a009d14-9d58-4685-ad9f-6fd6ebfadda2")
+	)
+	(wire
+		(pts
+			(xy 34.925 36.83) (xy 42.545 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9184e60-b757-47fe-9612-ff670c51f550")
+	)
+	(wire
+		(pts
+			(xy 57.785 31.75) (xy 69.85 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b251caef-9d07-4c9e-a498-875b2abef910")
+	)
+	(wire
+		(pts
+			(xy 57.785 36.83) (xy 70.485 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b559d57f-3abd-48c7-9512-60ce6b266309")
+	)
+	(wire
+		(pts
+			(xy 69.85 31.75) (xy 69.85 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed44ccb7-0442-4451-ae77-48d11703ee65")
+	)
 	(hierarchical_label "Tpots"
 		(shape input)
-		(at 37.465 21.59 180)
+		(at 34.925 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -347,17 +781,6 @@
 			(justify right)
 		)
 		(uuid "0e87f236-0a77-4fad-8a59-022d9b66c6b2")
-	)
-	(hierarchical_label "Tpbx"
-		(shape input)
-		(at 46.355 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3fb2bfa0-b0c2-4394-9ab1-670c990b7dcb")
 	)
 	(hierarchical_label "-ADC"
 		(shape input)
@@ -372,29 +795,162 @@
 	)
 	(hierarchical_label "+ADC"
 		(shape input)
-		(at 53.34 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7a9ef7c7-7ec9-4395-abdf-863ccad83da9")
-	)
-	(hierarchical_label "Tpbx"
-		(shape input)
-		(at 48.895 21.59 0)
+		(at 70.485 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
+		(uuid "7a9ef7c7-7ec9-4395-abdf-863ccad83da9")
+	)
+	(hierarchical_label "Tpbx"
+		(shape input)
+		(at 34.925 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
 		(uuid "c0ec9aaa-2d45-4cd1-ab9c-303ce410713f")
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 57.785 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58c1b6f5-710b-47b9-af7d-0e78e2cf4da4")
+		(property "Reference" "#PWR042"
+			(at 57.785 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 57.785 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.785 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.785 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 57.785 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1b5ec1e-ca24-4394-a9a7-22e00563748c")
+		)
+		(instances
+			(project ""
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/11d81b46-994e-4f58-8697-a646ee6448ef"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:VDDA")
+		(at 69.85 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "977966b9-fafc-49d2-9358-8e14804f2962")
+		(property "Reference" "#PWR043"
+			(at 69.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 69.85 25.4 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6332afe-6608-48b7-bb13-8c2240bf1184")
+		)
+		(instances
+			(project ""
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/11d81b46-994e-4f58-8697-a646ee6448ef"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
-		(at 43.815 29.21 270)
+		(at 50.165 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -403,25 +959,23 @@
 		(fields_autoplaced yes)
 		(uuid "aadc5656-0409-4991-bf07-5fd79be61173")
 		(property "Reference" "U3"
-			(at 48.895 27.9399 90)
+			(at 50.165 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Optocoupler_DC_PhotoNPN_AKEC"
-			(at 48.895 30.4799 90)
+			(at 50.165 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 38.735 24.13 0)
+			(at 45.085 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -432,7 +986,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.815 29.21 0)
+			(at 50.165 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -442,7 +996,7 @@
 			)
 		)
 		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
-			(at 43.815 29.21 0)
+			(at 50.165 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -466,6 +1020,76 @@
 			(project ""
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/11d81b46-994e-4f58-8697-a646ee6448ef"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 57.785 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2f48cf6-1f7e-42c2-af14-10bb888846b3")
+		(property "Reference" "R5"
+			(at 59.69 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 59.69 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.007 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.785 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.785 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75ea7beb-4c3c-45fc-8fd8-090f69acd6da")
+		)
+		(pin "2"
+			(uuid "f0726edc-211c-43b2-9a05-21654ea9e3b3")
+		)
+		(instances
+			(project ""
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/11d81b46-994e-4f58-8697-a646ee6448ef"
+					(reference "R5")
 					(unit 1)
 				)
 			)
