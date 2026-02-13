@@ -1951,6 +1951,12 @@
 		(uuid "5b6913d3-2a02-46b2-9efa-6ab898c4c9cb")
 	)
 	(junction
+		(at 77.47 67.945)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68388c07-6784-48e0-b623-b78df434c12d")
+	)
+	(junction
 		(at 92.71 59.055)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2120,6 +2126,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 67.945) (xy 77.47 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f33ddd6-b8ee-4938-a238-8088895b576c")
+	)
+	(wire
+		(pts
 			(xy 118.745 47.625) (xy 118.745 50.8)
 		)
 		(stroke
@@ -2157,6 +2173,16 @@
 			(type default)
 		)
 		(uuid "7ff22012-d05c-4d6f-a3c7-022a96191251")
+	)
+	(wire
+		(pts
+			(xy 77.47 67.945) (xy 85.09 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e287335-7321-4e89-bb85-5ff7bfe23f3b")
 	)
 	(wire
 		(pts
@@ -2200,7 +2226,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.815 67.945) (xy 85.09 67.945)
+			(xy 43.815 67.945) (xy 77.47 67.945)
 		)
 		(stroke
 			(width 0)
@@ -2721,6 +2747,76 @@
 			(project ""
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/992e173b-e387-457c-8c0b-8a825a1cd866"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 73.025 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eaf2436-d91c-4828-8cd8-f91e7a8adc62")
+		(property "Reference" "R8"
+			(at 80.01 71.7549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 80.01 74.2949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 75.692 73.025 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62400a6a-0c73-423c-8945-acaa1619b48c")
+		)
+		(pin "2"
+			(uuid "2221790a-3896-4711-b5c0-e6903d4264e0")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/992e173b-e387-457c-8c0b-8a825a1cd866"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3317,6 +3413,72 @@
 			(project ""
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/992e173b-e387-457c-8c0b-8a825a1cd866"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 77.47 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eff11557-0a28-4dcb-ac25-564cd21ea06d")
+		(property "Reference" "#PWR045"
+			(at 77.47 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 77.47 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 77.47 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78867140-fd53-45ae-91ab-410d69cd34fa")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/992e173b-e387-457c-8c0b-8a825a1cd866"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
