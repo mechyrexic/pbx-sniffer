@@ -2897,7 +2897,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9db656ca-77d6-48ec-94ce-d5820170ff23")
+		(uuid "9db656ca-77d6-48ec-94ce-d5820170ff24")
 		(property "Reference" "#PWR048"
 			(at 92.71 80.645 0)
 			(effects

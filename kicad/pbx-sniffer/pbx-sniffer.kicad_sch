@@ -4811,7 +4811,7 @@
 				(justify left)
 			)
 		)
-		(pin "Ri" input
+		(pin "Rpbx" input
 			(at 207.645 34.29 180)
 			(uuid "32118abf-a16c-4b10-ace5-f72ff3f6c133")
 			(effects
@@ -4821,7 +4821,7 @@
 				(justify left)
 			)
 		)
-		(pin "Ro" input
+		(pin "Rpots" input
 			(at 252.095 34.29 0)
 			(uuid "424b362b-c762-4faa-97ea-83675998c426")
 			(effects
@@ -4831,7 +4831,7 @@
 				(justify right)
 			)
 		)
-		(pin "Ti" input
+		(pin "Tpbx" input
 			(at 207.645 18.415 180)
 			(uuid "6e31cdb8-814d-478d-b4e8-c563cef05fc1")
 			(effects
@@ -4841,7 +4841,7 @@
 				(justify left)
 			)
 		)
-		(pin "To" input
+		(pin "Tpots" input
 			(at 252.095 18.415 0)
 			(uuid "47273672-7c34-4696-a495-59bba7f26777")
 			(effects
@@ -4897,6 +4897,48 @@
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.215 54.61)
+		(size 34.925 24.765)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e986fa27-3000-4fd4-977f-685db87b7fc5")
+		(property "Sheetname" "multiplexer"
+			(at 196.215 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Multiplexer.kicad_sch"
+			(at 196.215 79.9596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
+					(page "7")
 				)
 			)
 		)
