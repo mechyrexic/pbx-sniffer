@@ -4632,6 +4632,48 @@
 		)
 	)
 	(sheet
+		(at 238.76 54.61)
+		(size 36.83 24.765)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "034ac82b-541e-40fe-babd-660f127c9f12")
+		(property "Sheetname" "ADC"
+			(at 238.76 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 238.76 79.9596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 161.29 15.875)
 		(size 39.37 18.415)
 		(exclude_from_sim no)

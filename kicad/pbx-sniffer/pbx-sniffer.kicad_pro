@@ -675,6 +675,10 @@
     [
       "e986fa27-3000-4fd4-977f-685db87b7fc5",
       "multiplexer"
+    ],
+    [
+      "034ac82b-541e-40fe-babd-660f127c9f12",
+      "ADC"
     ]
   ],
   "text_variables": {}
