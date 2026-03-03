@@ -590,6 +590,12 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -679,6 +685,198 @@
     [
       "034ac82b-541e-40fe-babd-660f127c9f12",
       "ADC"
+    ],
+    [
+      "92ab2728-cc70-42ea-aa6d-c5c8e6aa9c07",
+      "Line Control0"
+    ],
+    [
+      "96becac7-5a0e-4930-90a4-44919452acb8",
+      "Line Control1"
+    ],
+    [
+      "79e3cd55-6732-4d3b-a542-29154c7f464f",
+      "Line Control2"
+    ],
+    [
+      "38816e2a-7a2b-4973-bcec-df3663d4cf5f",
+      "Line Control3"
+    ],
+    [
+      "8ee9859b-1672-4437-94a5-3c272c0a6aea",
+      "Line Control4"
+    ],
+    [
+      "e79f967e-b2ae-4ffb-a428-372046ccf89d",
+      "Line Control5"
+    ],
+    [
+      "98d66f06-d8c1-4ad8-971f-442fe3242d04",
+      "Line Control6"
+    ],
+    [
+      "8d49db71-2d1c-4772-8b54-83322075e384",
+      "Line Control7"
+    ],
+    [
+      "1eb0fa64-96ac-44d0-814e-84824698e86b",
+      "Line Control8"
+    ],
+    [
+      "f19706de-4a26-4420-8554-8f68cb4e294e",
+      "Line Control9"
+    ],
+    [
+      "ed188815-edb9-4844-b657-59d30b497536",
+      "Line Control10"
+    ],
+    [
+      "edb59804-8171-450e-bcbc-70b4ff57a57d",
+      "Line Control11"
+    ],
+    [
+      "eaece676-439e-4621-bcab-fd48f3494033",
+      "Line Control12"
+    ],
+    [
+      "44ad5056-482d-4f8d-bb50-3e43cf948a11",
+      "Line Control13"
+    ],
+    [
+      "00f56bf1-07c3-4f46-80f2-1ee35ffc2d93",
+      "Line Control14"
+    ],
+    [
+      "916f6c44-6f38-4b22-b3b2-119000030de9",
+      "Line Control15"
+    ],
+    [
+      "b3e5c1a4-8db6-47cd-94ff-28875d6b5a9f",
+      "Line Control16"
+    ],
+    [
+      "42a11760-5991-4a27-bb66-96affc9cf5be",
+      "Line Control17"
+    ],
+    [
+      "da4ef1be-9554-46f7-930f-105f0924ad30",
+      "Line Control18"
+    ],
+    [
+      "8d655c60-c0bf-4622-a513-3bbb77027fd7",
+      "Line Control19"
+    ],
+    [
+      "9c2d885a-5535-4c7e-8888-9f58e07d8fce",
+      "Line Control20"
+    ],
+    [
+      "a28bdb06-e675-4415-aab2-e7ceac7e199e",
+      "Line Control21"
+    ],
+    [
+      "9a250a20-5681-43c1-a486-9e70dc1b4814",
+      "Line Control22"
+    ],
+    [
+      "773cd5d7-4854-4731-b793-55c612d84e2a",
+      "Line Control23"
+    ],
+    [
+      "b9f2f72a-0170-4079-87ae-da5b84d69b9c",
+      "Wiretap0"
+    ],
+    [
+      "78762502-41b4-4492-a69b-ace172dd70b9",
+      "Wiretap1"
+    ],
+    [
+      "4a14bb63-a3c3-44cc-91f9-e60bb935e08b",
+      "Wiretap2"
+    ],
+    [
+      "5fd5abe0-4e58-4347-83d7-8e1478f1950f",
+      "Wiretap3"
+    ],
+    [
+      "35495e3d-f844-449e-8c85-de93e48cea43",
+      "Wiretap4"
+    ],
+    [
+      "be8b0cc4-f3b3-49c9-9746-b9c4c1922617",
+      "Wiretap5"
+    ],
+    [
+      "2df6f248-7c81-478b-91bf-add6716d808c",
+      "Wiretap6"
+    ],
+    [
+      "b037c902-87ce-42d7-96b1-b9c478e8b127",
+      "Wiretap7"
+    ],
+    [
+      "0956ae1a-90dc-428e-b431-249c52aa7182",
+      "Wiretap8"
+    ],
+    [
+      "10e443a7-459f-441e-9592-8c2f6c693208",
+      "Wiretap9"
+    ],
+    [
+      "ddb71293-9ed5-43ec-89cf-8260616072db",
+      "Wiretap10"
+    ],
+    [
+      "7f5bf101-97e6-4212-810a-fe8f57732f71",
+      "Wiretap11"
+    ],
+    [
+      "a1f00f55-f37c-40dc-9e5f-0f0cc695ef2d",
+      "Wiretap12"
+    ],
+    [
+      "97372a5d-a7f8-41f2-8052-fe8ae008ca63",
+      "Wiretap13"
+    ],
+    [
+      "182b0c80-1b33-4b2c-b9c2-9e3313b0cab1",
+      "Wiretap14"
+    ],
+    [
+      "113be237-5b73-490f-a8ab-d5c030792766",
+      "Wiretap15"
+    ],
+    [
+      "bf736f3f-d6c9-4f94-8e20-42afe0189638",
+      "Wiretap16"
+    ],
+    [
+      "5e88ab23-afe7-4927-bd12-19aaf67ed715",
+      "Wiretap17"
+    ],
+    [
+      "c12b5601-7499-4df0-ba9f-8238026f129f",
+      "Wiretap18"
+    ],
+    [
+      "efdd2138-979c-4556-93bf-20243141d1da",
+      "Wiretap19"
+    ],
+    [
+      "50945489-524d-472f-b16a-a09628b2ee52",
+      "Wiretap20"
+    ],
+    [
+      "1a15ccd7-9d7f-4907-97c9-09843c7be1c3",
+      "Wiretap21"
+    ],
+    [
+      "89817619-83dd-4c1b-8063-e03ad7e435e5",
+      "Wiretap22"
+    ],
+    [
+      "17ca54db-3786-452b-861c-ca773549c614",
+      "Wiretap23"
     ]
   ],
   "text_variables": {}

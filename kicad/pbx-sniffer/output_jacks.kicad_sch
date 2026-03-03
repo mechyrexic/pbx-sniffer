@@ -161,6 +161,2046 @@
 		)
 		(uuid "5fae7acf-063a-48e1-8d98-f22142a91c19")
 	)
+	(wire
+		(pts
+			(xy 162.56 63.5) (xy 166.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0784be71-9f83-42b9-b816-bfd81ce28163")
+	)
+	(wire
+		(pts
+			(xy 224.79 40.64) (xy 209.55 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102e00ab-fdc4-4d31-b264-9c356c6a6dbc")
+	)
+	(wire
+		(pts
+			(xy 242.57 121.92) (xy 238.76 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129326a6-8560-429e-bd2a-d8419014b19e")
+	)
+	(wire
+		(pts
+			(xy 242.57 40.64) (xy 238.76 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ad6b63-a071-4b90-9b6c-0a7904c99ca7")
+	)
+	(wire
+		(pts
+			(xy 62.23 101.6) (xy 77.47 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1602c097-abd7-4794-b002-d970a68e7d8a")
+	)
+	(wire
+		(pts
+			(xy 162.56 43.18) (xy 166.37 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "168906ca-048c-4029-812e-5e1d154e840d")
+	)
+	(wire
+		(pts
+			(xy 106.68 121.92) (xy 91.44 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a7169e-d7ed-44da-b52c-c00fb380e055")
+	)
+	(wire
+		(pts
+			(xy 124.46 101.6) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b19c467-b585-4e43-a0d8-5720dea49e6f")
+	)
+	(wire
+		(pts
+			(xy 44.45 121.92) (xy 48.26 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3b4312-7a9f-48a0-b30a-d54020b0561f")
+	)
+	(wire
+		(pts
+			(xy 180.34 142.24) (xy 195.58 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241fb30a-70b2-444c-a398-cd9dfa83844b")
+	)
+	(wire
+		(pts
+			(xy 62.23 142.24) (xy 77.47 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2745a23e-e070-41b4-9cae-e894a6f76bbf")
+	)
+	(wire
+		(pts
+			(xy 62.23 60.96) (xy 77.47 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321bdedf-3138-4390-b322-e125f38e9edd")
+	)
+	(wire
+		(pts
+			(xy 238.76 43.18) (xy 242.57 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33eeeb0f-a5e6-45dd-941e-8b76d34b96be")
+	)
+	(wire
+		(pts
+			(xy 62.23 40.64) (xy 77.47 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340f9719-474f-496d-8325-9f863669358f")
+	)
+	(wire
+		(pts
+			(xy 120.65 43.18) (xy 124.46 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "351deaa0-c6d6-416d-92e9-eb3c7dacf355")
+	)
+	(wire
+		(pts
+			(xy 120.65 83.82) (xy 124.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e005267-69ff-4598-9c5e-740774ec212e")
+	)
+	(wire
+		(pts
+			(xy 44.45 43.18) (xy 48.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4061227a-1946-4b95-9eb9-86579e7ada20")
+	)
+	(wire
+		(pts
+			(xy 224.79 121.92) (xy 209.55 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446ba670-0bf7-4d04-aae6-672538923a3f")
+	)
+	(wire
+		(pts
+			(xy 162.56 40.64) (xy 166.37 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "457e882f-0ce2-43eb-b765-21237846a0b1")
+	)
+	(wire
+		(pts
+			(xy 238.76 124.46) (xy 242.57 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472555ba-4439-4727-9c14-ee29240994b9")
+	)
+	(wire
+		(pts
+			(xy 124.46 40.64) (xy 120.65 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a54646-e374-4950-a729-24d4770f290b")
+	)
+	(wire
+		(pts
+			(xy 44.45 104.14) (xy 48.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac9067d-9355-4f6d-867a-5f5b1b2cc7a5")
+	)
+	(wire
+		(pts
+			(xy 120.65 144.78) (xy 124.46 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50daf03c-f8d0-45f8-abd7-5364ea19614d")
+	)
+	(wire
+		(pts
+			(xy 162.56 121.92) (xy 166.37 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b058e9-4a87-4cf5-b674-ee8feee65654")
+	)
+	(wire
+		(pts
+			(xy 106.68 60.96) (xy 91.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "585a462d-e36f-420d-8b47-27aaa7190e86")
+	)
+	(wire
+		(pts
+			(xy 242.57 101.6) (xy 238.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0926a6-570d-43c4-8c14-abfd3b7d5962")
+	)
+	(wire
+		(pts
+			(xy 238.76 83.82) (xy 242.57 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4d0c01-22b6-40d0-9f1d-fb0630704823")
+	)
+	(wire
+		(pts
+			(xy 44.45 60.96) (xy 48.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628c9174-e50a-4488-a220-647ec80187e4")
+	)
+	(wire
+		(pts
+			(xy 124.46 81.28) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6467c256-1fb5-4402-9d37-20b425362046")
+	)
+	(wire
+		(pts
+			(xy 238.76 144.78) (xy 242.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a353092-d97e-4bbd-93a5-fac3e0017337")
+	)
+	(wire
+		(pts
+			(xy 44.45 101.6) (xy 48.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b50c621-bf2c-4de1-80bb-7b07b8d9e187")
+	)
+	(wire
+		(pts
+			(xy 44.45 63.5) (xy 48.26 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ebd3872-8740-4b45-8b8e-62594797c664")
+	)
+	(wire
+		(pts
+			(xy 162.56 142.24) (xy 166.37 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "759b1e38-7f0a-41c6-a833-8ad060810c64")
+	)
+	(wire
+		(pts
+			(xy 106.68 81.28) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80bae488-7d25-423d-87d4-901452f59d0a")
+	)
+	(wire
+		(pts
+			(xy 44.45 124.46) (xy 48.26 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82af08b8-80a8-4a1d-9f28-2817450776c1")
+	)
+	(wire
+		(pts
+			(xy 180.34 121.92) (xy 195.58 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83da0b15-47f4-4178-999a-d0409df0b55c")
+	)
+	(wire
+		(pts
+			(xy 224.79 101.6) (xy 209.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9063234c-bc10-42fc-aacb-6868ade9e3a1")
+	)
+	(wire
+		(pts
+			(xy 120.65 63.5) (xy 124.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94775357-f7bf-4e0f-89e6-6f2d08f16821")
+	)
+	(wire
+		(pts
+			(xy 44.45 142.24) (xy 48.26 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95afe0af-41c7-40fd-a3a4-fe37b69cb98b")
+	)
+	(wire
+		(pts
+			(xy 162.56 104.14) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8589be-06e7-417b-a941-71c8fbfb026e")
+	)
+	(wire
+		(pts
+			(xy 124.46 142.24) (xy 120.65 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce9271c-51bc-49e9-b771-1f8fb9719c79")
+	)
+	(wire
+		(pts
+			(xy 124.46 121.92) (xy 120.65 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2d616c-cd0b-4aa3-8156-769c744c5fed")
+	)
+	(wire
+		(pts
+			(xy 180.34 81.28) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d099bc-e3af-4f4d-bd05-c8c91f1c3db8")
+	)
+	(wire
+		(pts
+			(xy 44.45 144.78) (xy 48.26 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a859011a-2fd7-46e7-9469-b798e1b6444b")
+	)
+	(wire
+		(pts
+			(xy 162.56 124.46) (xy 166.37 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad74b046-d262-48b4-bc58-e7dc350c3a35")
+	)
+	(wire
+		(pts
+			(xy 120.65 104.14) (xy 124.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04efd76-956f-4651-b9d5-313ea93975b3")
+	)
+	(wire
+		(pts
+			(xy 180.34 60.96) (xy 195.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b616042f-d03a-4b0a-a2ac-5cc6a56a270c")
+	)
+	(wire
+		(pts
+			(xy 44.45 81.28) (xy 48.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdeca27c-f3fe-4917-b95a-acef1914b33b")
+	)
+	(wire
+		(pts
+			(xy 224.79 142.24) (xy 209.55 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4861bb-177e-4f23-b691-e35bdadb7560")
+	)
+	(wire
+		(pts
+			(xy 162.56 81.28) (xy 166.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23801c3-0668-4932-a15a-cba133a2818c")
+	)
+	(wire
+		(pts
+			(xy 106.68 142.24) (xy 91.44 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4345e54-9880-4044-8cc0-61708904790e")
+	)
+	(wire
+		(pts
+			(xy 44.45 40.64) (xy 48.26 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b3f8f8-32a4-4e14-8aaf-b662bcf7e618")
+	)
+	(wire
+		(pts
+			(xy 120.65 124.46) (xy 124.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e2a4f1-1499-468e-9c4e-5b8e0e1b9e15")
+	)
+	(wire
+		(pts
+			(xy 238.76 104.14) (xy 242.57 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27d5464-7611-4f6b-8bde-323eb47a692d")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 166.37 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d329fa1b-b33d-490e-a364-c09bb8a8299d")
+	)
+	(wire
+		(pts
+			(xy 180.34 101.6) (xy 195.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b3e3f2-ab90-4cb9-bf2a-5653b0648839")
+	)
+	(wire
+		(pts
+			(xy 106.68 40.64) (xy 91.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db003a83-69cf-4b46-b35f-9bc43b919b6b")
+	)
+	(wire
+		(pts
+			(xy 62.23 81.28) (xy 77.47 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e05cb206-f1a6-46fa-9c79-69c50cd07c7b")
+	)
+	(wire
+		(pts
+			(xy 124.46 60.96) (xy 120.65 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ed7bd5-ed03-4335-9b76-b7af66b9e19e")
+	)
+	(wire
+		(pts
+			(xy 62.23 121.92) (xy 77.47 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebdec368-3824-4c7f-a692-ac89fe9ca9d3")
+	)
+	(wire
+		(pts
+			(xy 106.68 101.6) (xy 91.44 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2c096d-5aa3-4d47-aa34-d4e7d04a7ef0")
+	)
+	(wire
+		(pts
+			(xy 162.56 144.78) (xy 166.37 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efbeefbf-ef5d-4fd0-ac77-950250c6b292")
+	)
+	(wire
+		(pts
+			(xy 44.45 83.82) (xy 48.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f26be4e3-6a9f-4646-8d89-d3a496d414f3")
+	)
+	(wire
+		(pts
+			(xy 242.57 81.28) (xy 238.76 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ce588f-6d96-4a51-bc72-0d3f2474c718")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 166.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41c7125-54c2-434d-bd40-72b04660aca8")
+	)
+	(wire
+		(pts
+			(xy 238.76 63.5) (xy 242.57 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa176a3b-4bb6-4111-ba1f-b32e0d8554d8")
+	)
+	(wire
+		(pts
+			(xy 162.56 60.96) (xy 166.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbdb45fe-abac-49cc-a148-52a560a12559")
+	)
+	(wire
+		(pts
+			(xy 242.57 142.24) (xy 238.76 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda4e4b7-e5e8-4209-a087-4ee5c9e0a1c2")
+	)
+	(wire
+		(pts
+			(xy 180.34 40.64) (xy 195.58 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf35ace-5c2e-4ecf-b64f-2a7d851014ab")
+	)
+	(wire
+		(pts
+			(xy 242.57 60.96) (xy 238.76 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdfdd9a8-4dae-4364-a485-f80b7a047371")
+	)
+	(wire
+		(pts
+			(xy 224.79 60.96) (xy 209.55 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff374bf9-01af-479b-ab76-bcea108c6876")
+	)
+	(wire
+		(pts
+			(xy 224.79 81.28) (xy 209.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7b1742-2812-499c-a7db-05f638cbe881")
+	)
+	(hierarchical_label "ptRX20"
+		(shape input)
+		(at 209.55 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0373c061-12d7-48a9-99c9-911dae15005d")
+	)
+	(hierarchical_label "ptTX14"
+		(shape input)
+		(at 195.58 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03989fbf-b451-49ae-8632-3d7eee4ddd33")
+	)
+	(hierarchical_label "Tpbx4"
+		(shape input)
+		(at 124.46 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "081c351c-9894-4f25-804c-682c9ef8ce2d")
+	)
+	(hierarchical_label "Rpbx0"
+		(shape input)
+		(at 91.44 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a2b9d97-4f7b-4b3a-8f2d-5e6896fe7871")
+	)
+	(hierarchical_label "Tpbx15"
+		(shape input)
+		(at 162.56 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b13df7f-267d-49fc-ac3b-adc81b7cf5e3")
+	)
+	(hierarchical_label "ADC15"
+		(shape input)
+		(at 144.78 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cca2eb8-e962-4719-aaee-6073041216ae")
+	)
+	(hierarchical_label "Tpbx21"
+		(shape input)
+		(at 242.57 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d2ebc88-054f-409e-b992-03eb4deb611c")
+	)
+	(hierarchical_label "Tpbx8"
+		(shape input)
+		(at 44.45 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f052100-1259-44f1-a08a-fb13ead4eb48")
+	)
+	(hierarchical_label "ptRX5"
+		(shape input)
+		(at 91.44 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15845825-556d-49a0-a983-335b902472dd")
+	)
+	(hierarchical_label "Tpbx11"
+		(shape input)
+		(at 44.45 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "196725e0-8c19-4ba0-9f70-ac3841af8d75")
+	)
+	(hierarchical_label "ADC0"
+		(shape input)
+		(at 124.46 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b685d39-d406-43cc-a581-c67e774783dd")
+	)
+	(hierarchical_label "ptRX23"
+		(shape input)
+		(at 209.55 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cc568c0-a9af-44d0-8760-406368e2e4ca")
+	)
+	(hierarchical_label "ptRX15"
+		(shape input)
+		(at 195.58 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "239e4a68-90fd-4079-946d-0c1ddedc2276")
+	)
+	(hierarchical_label "Rpbx8"
+		(shape input)
+		(at 77.47 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "249878f6-be91-40b1-abde-b2cd23e6d774")
+	)
+	(hierarchical_label "Tpbx14"
+		(shape input)
+		(at 162.56 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24ddde8d-cc10-4023-8925-4b26eb243366")
+	)
+	(hierarchical_label "ADC8"
+		(shape input)
+		(at 35.56 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28350ae1-6c0d-47aa-b361-b2307e8a86cf")
+	)
+	(hierarchical_label "Rpbx6"
+		(shape input)
+		(at 77.47 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "290e4934-d753-42e0-b655-15765a2f5b7a")
+	)
+	(hierarchical_label "ptTX12"
+		(shape input)
+		(at 195.58 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d553107-f8c9-4505-bb54-f283d6702485")
+	)
+	(hierarchical_label "Tpbx13"
+		(shape input)
+		(at 162.56 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2fe41c95-59f8-49ce-ae96-e2305df7ecad")
+	)
+	(hierarchical_label "ptRX21"
+		(shape input)
+		(at 209.55 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30dd3d7b-073a-46ba-931f-4221ba34d525")
+	)
+	(hierarchical_label "ptRX7"
+		(shape input)
+		(at 77.47 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "327e01a1-4ecb-4483-ab00-2cbb829f4fec")
+	)
+	(hierarchical_label "Rpbx15"
+		(shape input)
+		(at 195.58 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3321ed6b-22af-4226-91c6-1056f8a3c7bc")
+	)
+	(hierarchical_label "ptRX8"
+		(shape input)
+		(at 77.47 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35ce2133-8483-42cd-9f06-03df2371cf12")
+	)
+	(hierarchical_label "Rpbx3"
+		(shape input)
+		(at 91.44 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36a416a9-4c92-4ccf-adbe-419ac175eeab")
+	)
+	(hierarchical_label "Rpbx13"
+		(shape input)
+		(at 195.58 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37023c39-02b1-4d64-9cea-b5edd0b8feb6")
+	)
+	(hierarchical_label "Rpbx17"
+		(shape input)
+		(at 195.58 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c571ec5-4728-47b5-a193-b96ae1a4dbf2")
+	)
+	(hierarchical_label "ptTX18"
+		(shape input)
+		(at 209.55 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c833868-20fa-4271-93bb-f17b63b82c01")
+	)
+	(hierarchical_label "ptTX23"
+		(shape input)
+		(at 209.55 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d4eba7d-bdb3-42d5-9e35-9aa9ea23399f")
+	)
+	(hierarchical_label "ADC17"
+		(shape input)
+		(at 144.78 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f9ceba4-fbad-4293-b3c4-8a3ca82d99fd")
+	)
+	(hierarchical_label "ptTX3"
+		(shape input)
+		(at 91.44 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40b22be4-220e-4090-a696-009a728d43d9")
+	)
+	(hierarchical_label "ptTX13"
+		(shape input)
+		(at 195.58 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4140c37c-a8d2-4c94-b0dd-cb2aa076fc3d")
+	)
+	(hierarchical_label "ADC1"
+		(shape input)
+		(at 124.46 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42f417ef-be0a-4581-a719-2411ef6b32e3")
+	)
+	(hierarchical_label "Tpbx19"
+		(shape input)
+		(at 242.57 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45930e78-b813-4d67-afc8-09b93520e04c")
+	)
+	(hierarchical_label "ptRX6"
+		(shape input)
+		(at 77.47 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47fa4288-8f20-4371-9868-dc1a8524d99e")
+	)
+	(hierarchical_label "ADC2"
+		(shape input)
+		(at 124.46 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a88b8fb-501e-429b-85a5-49bc6dfd345b")
+	)
+	(hierarchical_label "ptTX17"
+		(shape input)
+		(at 195.58 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d2768e9-e1e3-4b13-b7aa-8cf534006422")
+	)
+	(hierarchical_label "ADC4"
+		(shape input)
+		(at 124.46 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d29cea3-83e5-42a1-b1c7-d963901ed733")
+	)
+	(hierarchical_label "Tpbx16"
+		(shape input)
+		(at 162.56 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e29dcb5-7511-4915-8118-b20a9a57f605")
+	)
+	(hierarchical_label "Rpbx20"
+		(shape input)
+		(at 209.55 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54b70c17-0b2e-4261-bfb3-f27a07ab4311")
+	)
+	(hierarchical_label "ptRX9"
+		(shape input)
+		(at 77.47 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56981d35-547b-4708-8a8f-ec0ae7d55464")
+	)
+	(hierarchical_label "Tpbx23"
+		(shape input)
+		(at 242.57 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e6875e0-3238-4cfb-8199-79f163ca2a7e")
+	)
+	(hierarchical_label "Rpbx23"
+		(shape input)
+		(at 209.55 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ecc14ee-9f41-447c-8025-c80623947ee1")
+	)
+	(hierarchical_label "ptTX10"
+		(shape input)
+		(at 77.47 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60e89c23-28e1-49b2-a73a-46f53e9c1d86")
+	)
+	(hierarchical_label "Tpbx2"
+		(shape input)
+		(at 124.46 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65dbca08-99bc-4989-b8db-804d67c42ca2")
+	)
+	(hierarchical_label "ADC12"
+		(shape input)
+		(at 144.78 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "662f3d39-9dab-4f86-bf25-efcf925f9a0d")
+	)
+	(hierarchical_label "ADC16"
+		(shape input)
+		(at 144.78 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67b63a21-f9d6-4dbd-a97f-74a58c367bb4")
+	)
+	(hierarchical_label "Tpbx20"
+		(shape input)
+		(at 242.57 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6acc05f4-0c54-4a35-8342-76b428da7d84")
+	)
+	(hierarchical_label "Tpbx7"
+		(shape input)
+		(at 44.45 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6df9bdc2-3b8d-416c-8098-d04dd42d87d5")
+	)
+	(hierarchical_label "Rpbx22"
+		(shape input)
+		(at 209.55 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fb1a959-e9ba-49bd-9733-3451c3124f18")
+	)
+	(hierarchical_label "Rpbx5"
+		(shape input)
+		(at 91.44 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "751e6439-c98b-46eb-ad69-e0cbb4d15e4b")
+	)
+	(hierarchical_label "ADC22"
+		(shape input)
+		(at 250.19 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7536d955-d5f5-4807-b646-07f2e47591b3")
+	)
+	(hierarchical_label "ptTX1"
+		(shape input)
+		(at 91.44 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "767b9391-80cb-4219-bf6d-34b226e0e1bb")
+	)
+	(hierarchical_label "ptTX11"
+		(shape input)
+		(at 77.47 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77379c1c-8019-4fa3-888a-ca02023308e6")
+	)
+	(hierarchical_label "Rpbx12"
+		(shape input)
+		(at 195.58 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b1e560f-86b9-42d3-98f3-ef0559f47783")
+	)
+	(hierarchical_label "ptTX2"
+		(shape input)
+		(at 91.44 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b74e3da-ac3f-40d4-9aba-d94effb21469")
+	)
+	(hierarchical_label "ADC23"
+		(shape input)
+		(at 250.19 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b90ed42-e8d5-4dec-809e-af061df6c1b6")
+	)
+	(hierarchical_label "Tpbx0"
+		(shape input)
+		(at 124.46 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "819b395f-e60d-435a-ad0c-3ec778991bc4")
+	)
+	(hierarchical_label "ptRX17"
+		(shape input)
+		(at 195.58 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "822f44b5-b28f-40e6-b1a2-5f027d3ee6af")
+	)
+	(hierarchical_label "Tpbx1"
+		(shape input)
+		(at 124.46 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "862a3253-9fd0-4953-a4d9-74842b7eb0a2")
+	)
+	(hierarchical_label "Tpbx18"
+		(shape input)
+		(at 242.57 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "889ca3c6-b35f-48f9-9f66-e1c042bae816")
+	)
+	(hierarchical_label "ADC3"
+		(shape input)
+		(at 124.46 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "897de920-6d54-489f-9720-79576f85492d")
+	)
+	(hierarchical_label "ADC11"
+		(shape input)
+		(at 35.56 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89a679f6-64d6-4f38-9318-ce405a9aea96")
+	)
+	(hierarchical_label "Rpbx21"
+		(shape input)
+		(at 209.55 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c219ef4-64bf-46e2-99d1-9cf3b76438d7")
+	)
+	(hierarchical_label "ptRX12"
+		(shape input)
+		(at 195.58 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cac244b-039e-48c4-94a8-2d5fd048219a")
+	)
+	(hierarchical_label "Tpbx5"
+		(shape input)
+		(at 124.46 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d1fd24c-62b3-4c30-898c-9a18b62a63bd")
+	)
+	(hierarchical_label "Rpbx18"
+		(shape input)
+		(at 209.55 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e93e8a8-71d9-49b6-842e-d20b728ca662")
+	)
+	(hierarchical_label "ptTX22"
+		(shape input)
+		(at 209.55 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94aa453e-7f47-45d5-8768-b5ab36870119")
+	)
+	(hierarchical_label "ADC19"
+		(shape input)
+		(at 250.19 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "953e4e7e-4841-4ebd-9967-977cbe3234bd")
+	)
+	(hierarchical_label "Tpbx9"
+		(shape input)
+		(at 44.45 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95b1ce08-5cc6-46fb-859a-f85fde1b628a")
+	)
+	(hierarchical_label "Rpbx4"
+		(shape input)
+		(at 91.44 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97af8695-a03e-4206-9943-2546b9c8660b")
+	)
+	(hierarchical_label "ADC18"
+		(shape input)
+		(at 250.19 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99156472-851c-4a1f-abef-0d58284c9697")
+	)
+	(hierarchical_label "ptTX20"
+		(shape input)
+		(at 209.55 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b4e09af-7834-4929-9d49-a7e4ef0f96d9")
+	)
+	(hierarchical_label "ptTX16"
+		(shape input)
+		(at 195.58 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e188206-7cb5-423f-9e9c-e3cdfd9e8599")
+	)
+	(hierarchical_label "ptRX0"
+		(shape input)
+		(at 91.44 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a10e423c-9f55-4076-8bcc-d702e0f060da")
+	)
+	(hierarchical_label "ptTX4"
+		(shape input)
+		(at 91.44 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1f79a75-df5c-4a63-af47-4073546279aa")
+	)
+	(hierarchical_label "Tpbx6"
+		(shape input)
+		(at 44.45 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a76b1869-d69c-4016-be02-3d5a96224d53")
+	)
+	(hierarchical_label "ptTX5"
+		(shape input)
+		(at 91.44 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abf686dd-97e1-4181-86ab-93f1890f4762")
+	)
+	(hierarchical_label "ptRX4"
+		(shape input)
+		(at 91.44 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae4fac19-eeff-48ad-b768-021ab94ea223")
+	)
+	(hierarchical_label "ptRX16"
+		(shape input)
+		(at 195.58 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b24a77a1-de94-411a-b9c3-56ba6fe0bb57")
+	)
+	(hierarchical_label "ptRX10"
+		(shape input)
+		(at 77.47 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b43f149d-9b12-4096-b015-ff4427004f97")
+	)
+	(hierarchical_label "Rpbx9"
+		(shape input)
+		(at 77.47 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b45c8909-fa29-4845-8f6e-d9595cc44a60")
+	)
+	(hierarchical_label "Rpbx11"
+		(shape input)
+		(at 77.47 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b57d59d3-1893-4af2-a92c-6d4cafb624be")
+	)
+	(hierarchical_label "ADC13"
+		(shape input)
+		(at 144.78 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8af4724-35d0-4bb9-9399-f026a7172ccc")
+	)
+	(hierarchical_label "ptTX9"
+		(shape input)
+		(at 77.47 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8eaa055-5dc4-4f5c-8fa9-cabe6eb93ecc")
+	)
+	(hierarchical_label "Rpbx19"
+		(shape input)
+		(at 209.55 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9bfb173-fa3b-4ba2-992e-123ae6e467c2")
+	)
+	(hierarchical_label "ADC21"
+		(shape input)
+		(at 250.19 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba108dcb-0f27-4c5e-ae1f-b898857c4e45")
+	)
+	(hierarchical_label "Rpbx1"
+		(shape input)
+		(at 91.44 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "befb8a79-a99c-4e5d-b3f3-800a4c8075a0")
+	)
+	(hierarchical_label "ptRX19"
+		(shape input)
+		(at 209.55 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf171744-7d81-4290-b59c-5b8b889e16bf")
+	)
+	(hierarchical_label "ptRX13"
+		(shape input)
+		(at 195.58 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c295867f-d437-4f4e-9e6f-de69665fa9eb")
+	)
+	(hierarchical_label "ptRX11"
+		(shape input)
+		(at 77.47 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3338696-a29c-4b5c-bf33-6d2873e38f12")
+	)
+	(hierarchical_label "ptTX0"
+		(shape input)
+		(at 91.44 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3c20928-179a-42b0-ab43-e049a0238fab")
+	)
+	(hierarchical_label "ADC9"
+		(shape input)
+		(at 35.56 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c770070a-fcad-435d-ae2e-6a81d94169c7")
+	)
+	(hierarchical_label "Tpbx10"
+		(shape input)
+		(at 44.45 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca38a465-73f0-4392-9bb4-c575ccbe2d4c")
+	)
+	(hierarchical_label "ptRX2"
+		(shape input)
+		(at 91.44 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb6cc7a1-69ce-4fea-b4d6-1f68e08552ab")
+	)
+	(hierarchical_label "ptRX1"
+		(shape input)
+		(at 91.44 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc160b7a-a40d-4bd9-ad56-07d0d826c935")
+	)
+	(hierarchical_label "Tpbx22"
+		(shape input)
+		(at 242.57 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccf330e4-6ebe-4da9-9a24-70a409928245")
+	)
+	(hierarchical_label "Tpbx12"
+		(shape input)
+		(at 162.56 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd784eef-c303-4e1e-8c34-035ca2f08ec3")
+	)
+	(hierarchical_label "ptRX14"
+		(shape input)
+		(at 195.58 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce068335-b293-4219-8e3f-41a061c4fd00")
+	)
+	(hierarchical_label "ptRX18"
+		(shape input)
+		(at 209.55 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cee7567c-58ed-42ba-bcc7-826ba4e9b977")
+	)
+	(hierarchical_label "ptTX8"
+		(shape input)
+		(at 77.47 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d553519c-fb11-44e4-aafd-724dd9c5aafa")
+	)
+	(hierarchical_label "ADC5"
+		(shape input)
+		(at 124.46 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d68bf95a-c346-4e2e-a24e-b621023b3bcb")
+	)
+	(hierarchical_label "Rpbx2"
+		(shape input)
+		(at 91.44 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d773c136-d6b4-4317-aecc-1cd18dae5b79")
+	)
+	(hierarchical_label "ADC7"
+		(shape input)
+		(at 35.56 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dba18df7-edfe-411f-bb0a-e3a69af50238")
+	)
+	(hierarchical_label "Rpbx14"
+		(shape input)
+		(at 195.58 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dffa6644-01a9-425d-b2a8-1ce6c48c0d39")
+	)
+	(hierarchical_label "Rpbx7"
+		(shape input)
+		(at 77.47 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0947397-4949-4ede-8fcd-c5ab5b59e649")
+	)
+	(hierarchical_label "Rpbx10"
+		(shape input)
+		(at 77.47 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8a0cf3d-bea7-4bcc-8159-b8fa8fa193cb")
+	)
+	(hierarchical_label "ptRX3"
+		(shape input)
+		(at 91.44 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8c63a19-5b49-4cd7-9fc5-7edc7207041d")
+	)
+	(hierarchical_label "Tpbx17"
+		(shape input)
+		(at 162.56 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebfa7940-26ce-40d2-904c-a7d65c43993e")
+	)
+	(hierarchical_label "ptTX6"
+		(shape input)
+		(at 77.47 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eca3d097-43ef-4199-892e-25cfeb444911")
+	)
+	(hierarchical_label "ptTX15"
+		(shape input)
+		(at 195.58 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0c185f4-001d-4c44-9da6-035a03eab4b3")
+	)
+	(hierarchical_label "ptRX22"
+		(shape input)
+		(at 209.55 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0e3966d-b582-446f-b347-85e60d9a616d")
+	)
+	(hierarchical_label "ADC14"
+		(shape input)
+		(at 144.78 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0efb498-71c5-4d4e-8cc7-6778977fa4a8")
+	)
+	(hierarchical_label "ADC10"
+		(shape input)
+		(at 35.56 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f509434b-d7d8-4b97-8776-20b16610b00c")
+	)
+	(hierarchical_label "ptTX7"
+		(shape input)
+		(at 77.47 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f55a9701-5793-4aa7-a867-f51693bfb198")
+	)
+	(hierarchical_label "Tpbx3"
+		(shape input)
+		(at 124.46 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6a66135-0ccc-4e14-b99f-952cde724862")
+	)
+	(hierarchical_label "ptTX21"
+		(shape input)
+		(at 209.55 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa082ae2-a8cb-4841-b84c-ffc8e094b644")
+	)
+	(hierarchical_label "ptTX19"
+		(shape input)
+		(at 209.55 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa56713b-9e14-4cbb-a40b-e8faa46d9fcf")
+	)
+	(hierarchical_label "ADC6"
+		(shape input)
+		(at 44.45 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc5ef8af-5e3e-4ed0-a4b4-a03a2d24e79e")
+	)
+	(hierarchical_label "ADC20"
+		(shape input)
+		(at 250.19 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd00459b-adf0-42c9-96e4-2e5eadc0d20c")
+	)
+	(hierarchical_label "Rpbx16"
+		(shape input)
+		(at 195.58 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe0393cb-9ebc-4dcd-8659-631286293b67")
+	)
 	(symbol
 		(lib_id "Phones:Jack 6P4C RJ11")
 		(at 82.55 114.3 0)
@@ -2161,6 +4201,1734 @@
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
 					(reference "J46")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 80.01)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0956ae1a-90dc-428e-b431-249c52aa7182")
+		(property "Sheetname" "Wiretap8"
+			(at 48.26 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 48.26 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 48.26 83.82 180)
+			(uuid "b9f75a31-71af-4272-be49-4aeb6a3cf277")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpbx" input
+			(at 48.26 81.28 180)
+			(uuid "539de146-76de-4f12-89d1-4cd4519950ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpots" input
+			(at 62.23 81.28 0)
+			(uuid "e275154c-7f7f-41eb-ad6f-9049f0e62290")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "41")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 100.33)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "10e443a7-459f-441e-9592-8c2f6c693208")
+		(property "Sheetname" "Wiretap9"
+			(at 48.26 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 48.26 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 48.26 104.14 180)
+			(uuid "e2ae2181-4b36-45a4-a0dc-a01015e2a00c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpbx" input
+			(at 48.26 101.6 180)
+			(uuid "b7e9cd38-dc05-47ec-a9f0-ab4a400ed83a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpots" input
+			(at 62.23 101.6 0)
+			(uuid "5a1f802d-2e30-4764-86b2-819f91813cf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "42")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 100.33)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "113be237-5b73-490f-a8ab-d5c030792766")
+		(property "Sheetname" "Wiretap15"
+			(at 166.37 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 166.37 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 166.37 104.14 180)
+			(uuid "dc29f5ea-40a9-40d6-83c2-296cdf475bf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpbx" input
+			(at 166.37 101.6 180)
+			(uuid "c411d6ea-a2e3-4909-809a-1466706ed607")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpots" input
+			(at 180.34 101.6 0)
+			(uuid "1389f6ce-f136-4b0f-8ba3-b06cad18b4ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "48")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 140.97)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17ca54db-3786-452b-861c-ca773549c614")
+		(property "Sheetname" "Wiretap23"
+			(at 224.79 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 224.79 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 238.76 144.78 0)
+			(uuid "20e8e539-aded-4379-9342-98bdfafe9406")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpbx" input
+			(at 238.76 142.24 0)
+			(uuid "3f2ce29f-1ff7-43c7-a3d4-b41f20110d9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpots" input
+			(at 224.79 142.24 180)
+			(uuid "62b732f5-731d-48c7-896e-fba5426c97df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "56")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 80.01)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "182b0c80-1b33-4b2c-b9c2-9e3313b0cab1")
+		(property "Sheetname" "Wiretap14"
+			(at 166.37 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 166.37 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 166.37 83.82 180)
+			(uuid "d162a168-b5e0-4d64-879f-ff317c6a842a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpbx" input
+			(at 166.37 81.28 180)
+			(uuid "90e45f6b-d05a-4eb4-84ed-47d3f58833fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpots" input
+			(at 180.34 81.28 0)
+			(uuid "3634408a-9070-44bd-946e-5c0ccaa017bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "47")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 100.33)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a15ccd7-9d7f-4907-97c9-09843c7be1c3")
+		(property "Sheetname" "Wiretap21"
+			(at 224.79 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 224.79 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 238.76 104.14 0)
+			(uuid "8d46505a-e342-4fd2-9196-1a5e082bc202")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpbx" input
+			(at 238.76 101.6 0)
+			(uuid "90440418-6b01-4809-8c5f-e2f4b6b185b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpots" input
+			(at 224.79 101.6 180)
+			(uuid "aebc3c18-e75f-4a8e-a7ab-8fecddea5a54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "54")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 39.37)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2df6f248-7c81-478b-91bf-add6716d808c")
+		(property "Sheetname" "Wiretap6"
+			(at 48.26 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 48.26 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 48.26 43.18 180)
+			(uuid "232c232d-08f8-40ab-91fa-c15f9bfbcb35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpbx" input
+			(at 48.26 40.64 180)
+			(uuid "9a5ca838-a3d9-41ae-a98d-2ea2039d5705")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpots" input
+			(at 62.23 40.64 0)
+			(uuid "5c30cc3b-5047-48db-830e-b926e71710ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "39")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 120.65)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "35495e3d-f844-449e-8c85-de93e48cea43")
+		(property "Sheetname" "Wiretap4"
+			(at 106.68 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 106.68 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 120.65 124.46 0)
+			(uuid "2a4bb755-f9d0-4734-bfd0-8dc788884019")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpbx" input
+			(at 120.65 121.92 0)
+			(uuid "f40b332a-1060-47aa-8a54-eec00784a2a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpots" input
+			(at 106.68 121.92 180)
+			(uuid "f5eaa1e0-ced5-446d-a2fe-6f847440b8da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "37")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 80.01)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a14bb63-a3c3-44cc-91f9-e60bb935e08b")
+		(property "Sheetname" "Wiretap2"
+			(at 106.68 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 106.68 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 120.65 83.82 0)
+			(uuid "9fcf3b19-5583-4462-b1d4-1a7e27ca6c25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpbx" input
+			(at 120.65 81.28 0)
+			(uuid "2a3a7636-cb10-42b5-8f78-d88037e24b9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpots" input
+			(at 106.68 81.28 180)
+			(uuid "a815afd8-d29d-4fdb-837b-3f8f4629c0fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "35")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 80.01)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50945489-524d-472f-b16a-a09628b2ee52")
+		(property "Sheetname" "Wiretap20"
+			(at 224.79 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 224.79 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 238.76 83.82 0)
+			(uuid "c028dc2d-f6a5-46cd-bc61-3662b3690c3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpbx" input
+			(at 238.76 81.28 0)
+			(uuid "ad5c56c1-d6c4-4de8-986a-c7ddf5902da1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpots" input
+			(at 224.79 81.28 180)
+			(uuid "a8bcc871-9989-45bf-9a8a-90e649eda955")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "53")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 140.97)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e88ab23-afe7-4927-bd12-19aaf67ed715")
+		(property "Sheetname" "Wiretap17"
+			(at 166.37 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 166.37 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 166.37 144.78 180)
+			(uuid "97fe7d81-567a-4278-9dba-2135edb4b8e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpbx" input
+			(at 166.37 142.24 180)
+			(uuid "dd4794ef-0fd3-4d8b-a5d4-55bc767c4850")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpots" input
+			(at 180.34 142.24 0)
+			(uuid "e4e82320-f201-43d8-a243-bcb8117002fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "50")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 100.33)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5fd5abe0-4e58-4347-83d7-8e1478f1950f")
+		(property "Sheetname" "Wiretap3"
+			(at 106.68 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 106.68 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 120.65 104.14 0)
+			(uuid "614efe6d-fb56-47ff-bac7-a997d0314258")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpbx" input
+			(at 120.65 101.6 0)
+			(uuid "568ef2a1-4615-46dc-89ae-c70a40d687f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpots" input
+			(at 106.68 101.6 180)
+			(uuid "44a55d38-0b31-4db7-9e1e-18752afe0cd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "36")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 59.69)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "78762502-41b4-4492-a69b-ace172dd70b9")
+		(property "Sheetname" "Wiretap1"
+			(at 106.68 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 106.68 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 120.65 63.5 0)
+			(uuid "810820e5-b384-428b-8025-05b7b35e3af4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpbx" input
+			(at 120.65 60.96 0)
+			(uuid "9037e3b4-8673-477b-ad6c-be8e29686d36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpots" input
+			(at 106.68 60.96 180)
+			(uuid "32856531-8773-4383-b5c3-a797a4066207")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "34")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 140.97)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7f5bf101-97e6-4212-810a-fe8f57732f71")
+		(property "Sheetname" "Wiretap11"
+			(at 48.26 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 48.26 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 48.26 144.78 180)
+			(uuid "a27e10bc-2b89-4415-bd11-83bbf253a34f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpbx" input
+			(at 48.26 142.24 180)
+			(uuid "999ffb78-495f-48f8-914f-8c98654c26e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpots" input
+			(at 62.23 142.24 0)
+			(uuid "836a0757-690f-4793-9131-e8344ffbfb09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "44")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 120.65)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89817619-83dd-4c1b-8063-e03ad7e435e5")
+		(property "Sheetname" "Wiretap22"
+			(at 224.79 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 224.79 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 238.76 124.46 0)
+			(uuid "a09abb5a-b16b-4888-983c-32706ca738a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpbx" input
+			(at 238.76 121.92 0)
+			(uuid "516a0650-163d-48b3-83d1-5a1fb3dbde49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpots" input
+			(at 224.79 121.92 180)
+			(uuid "bec222a7-ddbf-4c83-8897-1bbc77def023")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "55")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 59.69)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97372a5d-a7f8-41f2-8052-fe8ae008ca63")
+		(property "Sheetname" "Wiretap13"
+			(at 166.37 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 166.37 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 166.37 63.5 180)
+			(uuid "f88665a1-7df6-4346-bfae-79646aa348d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpbx" input
+			(at 166.37 60.96 180)
+			(uuid "41f8e568-0fa2-4976-a2f0-b801e835f077")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpots" input
+			(at 180.34 60.96 0)
+			(uuid "408cff6e-4f2c-4f98-8545-6cae93d4f0b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "46")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 39.37)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1f00f55-f37c-40dc-9e5f-0f0cc695ef2d")
+		(property "Sheetname" "Wiretap12"
+			(at 166.37 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 166.37 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 166.37 43.18 180)
+			(uuid "48113206-8ca1-43d6-8e32-727875e164c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpbx" input
+			(at 166.37 40.64 180)
+			(uuid "71477025-8b85-495d-a698-0f68ceb481f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpots" input
+			(at 180.34 40.64 0)
+			(uuid "06be1054-d97e-4d44-84c2-4eba1b6b3d92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "45")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 59.69)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b037c902-87ce-42d7-96b1-b9c478e8b127")
+		(property "Sheetname" "Wiretap7"
+			(at 48.26 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 48.26 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 48.26 63.5 180)
+			(uuid "4e97adb1-d4f0-4d0c-8545-b74f19a52842")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpbx" input
+			(at 48.26 60.96 180)
+			(uuid "9ead850d-df61-44b0-b077-810b1c174a55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpots" input
+			(at 62.23 60.96 0)
+			(uuid "846103f5-8d6f-4bff-ac4d-8830d3953741")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "40")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 39.37)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9f2f72a-0170-4079-87ae-da5b84d69b9c")
+		(property "Sheetname" "Wiretap0"
+			(at 106.68 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 106.68 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 120.65 43.18 0)
+			(uuid "95f8602f-77c6-4115-94ea-13d001c69665")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpbx" input
+			(at 120.65 40.64 0)
+			(uuid "1cd85673-6d34-4037-899e-939402d807c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpots" input
+			(at 106.68 40.64 180)
+			(uuid "f4199698-047e-4b9c-94cd-14ad155f8f98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "33")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 140.97)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be8b0cc4-f3b3-49c9-9746-b9c4c1922617")
+		(property "Sheetname" "Wiretap5"
+			(at 106.68 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 106.68 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 120.65 144.78 0)
+			(uuid "65816602-9176-43f8-82f5-834b8cd5038f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpbx" input
+			(at 120.65 142.24 0)
+			(uuid "b80793c8-7c60-4e67-9085-e30b970010ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpots" input
+			(at 106.68 142.24 180)
+			(uuid "f577cb28-396e-4723-9284-284c026fa81c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "38")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 120.65)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf736f3f-d6c9-4f94-8e20-42afe0189638")
+		(property "Sheetname" "Wiretap16"
+			(at 166.37 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 166.37 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 166.37 124.46 180)
+			(uuid "38d8d418-49bd-438e-a22f-4258185217ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpbx" input
+			(at 166.37 121.92 180)
+			(uuid "11821196-4348-4f9d-91f9-d2540d67f6d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpots" input
+			(at 180.34 121.92 0)
+			(uuid "b322b238-1c66-41dc-95ae-2b3f07d05922")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "49")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 39.37)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c12b5601-7499-4df0-ba9f-8238026f129f")
+		(property "Sheetname" "Wiretap18"
+			(at 224.79 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 224.79 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 238.76 43.18 0)
+			(uuid "d781c480-384a-43be-87a8-79e7c7efd8e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpbx" input
+			(at 238.76 40.64 0)
+			(uuid "4c1dd3ed-db5a-42d0-a962-a2ac8a6f71e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpots" input
+			(at 224.79 40.64 180)
+			(uuid "843e6955-3d1c-47c6-a4e2-5e74bfa02466")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "51")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 120.65)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ddb71293-9ed5-43ec-89cf-8260616072db")
+		(property "Sheetname" "Wiretap10"
+			(at 48.26 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 48.26 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 48.26 124.46 180)
+			(uuid "bd31babb-8040-430d-88de-e74de159cbd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpbx" input
+			(at 48.26 121.92 180)
+			(uuid "adcf51a1-dcb0-401e-ae76-15398e86ba55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tpots" input
+			(at 62.23 121.92 0)
+			(uuid "d658c0c7-2bf6-4fd3-a2a6-5ec83ab546bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "43")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 59.69)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "efdd2138-979c-4556-93bf-20243141d1da")
+		(property "Sheetname" "Wiretap19"
+			(at 224.79 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Taps.kicad_sch"
+			(at 224.79 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+ADC" input
+			(at 238.76 63.5 0)
+			(uuid "190a01b8-4777-4fa3-8f64-0470e4bff363")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpbx" input
+			(at 238.76 60.96 0)
+			(uuid "85ba3e91-bd47-45bf-aa87-cc0a3e923aac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tpots" input
+			(at 224.79 60.96 180)
+			(uuid "99ad87ea-0946-4d12-8cd2-e124765981ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294"
+					(page "52")
 				)
 			)
 		)
