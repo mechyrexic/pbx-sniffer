@@ -8880,7 +8880,7 @@
 		(size 13.97 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
@@ -8951,8 +8951,8 @@
 		(at 104.14 128.27)
 		(size 40.64 40.64)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
@@ -10476,7 +10476,7 @@
 		(size 22.86 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke

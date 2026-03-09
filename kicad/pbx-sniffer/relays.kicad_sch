@@ -1997,7 +1997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 58.547 36.195 90)
 			(effects
 				(font
@@ -2161,7 +2161,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 			(at 106.172 34.29 0)
 			(effects
 				(font
@@ -2337,7 +2337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_A-405_P12.70mm_Horizontal"
 			(at 79.375 53.975 0)
 			(effects
 				(font
@@ -2521,7 +2521,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 85.09 67.31 90)
 			(effects
 				(font
@@ -3011,7 +3011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
 			(at 73.025 43.815 0)
 			(effects
 				(font
@@ -3204,7 +3204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_A-405_P12.70mm_Horizontal"
 			(at 104.394 59.182 0)
 			(effects
 				(font
@@ -4035,7 +4035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 			(at 53.975 52.705 0)
 			(effects
 				(font
@@ -4208,7 +4208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
 			(at 93.98 51.308 0)
 			(effects
 				(font
@@ -4404,7 +4404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 49.657 37.465 90)
 			(effects
 				(font
