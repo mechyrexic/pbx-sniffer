@@ -6,7 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "A2")
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -420,7 +420,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "00344d6b-cc38-4358-95b0-8485813dee00")
-		(at 229.92 212.77)
+		(at 248.16 389.48)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R48"
@@ -594,7 +594,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "00b29f08-085e-45b2-a3fa-5d3eff1dd6bf")
-		(at 252.14 118.03)
+		(at 270.38 294.74)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U33"
@@ -838,7 +838,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "0101c695-dce7-44b9-9c10-0a7656c9a4d5")
-		(at 252.14 130.72)
+		(at 270.38 307.43)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U25"
@@ -1082,7 +1082,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "02198493-5869-4ada-8734-91962bb0bc9b")
-		(at 197.25 145.03)
+		(at 215.49 321.74)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R65"
@@ -1256,7 +1256,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "03d9f1d0-c07b-4af5-a3b8-8b242d258bc2")
-		(at 83.94 -5.13)
+		(at 428.97 302.01)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J29"
 			(at 6 -12 0)
@@ -1592,7 +1592,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0531f7d8-866f-4c70-b228-9ba698b1aaab")
-		(at 229.92 103.06)
+		(at 248.16 279.77)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R25"
@@ -1766,7 +1766,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0540dbba-46e2-430a-a58c-40613527d9ce")
-		(at 197.35 90.61)
+		(at 215.59 267.32)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D48"
@@ -2051,7 +2051,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "055f5a71-f341-44b0-88db-edbfc8c69bb9")
-		(at 229.92 99.01)
+		(at 248.16 275.72)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R24"
@@ -2225,7 +2225,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "06aaa285-ddb7-40e6-937c-789a9079c252")
-		(at 112.96 214.32)
+		(at 131.2 391.03)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q35"
@@ -2491,7 +2491,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0791c22e-f749-413d-b144-f3f721e23dc8")
-		(at 229.92 182.95)
+		(at 248.16 359.66)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R17"
@@ -2665,7 +2665,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "08195574-d2d5-4d65-b50d-decfb00d3855")
-		(at 212.43 -17.26)
+		(at 488.34 45.29)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U6"
@@ -3045,7 +3045,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0997f87f-db24-4c03-ab36-afb36bd231ef")
-		(at 164.58 140.98)
+		(at 182.82 317.69)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R19"
@@ -3219,7 +3219,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "09ec6ce9-5589-41dc-a6af-cca9a9bbf9b9")
-		(at 132.01 90.61)
+		(at 150.25 267.32)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D46"
@@ -3504,7 +3504,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "0bd54dab-1ab8-4077-a49c-b892728d8257")
-		(at 186.45 91.61)
+		(at 204.69 268.32)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K47"
@@ -3806,7 +3806,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0c77f4f8-51c7-484f-801d-37a084f4760a")
-		(at 164.68 170.7)
+		(at 182.92 347.41)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D9"
@@ -4091,7 +4091,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "0ca57b58-ef62-4131-b521-6f105ac3e739")
-		(at 219.12 205.37)
+		(at 237.36 382.08)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K31"
@@ -4393,7 +4393,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0d482fb6-262f-47e2-bc21-2107a05aa2c6")
-		(at 197.25 174.85)
+		(at 215.49 351.56)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R45"
@@ -4567,7 +4567,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "0e31c433-58f0-450e-a0ec-c026b3098cf9")
-		(at 88.44 129.53)
+		(at 106.68 306.24)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K13"
@@ -4869,7 +4869,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0edbaeec-5448-414e-931a-4f7fb8251223")
-		(at 251.74 151.88)
+		(at 269.98 328.59)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R99"
@@ -5043,7 +5043,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "104ad5fc-ec71-45c9-adcc-06aa0459b512")
-		(at 251.74 164.57)
+		(at 269.98 341.28)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R92"
@@ -5217,7 +5217,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "1066adba-c17b-4dbd-8efb-de98aeea90b1")
-		(at 243.64 100.56)
+		(at 261.88 277.27)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q15"
@@ -5483,7 +5483,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "10cb787c-96ac-4f0e-a4c8-a3052687c386")
-		(at 131.91 216.82)
+		(at 150.15 393.53)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R52"
@@ -5657,7 +5657,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "10fecdb0-adfe-4ee8-a925-4842b5cf5f7a")
-		(at 112.96 138.48)
+		(at 131.2 315.19)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q13"
@@ -5923,7 +5923,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "121bc4dc-7b11-42c2-87c3-e6d96029dfab")
-		(at 164.58 107.11)
+		(at 182.82 283.82)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R68"
@@ -6097,7 +6097,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "12c78243-fc45-4fd4-9123-cea480a078fb")
-		(at 42.81 218.77)
+		(at 61.05 395.48)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q25"
@@ -6363,7 +6363,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "13af29ce-e09d-4876-8cd5-7c564fb513f2")
-		(at 190.59 40.53)
+		(at 344.92 90.67)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J18"
 			(at 6 -12 0)
@@ -6699,7 +6699,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "15c2a67b-d8f0-4dea-97d4-8a7106ba2582")
-		(at 197.25 182.95)
+		(at 215.49 359.66)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R47"
@@ -6873,7 +6873,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "175e4de8-851d-47f8-bd5f-766bfd9b2907")
-		(at 197.25 99.01)
+		(at 215.49 275.72)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R72"
@@ -7047,7 +7047,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "17ab3ccc-1c8d-4de3-a234-f466f387da71")
-		(at 197.35 94.86)
+		(at 215.59 271.57)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D49"
@@ -7332,7 +7332,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "17e39419-1447-4816-88fd-696043864f67")
-		(at 99.24 216.82)
+		(at 117.48 393.53)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R55"
@@ -7506,7 +7506,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "187e2b4b-5a1a-4959-a542-47f3e5f9bbd8")
-		(at 145.63 144.59)
+		(at 163.87 321.3)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q6"
@@ -7772,7 +7772,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "1897d35b-bb2b-4a5f-a7b6-6a82eb3f50d3")
-		(at 252.14 193.87)
+		(at 270.38 370.58)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U12"
@@ -8016,7 +8016,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "1b5f6c96-6fb1-46a0-bcfd-6784532384cb")
-		(at 236.38 -13.21)
+		(at 512.29 49.34)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U27"
@@ -8260,7 +8260,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "1b855f9e-d22f-49df-a249-d300086ad8a9")
-		(at 201.65 -17.26)
+		(at 477.56 45.29)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U5"
@@ -8640,7 +8640,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "1b8b69ba-c9fa-4ebc-b6f0-f908c413e585")
-		(at 155.755 122.91)
+		(at 173.995 299.62)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K12"
@@ -8993,7 +8993,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "1c0ee1ac-f83c-455b-851b-742193941c96")
-		(at 229.92 145.03)
+		(at 248.16 321.74)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R29"
@@ -9167,7 +9167,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "1c534893-a97f-4b44-882e-d8fa17062f7e")
-		(at 229.92 174.85)
+		(at 248.16 351.56)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R15"
@@ -9341,7 +9341,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "1d44327e-79af-4e70-8c94-321613f1ac22")
-		(at 132.01 94.86)
+		(at 150.25 271.57)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D47"
@@ -9626,7 +9626,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "1ecffd5a-c218-4aa6-8f2e-2fcd23bd5b2e")
-		(at 18.29 171.9)
+		(at 36.53 348.61)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K19"
@@ -9928,7 +9928,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "1f805397-968d-4d08-b3ab-8a728438d272")
-		(at 131.91 174.85)
+		(at 150.15 351.56)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
@@ -10102,7 +10102,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "207566f2-c2f9-4fc6-b5a0-2acebfddefb4")
-		(at 112.96 220.43)
+		(at 131.2 397.14)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q36"
@@ -10368,7 +10368,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "20db7035-2db7-45a5-87be-7103117aaa1a")
-		(at 197.25 107.11)
+		(at 215.49 283.82)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R74"
@@ -10542,7 +10542,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "218d2f06-25a1-4f0b-8727-0146b50d55d6")
-		(at 99.34 128.53)
+		(at 117.58 305.24)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D14"
@@ -10827,7 +10827,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "22aa939b-707e-40d8-ab47-bf8e9a1d8037")
-		(at 131.91 178.9)
+		(at 150.15 355.61)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R3"
@@ -11001,11 +11001,11 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "22dc1065-6640-4b73-803c-98e01463336d")
-		(at 123.085 84.99)
+		(at 141.325 261.7)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K46"
-			(at 11.7 -11.55 180)
+			(at -119.36 -35.93 180)
 			(layer "F.SilkS")
 			(uuid "726f76f6-fedc-4726-b4c2-ed6a9ad292ce")
 			(effects
@@ -11354,7 +11354,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "24b6db36-d269-41ef-b8c7-db617a00b590")
-		(at 99.24 212.77)
+		(at 117.48 389.48)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R54"
@@ -11528,7 +11528,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "24cc19fd-85ad-4add-8a79-0eea2338ee1e")
-		(at 197.25 178.9)
+		(at 215.49 355.61)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R46"
@@ -11702,7 +11702,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "24f22e4e-e9f8-4196-9af1-60cca2cc34f9")
-		(at 210.97 176.4)
+		(at 229.21 353.11)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q29"
@@ -11968,7 +11968,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "25861e6a-cb2d-48c8-b51e-feab7bbf4173")
-		(at 18.29 209.82)
+		(at 36.53 386.53)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K25"
@@ -12270,7 +12270,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "267df10c-66d6-4491-8f54-5a1fa5d971c2")
-		(at 221.095 198.75)
+		(at 239.335 375.46)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K32"
@@ -12623,7 +12623,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "271e6d33-3e9a-4678-ba85-2ca2053a9abc")
-		(at 131.91 103.06)
+		(at 150.15 279.77)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R70"
@@ -12797,7 +12797,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "29a3b9a4-6cd5-4a2e-adcc-cd98358c0990")
-		(at 54.04 63.36)
+		(at 399.07 370.5)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J45"
 			(at 6 -12 0)
@@ -13133,7 +13133,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "29c775b5-0318-49b9-b6ec-c732ad2d51ac")
-		(at 202.04 47.22)
+		(at 477.95 109.77)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U28"
@@ -13377,7 +13377,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "29e95590-f46e-47e0-886d-0d42acdd0887")
-		(at 186.45 205.37)
+		(at 204.69 382.08)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K37"
@@ -13679,7 +13679,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "2aee97c0-5865-46e1-ae5c-c23c77f96379")
-		(at 197.25 140.98)
+		(at 215.49 317.69)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R64"
@@ -13853,7 +13853,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "2d5d6190-2dad-498e-8b52-edbac2721ca2")
-		(at 247.57 43.15)
+		(at 523.48 105.7)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R89"
@@ -14027,7 +14027,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "30114b44-3bc1-4e98-9ed1-a243c2cc9009")
-		(at 99.24 107.11)
+		(at 117.48 283.82)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R44"
@@ -14201,7 +14201,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3088742c-505b-4d56-b217-6646d3deb64b")
-		(at 216.95 55.84)
+		(at 492.86 118.39)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R85"
@@ -14375,7 +14375,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "3156aad2-7fb9-4bfe-b212-eeebc7cb685b")
-		(at 39.09 17.7)
+		(at 384.12 324.84)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J32"
 			(at 6 -12 0)
@@ -14711,7 +14711,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "32be2d49-22f3-4476-9541-38cf47f78301")
-		(at 178.3 214.32)
+		(at 196.54 391.03)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q49"
@@ -14977,7 +14977,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "32d634fa-4db6-4a6d-9fb5-c1bb26aa92e9")
-		(at 251.74 215.18)
+		(at 269.98 391.89)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R84"
@@ -15151,7 +15151,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "34d579f9-d72f-48b8-a242-4c06582dd9ce")
-		(at 121.11 205.37)
+		(at 139.35 382.08)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K33"
@@ -15453,7 +15453,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3653ea9b-5761-4b16-90e4-26adddf3656f")
-		(at 247.57 55.84)
+		(at 523.48 118.39)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R81"
@@ -15627,7 +15627,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "366e21e4-59d3-40e9-b973-eab64dc3453c")
-		(at 132.01 170.7)
+		(at 150.25 347.41)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D3"
@@ -15912,7 +15912,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "37009a91-bee7-41c2-a76c-90c6f54de4f2")
-		(at 130.79 -5.13)
+		(at 285.12 45.01)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J2"
 			(at 6 -12 0)
@@ -16248,7 +16248,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "370f4899-d15b-4e8f-833f-50cd2601a66f")
-		(at 42.81 180.85)
+		(at 61.05 357.56)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q19"
@@ -16514,7 +16514,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3797f77e-600c-4f36-8eff-414a954c11d8")
-		(at 230.02 132.78)
+		(at 248.26 309.49)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D19"
@@ -16799,7 +16799,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "3852dbf6-f320-478d-8bc1-aeeac08dea96")
-		(at 188.425 198.75)
+		(at 206.665 375.46)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K38"
@@ -17152,7 +17152,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3914e2a4-ba40-4fbc-9a5a-cde1eb02b842")
-		(at 247.57 30.46)
+		(at 523.48 93.01)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R91"
@@ -17326,7 +17326,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "391c4478-54a4-4c5c-be83-36efcc4c044d")
-		(at 29.09 217.22)
+		(at 47.33 393.93)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R39"
@@ -17500,7 +17500,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "3a7a6298-4cc0-4aee-972b-209c97bf4e78")
-		(at 252.14 219.25)
+		(at 270.38 395.96)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U16"
@@ -17744,7 +17744,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "3b77238f-9656-4701-b838-80403803341a")
-		(at 88.44 167.45)
+		(at 106.68 344.16)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K39"
@@ -18046,7 +18046,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "3b7f5072-2dbf-46e7-9403-efbf73615d61")
-		(at 20.265 203.2)
+		(at 38.505 379.91)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K26"
@@ -18399,7 +18399,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3c2816a2-47cf-4c60-8005-a5fec9706e6d")
-		(at 132.01 128.53)
+		(at 150.25 305.24)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D4"
@@ -18684,7 +18684,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3c4237ad-8374-4892-91ba-0ba392aa685c")
-		(at 197.35 166.45)
+		(at 215.59 343.16)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D30"
@@ -18969,7 +18969,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3d5cd33d-e657-4518-92af-2e9533a47385")
-		(at 197.25 103.06)
+		(at 215.49 279.77)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R73"
@@ -19143,7 +19143,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "3db01744-2e77-47f8-ae47-b90ae318cff5")
-		(at 112.96 182.51)
+		(at 131.2 359.22)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q40"
@@ -19409,7 +19409,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "3eed6d1d-29c3-45b6-8612-30d7e99e5f06")
-		(at 50.96 209.82)
+		(at 69.2 386.53)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K23"
@@ -19711,7 +19711,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "4000ebd4-c91f-4e26-94d0-a920582ff6fc")
-		(at 145.63 100.56)
+		(at 163.87 277.27)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q45"
@@ -19977,7 +19977,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "40072007-a7b1-4dd8-b51e-5132a333b91b")
-		(at 197.35 128.53)
+		(at 215.59 305.24)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D42"
@@ -20262,7 +20262,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4041ff74-047d-4b8b-899a-736982d29202")
-		(at 131.91 140.98)
+		(at 150.15 317.69)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R10"
@@ -20436,7 +20436,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4098bdf9-f498-4b0b-bec9-8aec061c9458")
-		(at 197.35 170.7)
+		(at 215.59 347.41)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D31"
@@ -20721,7 +20721,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "41f56b37-c948-45b3-93a9-6e9ad98a6bb4")
-		(at 29.09 225.32)
+		(at 47.33 402.03)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R41"
@@ -20895,7 +20895,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "42995e77-331b-44d8-9cb3-214d6818f48d")
-		(at 186.45 129.53)
+		(at 204.69 306.24)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K41"
@@ -21197,7 +21197,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "42e3db82-c0f2-4f37-9675-84f92fadd424")
-		(at 115.84 -5.13)
+		(at 270.17 45.01)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J1"
 			(at 6 -12 0)
@@ -21533,7 +21533,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "434de04b-6d78-409e-911c-7e3ea572fd6c")
-		(at 186.45 167.45)
+		(at 204.69 344.16)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K29"
@@ -21835,7 +21835,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4382dbf7-bc0b-46ab-a15f-e16ed72d53e1")
-		(at 230.02 170.7)
+		(at 248.26 347.41)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D11"
@@ -22120,7 +22120,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "43af5f61-2023-446f-9a34-7b22072a1fdf")
-		(at 178.3 182.51)
+		(at 196.54 359.22)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q8"
@@ -22386,11 +22386,11 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "43c672bf-d376-4bae-85fa-20b55de6be48")
-		(at 221.095 84.99)
+		(at 239.335 261.7)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K16"
-			(at 11.7 -11.55 180)
+			(at -119.36 -35.93 180)
 			(layer "F.SilkS")
 			(uuid "4e668b24-6af8-4f7f-bf83-fce1a2442ee1")
 			(effects
@@ -22739,7 +22739,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "456d25b0-08ec-4eff-a32c-41f102a719de")
-		(at 112.96 100.56)
+		(at 131.2 277.27)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q27"
@@ -23005,7 +23005,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "464744d8-e7d7-474c-a9e4-05f2e281bdc4")
-		(at 190.59 17.7)
+		(at 344.92 67.84)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J12"
 			(at 6 -12 0)
@@ -23341,7 +23341,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4658daa9-a1ab-4aea-8526-ae00cd6eb3ac")
-		(at 164.58 136.93)
+		(at 182.82 313.64)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R18"
@@ -23515,7 +23515,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "4659c6b1-6b88-45d3-b887-214739b8c16e")
-		(at 236.38 10.66)
+		(at 512.29 73.21)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U11"
@@ -23759,7 +23759,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "46878bf4-3110-4710-85c2-934e37c663c1")
-		(at 201.64 55.84)
+		(at 477.55 118.39)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R94"
@@ -23933,11 +23933,11 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "4742f0af-22d2-4c83-b73a-b07eb9cecfb9")
-		(at 188.425 84.99)
+		(at 206.665 261.7)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K48"
-			(at 11.7 -11.55 180)
+			(at -119.36 -35.93 180)
 			(layer "F.SilkS")
 			(uuid "fc378010-728b-4b09-8e44-970f6e590637")
 			(effects
@@ -24286,7 +24286,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "48da8023-defd-4e3d-a1c7-0192a9b3eecc")
-		(at 115.84 40.53)
+		(at 270.17 90.67)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J13"
 			(at 6 -12 0)
@@ -24622,7 +24622,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "48e8f232-37cf-44ac-8de1-af168651cc7f")
-		(at 197.35 204.37)
+		(at 215.59 381.08)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D38"
@@ -24907,7 +24907,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "490b31f5-5983-426b-86d4-b330053173a7")
-		(at 88.44 205.37)
+		(at 106.68 382.08)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K35"
@@ -25209,7 +25209,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "4c2146e6-6009-4856-b504-3736b0e19379")
-		(at 252.14 80.11)
+		(at 270.38 256.82)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U19"
@@ -25453,7 +25453,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4c42924c-b136-400d-ba2b-225b28d7e9ee")
-		(at 99.34 208.62)
+		(at 117.58 385.33)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D37"
@@ -25738,7 +25738,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "4c9be4f4-cb68-404d-a8d8-d6481415be2b")
-		(at 188.425 122.91)
+		(at 206.665 299.62)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K42"
@@ -26091,7 +26091,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "4cfa0cce-c0c5-491d-879c-1a1ceac12787")
-		(at 178.3 106.67)
+		(at 196.54 283.38)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q44"
@@ -26357,7 +26357,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "4eaea736-febc-4849-bbb9-fef24025fb05")
-		(at 115.84 63.36)
+		(at 270.17 113.5)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J19"
 			(at 6 -12 0)
@@ -26693,7 +26693,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "4ebda5ad-18e1-43a4-8a70-9dc89749b41d")
-		(at 210.97 220.43)
+		(at 229.21 397.14)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q38"
@@ -26959,7 +26959,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "50f57e79-2da9-4c36-9937-fac7ee241806")
-		(at 160.69 40.53)
+		(at 315.02 90.67)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J16"
 			(at 6 -12 0)
@@ -27295,7 +27295,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "51fe9a87-0180-4ca1-8cf7-67413725654e")
-		(at 123.085 198.75)
+		(at 141.325 375.46)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K34"
@@ -27648,7 +27648,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5215903f-cb91-444b-9fd2-d6a9a0c29a9f")
-		(at 251.74 189.8)
+		(at 269.98 366.51)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R80"
@@ -27822,7 +27822,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5222ea26-1aef-4ebd-85ae-6b062b205eb2")
-		(at 164.68 208.62)
+		(at 182.92 385.33)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D51"
@@ -28107,7 +28107,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "52b84d07-8de5-4315-a48e-2a0b8f94d1e9")
-		(at 24.14 -5.13)
+		(at 369.17 302.01)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J25"
 			(at 6 -12 0)
@@ -28443,7 +28443,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "52ef8a9d-8b9c-4811-b64f-d710b8b148c2")
-		(at 230.02 166.45)
+		(at 248.26 343.16)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D10"
@@ -28728,7 +28728,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5311a82a-7a9e-46be-9fec-428d1a1ce023")
-		(at 251.29 6.59)
+		(at 527.2 69.14)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R97"
@@ -28902,7 +28902,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "53ea53c9-4a2d-47b2-850d-e99f6bf1a143")
-		(at 145.74 17.7)
+		(at 300.07 67.84)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J9"
 			(at 6 -12 0)
@@ -29238,7 +29238,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5486b7ed-51ff-4d0a-a1fb-c6768b996b5c")
-		(at 164.58 145.03)
+		(at 182.82 321.74)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R20"
@@ -29412,7 +29412,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5536f7aa-a76c-4cb1-a8b9-b64d41fde804")
-		(at 99.34 90.61)
+		(at 117.58 267.32)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D28"
@@ -29697,7 +29697,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "55e7f6b0-3bee-4ef9-93d8-9adbc9eb1680")
-		(at 54.04 -5.13)
+		(at 399.07 302.01)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J27"
 			(at 6 -12 0)
@@ -30033,7 +30033,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5940ff50-b76c-4914-b638-66278dc7358d")
-		(at 235.98 6.59)
+		(at 511.89 69.14)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R79"
@@ -30207,7 +30207,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5c2e4506-9bea-4349-ac40-c2d304c3479a")
-		(at 61.76 217.22)
+		(at 80 393.93)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R36"
@@ -30381,7 +30381,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "5e8b8d99-cec6-4094-89e5-967695391046")
-		(at 217.35 59.91)
+		(at 493.26 122.46)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U17"
@@ -30625,7 +30625,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5eb9fd66-3e21-4c89-b131-bb35d9c0c548")
-		(at 197.35 132.78)
+		(at 215.59 309.49)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D43"
@@ -30910,7 +30910,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "60bdd823-6470-4ff6-93b0-ce518bf32804")
-		(at 132.01 208.62)
+		(at 150.25 385.33)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D35"
@@ -31195,7 +31195,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "622671fb-5f8c-4182-b4c2-4d06bdcc3427")
-		(at 88.44 91.61)
+		(at 106.68 268.32)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K27"
@@ -31497,7 +31497,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "62b6df2a-8a12-4eaa-ab24-8208d70f4c61")
-		(at 99.24 182.95)
+		(at 117.48 359.66)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R62"
@@ -31671,7 +31671,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "63ddab05-0ff8-4d32-9bfd-a92d41a2cd90")
-		(at 42.81 186.96)
+		(at 61.05 363.67)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q20"
@@ -31937,7 +31937,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "65129348-de4f-48e9-a0ee-1e62b692e7f3")
-		(at 90.415 122.91)
+		(at 108.655 299.62)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K14"
@@ -32290,7 +32290,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "66de391f-9f99-4482-a8b6-e117b0a7afef")
-		(at 145.63 106.67)
+		(at 163.87 283.38)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q46"
@@ -32556,7 +32556,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "66ea1b0c-ced6-4af8-904c-54784bc9a283")
-		(at 188.425 160.83)
+		(at 206.665 337.54)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K30"
@@ -32909,7 +32909,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "673b7577-38f4-425c-8b20-a1b7622a8b0c")
-		(at 153.78 205.37)
+		(at 172.02 382.08)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K49"
@@ -33211,7 +33211,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "67cd8909-6678-401e-9741-99d89cceb853")
-		(at 252.14 155.95)
+		(at 270.38 332.66)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U31"
@@ -33455,7 +33455,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "68ecf727-eb25-4bea-923a-1fb344a4ee6c")
-		(at 229.92 216.82)
+		(at 248.16 393.53)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R49"
@@ -33629,7 +33629,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6a8f10a5-c72a-406d-b783-64ad170d7cdf")
-		(at 61.86 175.15)
+		(at 80.1 351.86)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D23"
@@ -33914,7 +33914,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "6afabae4-3f43-45d0-80fd-2ddbcd58b6da")
-		(at 160.69 63.36)
+		(at 315.02 113.5)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J22"
 			(at 6 -12 0)
@@ -34250,7 +34250,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6b06a1ca-0718-4dc8-8311-f2a3822b7786")
-		(at 164.68 166.45)
+		(at 182.92 343.16)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D6"
@@ -34535,7 +34535,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6b2d5e05-a858-433f-b4ca-a077a4b9da14")
-		(at 232.26 55.84)
+		(at 508.17 118.39)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R86"
@@ -34709,7 +34709,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "6be83963-7c58-4525-b808-69cd602cf4cb")
-		(at 217.35 34.53)
+		(at 493.26 97.08)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U15"
@@ -34953,7 +34953,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6dc5fa3e-a22a-4d90-abc9-dabace5124ba")
-		(at 99.24 136.93)
+		(at 117.48 313.64)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R21"
@@ -35127,7 +35127,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6dd1f47e-5226-4ede-95a9-2c7fea0e2246")
-		(at 99.24 140.98)
+		(at 117.48 317.69)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R22"
@@ -35301,7 +35301,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "6e1e42f7-6208-46bc-9400-27fbd70a1ad6")
-		(at 98.89 63.36)
+		(at 443.92 370.5)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J48"
 			(at 6 -12 0)
@@ -35637,7 +35637,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "6e8a6c4c-7987-4ee1-8dca-02a45efce1eb")
-		(at 175.64 -5.13)
+		(at 329.97 45.01)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J5"
 			(at 6 -12 0)
@@ -35973,7 +35973,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "6efb9ddf-607e-4ee5-ad15-207357ae5e76")
-		(at 121.11 91.61)
+		(at 139.35 268.32)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K45"
@@ -36275,7 +36275,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "6f31dfd3-fa3a-44fc-b811-06444c1c8e72")
-		(at 175.64 63.36)
+		(at 329.97 113.5)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J23"
 			(at 6 -12 0)
@@ -36611,7 +36611,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "715444c1-5921-450f-96ff-6361ce702c21")
-		(at 75.48 186.96)
+		(at 93.72 363.67)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q22"
@@ -36877,7 +36877,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7202f4d3-7c25-431c-ad55-a1645e43058a")
-		(at 99.34 170.7)
+		(at 117.58 347.41)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D41"
@@ -37162,7 +37162,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "731637ae-5b2a-4dac-970c-3f3699d7fdff")
-		(at 164.68 90.61)
+		(at 182.92 267.32)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D44"
@@ -37447,7 +37447,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "7461910f-d0ca-4961-806a-565c2d8b67cd")
-		(at 153.78 91.61)
+		(at 172.02 268.32)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K43"
@@ -37749,7 +37749,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "7485c43a-06de-44e3-8fa8-b941ebc9a18b")
-		(at 175.64 40.53)
+		(at 329.97 90.67)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J17"
 			(at 6 -12 0)
@@ -38085,7 +38085,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "755f4b93-9e68-4e60-a152-b01a00dc08a5")
-		(at 175.64 17.7)
+		(at 329.97 67.84)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J11"
 			(at 6 -12 0)
@@ -38421,7 +38421,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "765b0d37-8c59-4aab-b475-00a84caa52fb")
-		(at 131.91 220.87)
+		(at 150.15 397.58)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R53"
@@ -38595,7 +38595,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "76b1c09d-26cd-420a-be32-4b074a2e220d")
-		(at 29.19 213.07)
+		(at 47.43 389.78)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D27"
@@ -38880,7 +38880,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "76b9a798-bc13-40d2-a6b9-fa8f58803e42")
-		(at 54.04 40.53)
+		(at 399.07 347.67)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J39"
 			(at 6 -12 0)
@@ -39216,7 +39216,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "77a37ef2-0d04-4bc8-b8b5-db4cbbeb951d")
-		(at 145.63 138.48)
+		(at 163.87 315.19)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q5"
@@ -39482,7 +39482,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "7a4a691b-b4d1-4a4a-82fa-2ecec931bed5")
-		(at 112.96 176.4)
+		(at 131.2 353.11)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q39"
@@ -39748,7 +39748,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "7c02a018-bac6-4ae6-a8e3-5a99505ebf73")
-		(at 68.99 17.7)
+		(at 414.02 324.84)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J34"
 			(at 6 -12 0)
@@ -40084,7 +40084,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7d67f566-30fe-40c3-b046-0de70c2e9510")
-		(at 131.91 136.93)
+		(at 150.15 313.64)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R9"
@@ -40258,7 +40258,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "7e9e7f2a-dd38-4eee-be15-4951aac37951")
-		(at 219.12 91.61)
+		(at 237.36 268.32)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K15"
@@ -40560,7 +40560,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7ecc7715-8d16-46dc-9cdd-c91e7a67ae27")
-		(at 164.68 128.53)
+		(at 182.92 305.24)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D12"
@@ -40845,7 +40845,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7f107f35-96c4-496f-8584-0b237712447c")
-		(at 229.92 107.11)
+		(at 248.16 283.82)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R26"
@@ -41019,7 +41019,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "7fb1773e-89ba-4409-b64d-e3060bd64fec")
-		(at 24.14 63.36)
+		(at 369.17 370.5)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J43"
 			(at 6 -12 0)
@@ -41355,7 +41355,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7fe9d82c-c878-46d1-9bd6-934986c5c63b")
-		(at 29.19 170.9)
+		(at 47.43 347.61)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D20"
@@ -41640,7 +41640,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "8286b3ea-6cb3-4e3c-9192-00aa2b7b8d9c")
-		(at 52.935 203.2)
+		(at 71.175 379.91)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K24"
@@ -41993,7 +41993,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "8303576f-5fc2-461e-96f1-42c1cb89cc12")
-		(at 130.79 17.7)
+		(at 285.12 67.84)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J8"
 			(at 6 -12 0)
@@ -42329,7 +42329,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "83c9e31a-85e9-4926-8b89-1fb789579f92")
-		(at 90.415 160.83)
+		(at 108.655 337.54)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K40"
@@ -42682,7 +42682,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "8413d69c-0a10-43f1-8164-95cc73e36c47")
-		(at 210.97 182.51)
+		(at 229.21 359.22)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q30"
@@ -42948,7 +42948,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "84346e22-e85a-4507-bd28-4c21fc5a4ece")
-		(at 251.29 -17.28)
+		(at 527.2 45.27)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R98"
@@ -43122,7 +43122,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "846aa46a-13e3-43cc-9af9-4fb7686d3d0f")
-		(at 178.3 220.43)
+		(at 196.54 397.14)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q50"
@@ -43388,7 +43388,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "84bdadd5-44a2-4530-bec9-882e4081867e")
-		(at 61.86 208.82)
+		(at 80.1 385.53)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D24"
@@ -43673,7 +43673,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "87dea0c9-9960-4e3c-a32b-8f9cb6441cad")
-		(at 39.09 -5.13)
+		(at 384.12 302.01)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J26"
 			(at 6 -12 0)
@@ -44009,7 +44009,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "88107d15-63e8-43ec-9573-2cd1522f5f7d")
-		(at 232.66 34.53)
+		(at 508.57 97.08)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U22"
@@ -44253,7 +44253,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "88f17220-1452-4690-b870-373d6e8e9044")
-		(at 251.69 10.66)
+		(at 527.6 73.21)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U29"
@@ -44497,7 +44497,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8923476d-3dc8-4f1d-b746-dc83cd965b5d")
-		(at 29.09 187.4)
+		(at 47.33 364.11)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R32"
@@ -44671,7 +44671,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "89a4dfb0-1c71-4eb2-be7d-93f31bbaccf9")
-		(at 202.04 34.53)
+		(at 477.95 97.08)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U20"
@@ -44915,7 +44915,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "8acccc50-e9d4-4b29-9c0a-e9f388601a70")
-		(at 112.96 106.67)
+		(at 131.2 283.38)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q28"
@@ -45181,7 +45181,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8d6002f3-0133-44a1-aa0a-729334cc2634")
-		(at 99.24 99.01)
+		(at 117.48 275.72)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R42"
@@ -45355,7 +45355,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "8f2d866f-e1a8-4f33-9565-48ce5c4958bc")
-		(at 121.11 129.53)
+		(at 139.35 306.24)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K5"
@@ -45657,7 +45657,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8f4845f5-4b2a-48e2-a7df-3dd419e5a6f5")
-		(at 164.58 178.9)
+		(at 182.82 355.61)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R13"
@@ -45831,7 +45831,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "91edd344-f1d6-4522-9272-251bcec0dd2d")
-		(at 61.86 213.07)
+		(at 80.1 389.78)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D25"
@@ -46116,7 +46116,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9298c3bf-e172-46c9-8a39-11c8012390cd")
-		(at 61.86 170.9)
+		(at 80.1 347.61)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D22"
@@ -46401,7 +46401,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "92f9ea84-115e-4b03-b040-d58e29e25110")
-		(at 61.76 221.27)
+		(at 80 397.98)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R37"
@@ -46575,7 +46575,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "93c68186-1dd2-4408-86fa-4428541eeb50")
-		(at 145.74 -5.13)
+		(at 300.07 45.01)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J3"
 			(at 6 -12 0)
@@ -46911,7 +46911,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "940f0379-24a1-473c-8871-a5519cebce95")
-		(at 229.92 140.98)
+		(at 248.16 317.69)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R28"
@@ -47085,7 +47085,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "948b0a3a-80a3-43ff-8507-2972874f9be9")
-		(at 164.68 204.37)
+		(at 182.92 381.08)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D50"
@@ -47370,7 +47370,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "94dfbfd9-7a73-418b-8dca-bc0f75424615")
-		(at 164.68 94.86)
+		(at 182.92 271.57)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D45"
@@ -47655,7 +47655,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "970d90a4-2d32-444e-abb6-2338b7816d60")
-		(at 229.92 178.9)
+		(at 248.16 355.61)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R16"
@@ -47829,7 +47829,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "97e6fdb9-7729-4b2d-926c-2f009b12e575")
-		(at 68.99 40.53)
+		(at 414.02 347.67)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J40"
 			(at 6 -12 0)
@@ -48165,7 +48165,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "97ea2634-b871-4a6d-a10c-172c9847667d")
-		(at 99.24 220.87)
+		(at 117.48 397.58)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R56"
@@ -48339,7 +48339,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "988a720b-963f-4255-80e9-6075456cfa0e")
-		(at 201.64 30.46)
+		(at 477.55 93.01)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R88"
@@ -48513,7 +48513,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "98fba6c4-b2e5-476c-a170-3e0d1d9aa625")
-		(at 83.94 17.7)
+		(at 428.97 324.84)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J35"
 			(at 6 -12 0)
@@ -48849,7 +48849,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "9a435b0c-def4-493e-a552-be3498ca2759")
-		(at 247.97 34.53)
+		(at 523.88 97.08)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U23"
@@ -49093,7 +49093,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9ab776b7-5964-493c-8e0e-44590a2ee10b")
-		(at 229.92 136.93)
+		(at 248.16 313.64)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R27"
@@ -49267,7 +49267,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "9ada949b-7951-4972-aabd-00741f8c785a")
-		(at 75.48 218.77)
+		(at 93.72 395.48)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q23"
@@ -49533,7 +49533,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "9b610c64-e899-4ce3-892e-b9cf089eb323")
-		(at 20.265 165.28)
+		(at 38.505 341.99)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K20"
@@ -49886,7 +49886,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "9c09e660-8a6e-46ee-bea4-d1e9ed5b4f9e")
-		(at 243.64 138.48)
+		(at 261.88 315.19)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q17"
@@ -50152,7 +50152,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9d6d5302-2e61-4a2e-b61b-2fc7d4894366")
-		(at 235.98 -17.28)
+		(at 511.89 45.27)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R95"
@@ -50326,7 +50326,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9df0f5c3-032f-410a-ab50-038c606150c3")
-		(at 197.25 136.93)
+		(at 215.49 313.64)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R63"
@@ -50500,7 +50500,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9f41d450-ae04-46a6-b814-0de0ce00b4f9")
-		(at 230.02 128.53)
+		(at 248.26 305.24)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D18"
@@ -50785,7 +50785,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "a0ac3d34-dbad-4b15-bcf5-2264299c1746")
-		(at 24.14 17.7)
+		(at 369.17 324.84)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J31"
 			(at 6 -12 0)
@@ -51121,7 +51121,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "a0d192d3-446a-43ad-b633-88bf60da5ed9")
-		(at 223.21 -17.26)
+		(at 499.12 45.29)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U7"
@@ -51501,7 +51501,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "a1b0660e-127f-41ed-8dbf-ce8e9eaa46f5")
-		(at 83.94 63.36)
+		(at 428.97 370.5)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J47"
 			(at 6 -12 0)
@@ -51837,7 +51837,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a2a82f8b-0aff-4a00-bd0f-e77029c17152")
-		(at 99.34 204.37)
+		(at 117.58 381.08)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D36"
@@ -52122,7 +52122,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "a2a99cfe-e49b-4d36-bc53-e678ea9ca9a0")
-		(at 160.69 17.7)
+		(at 315.02 67.84)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J10"
 			(at 6 -12 0)
@@ -52458,7 +52458,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "a2d24eff-0408-4511-b1ff-f1c23bfc8ec9")
-		(at 219.12 129.53)
+		(at 237.36 306.24)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K17"
@@ -52760,7 +52760,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "a333bdf5-f4b7-4c7e-9301-ece48c22bbf3")
-		(at 123.085 160.83)
+		(at 141.325 337.54)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K3"
@@ -53113,7 +53113,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "a39ef772-57c5-4eb9-87f2-a67af25ce1ac")
-		(at 232.66 59.91)
+		(at 508.57 122.46)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U18"
@@ -53357,7 +53357,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a3ecc927-21c5-435b-a403-98becbdf9edc")
-		(at 230.02 90.61)
+		(at 248.26 267.32)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D16"
@@ -53642,7 +53642,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "a420c130-5f36-42ea-a3cb-96725055d5ce")
-		(at 190.59 -5.13)
+		(at 344.92 45.01)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J6"
 			(at 6 -12 0)
@@ -53978,7 +53978,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "a42cd527-07e0-434e-8244-88f01ae339b6")
-		(at 247.97 47.22)
+		(at 523.88 109.77)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U21"
@@ -54222,7 +54222,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "a43cfceb-2b61-40aa-a514-30d57e149d4e")
-		(at 160.69 -5.13)
+		(at 315.02 45.01)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J4"
 			(at 6 -12 0)
@@ -54558,7 +54558,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a43d8114-b293-429b-b54b-a3a45be9ddc0")
-		(at 164.58 103.06)
+		(at 182.82 279.77)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R67"
@@ -54732,7 +54732,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "a4fcdccc-fccc-4ca1-8c26-3b696f3cf7cf")
-		(at 50.96 171.9)
+		(at 69.2 348.61)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K21"
@@ -55034,7 +55034,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a5e42263-7e10-4c72-851f-ca357bd91cc5")
-		(at 61.76 187.4)
+		(at 80 364.11)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R35"
@@ -55208,7 +55208,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a5e8d543-f4c8-41e8-81f6-98769b569d43")
-		(at 251.74 202.49)
+		(at 269.98 379.2)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R82"
@@ -55382,7 +55382,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a613643e-e9db-4acc-93dc-a8847652a069")
-		(at 164.58 182.95)
+		(at 182.82 359.66)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R14"
@@ -55556,7 +55556,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a61c7542-dc08-4141-98ca-541ae4cfa9bd")
-		(at 29.19 175.15)
+		(at 47.43 351.86)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D21"
@@ -55841,7 +55841,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a6c38dca-6f19-4ccd-be07-0d7c5f30951f")
-		(at 201.64 43.15)
+		(at 477.55 105.7)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R96"
@@ -56015,7 +56015,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "a723e207-0aa8-4fd3-a4f9-11baa923fcd4")
-		(at 201.65 6.61)
+		(at 477.56 69.16)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U8"
@@ -56395,7 +56395,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "a874b726-d62c-4519-b039-1b09c3fc159f")
-		(at 219.12 167.45)
+		(at 237.36 344.16)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K9"
@@ -56697,7 +56697,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "aafa56a2-d0cc-4f1c-9dfa-ba1741761693")
-		(at 99.34 94.86)
+		(at 117.58 271.57)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D29"
@@ -56982,7 +56982,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "ae20d852-94ac-422d-a7ce-1c2572c18635")
-		(at 98.89 -5.13)
+		(at 443.92 302.01)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J30"
 			(at 6 -12 0)
@@ -57318,7 +57318,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "aefcdc8a-c4c4-4232-8581-882e4f30e310")
-		(at 229.92 220.87)
+		(at 248.16 397.58)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R50"
@@ -57492,7 +57492,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "af5a2f1d-33cd-45fa-b759-b119305c9ac8")
-		(at 210.97 100.56)
+		(at 229.21 277.27)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q47"
@@ -57758,7 +57758,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "af7c4e3e-c3b0-40e8-97b5-36072e413b44")
-		(at 132.01 132.78)
+		(at 150.25 309.49)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D5"
@@ -58043,7 +58043,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "b053d76f-4f57-47ef-ad7d-11e4e50b671c")
-		(at 39.09 63.36)
+		(at 384.12 370.5)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J44"
 			(at 6 -12 0)
@@ -58379,7 +58379,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "b0c4b2c2-c068-405c-9b6e-44f1f2440cd2")
-		(at 68.99 63.36)
+		(at 414.02 370.5)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J46"
 			(at 6 -12 0)
@@ -58715,7 +58715,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "b187b0d4-de7f-4f5d-a49c-e73f607c45a4")
-		(at 178.3 100.56)
+		(at 196.54 277.27)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q43"
@@ -58981,11 +58981,11 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "b197bdf6-af6e-4d0e-9635-0fdcb6896c6b")
-		(at 155.755 84.99)
+		(at 173.995 261.7)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K44"
-			(at 11.7 -11.55 180)
+			(at -119.36 -35.93 180)
 			(layer "F.SilkS")
 			(uuid "b3d1450c-ecc9-446c-8fa9-01411afcb11b")
 			(effects
@@ -59334,7 +59334,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "b2f3491c-e6ad-45fb-9a42-402ee1542b10")
-		(at 210.97 106.67)
+		(at 229.21 283.38)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q48"
@@ -59600,7 +59600,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b31298d1-c588-40f6-9c2c-08037284bea5")
-		(at 164.58 212.77)
+		(at 182.82 389.48)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R75"
@@ -59774,7 +59774,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "b34f2cd5-6a4b-45db-84a0-8a1d5305d0b4")
-		(at 123.085 122.91)
+		(at 141.325 299.62)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K6"
@@ -60127,7 +60127,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b37139a7-bf11-4be8-8693-b25947771f01")
-		(at 29.09 221.27)
+		(at 47.33 397.98)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R40"
@@ -60301,7 +60301,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "b4017a3c-21fd-4cea-8594-dd035936829a")
-		(at 39.09 40.53)
+		(at 384.12 347.67)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J38"
 			(at 6 -12 0)
@@ -60637,7 +60637,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b57292b2-bfda-4ca4-857f-4027a99d3906")
-		(at 132.01 204.37)
+		(at 150.25 381.08)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D34"
@@ -60922,7 +60922,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "b60e9ddd-222d-400a-bcb7-f4ae9087974a")
-		(at 52.935 165.28)
+		(at 71.175 341.99)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K22"
@@ -61275,7 +61275,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b698f172-355e-43d3-84ea-9a0975bb927c")
-		(at 29.19 208.82)
+		(at 47.43 385.53)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D26"
@@ -61560,7 +61560,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b736ff86-7542-4bab-a8f1-eaa4b078f0de")
-		(at 131.91 212.77)
+		(at 150.15 389.48)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R51"
@@ -61734,7 +61734,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b795f579-b166-466c-bf25-ce9481a9a423")
-		(at 232.26 43.15)
+		(at 508.17 105.7)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R100"
@@ -61908,7 +61908,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b9037bc6-66bb-4465-8b08-7dddb5e7061d")
-		(at 216.95 43.15)
+		(at 492.86 105.7)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R78"
@@ -62082,7 +62082,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "b95fa43e-5d5d-41eb-976c-9641fef8c366")
-		(at 155.755 160.83)
+		(at 173.995 337.54)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K8"
@@ -62435,7 +62435,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b981307e-6abc-4491-9b94-457d9b8c743b")
-		(at 99.34 132.78)
+		(at 117.58 309.49)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D15"
@@ -62720,7 +62720,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "b992e0b7-8da2-4702-803c-3fea5489f9d3")
-		(at 145.63 176.4)
+		(at 163.87 353.11)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q2"
@@ -62986,7 +62986,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "bb376e9d-1486-4a22-9736-a04103dd6a51")
-		(at 131.91 107.11)
+		(at 150.15 283.82)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R71"
@@ -63160,7 +63160,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "bc312fba-3f58-4375-9649-2a06ebfc725c")
-		(at 164.68 132.78)
+		(at 182.92 309.49)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D13"
@@ -63445,7 +63445,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "bc362bbd-69a2-4192-a7eb-5977fbc60d2c")
-		(at 24.14 40.53)
+		(at 369.17 347.67)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J37"
 			(at 6 -12 0)
@@ -63781,7 +63781,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "bc683876-a9ff-467e-904e-ea4d23871cdd")
-		(at 243.64 106.67)
+		(at 261.88 283.38)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q16"
@@ -64047,7 +64047,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "bcd69c90-722a-4877-ab71-0d11a1821c87")
-		(at 42.81 224.88)
+		(at 61.05 401.59)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q26"
@@ -64313,7 +64313,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "bd3230c3-246b-45fa-a15d-eb4ed419c09e")
-		(at 90.415 198.75)
+		(at 108.655 375.46)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K36"
@@ -64666,7 +64666,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "bd8625ab-761b-4fa5-a715-47a975527bdb")
-		(at 99.34 166.45)
+		(at 117.58 343.16)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D40"
@@ -64951,7 +64951,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "bf69e7a3-5f3f-4e57-b993-0a5ac5c06171")
-		(at 29.09 179.3)
+		(at 47.33 356.01)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R30"
@@ -65125,7 +65125,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "bf894244-e2fd-4dd7-8b31-0204e2790383")
-		(at 252.14 206.56)
+		(at 270.38 383.27)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U14"
@@ -65369,7 +65369,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "bf963a0e-e585-41ea-b963-3017d4cc326a")
-		(at 145.74 63.36)
+		(at 300.07 113.5)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J21"
 			(at 6 -12 0)
@@ -65705,11 +65705,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c2278767-88a4-41e8-9f52-30a93abd5d64")
-		(at 251.74 76.04)
+		(at 269.98 252.75)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R87"
-			(at 5.08 -2.37 0)
+			(at -125.98 -26.75 0)
 			(layer "F.SilkS")
 			(uuid "2218f77d-cded-4acc-98b6-9437c5171ef7")
 			(effects
@@ -65879,7 +65879,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "c252bd9d-cc51-41e8-a238-a25d8543526a")
-		(at 75.48 224.88)
+		(at 93.72 401.59)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q24"
@@ -66145,7 +66145,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c30a970b-c8fe-46cc-b599-65842b88cd23")
-		(at 131.91 182.95)
+		(at 150.15 359.66)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
@@ -66319,7 +66319,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "c3d0ff75-c749-4e71-a07a-db1ad73e7a82")
-		(at 252.14 168.64)
+		(at 270.38 345.35)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U24"
@@ -66563,7 +66563,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c4982742-366c-498c-82b8-893182a13c29")
-		(at 131.91 99.01)
+		(at 150.15 275.72)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R69"
@@ -66737,7 +66737,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c6ae78af-5a99-42d9-8b10-41810d410ff5")
-		(at 99.24 178.9)
+		(at 117.48 355.61)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R61"
@@ -66911,7 +66911,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "c77b1574-c096-4227-beab-b4b5e9166695")
-		(at 212.43 6.61)
+		(at 488.34 69.16)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U9"
@@ -67291,7 +67291,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "c7eb4905-559f-4d3c-83f7-7ebde78377a9")
-		(at 178.3 138.48)
+		(at 196.54 315.19)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q11"
@@ -67557,7 +67557,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c805e9b2-d3e3-4752-9b67-385f95801d01")
-		(at 230.02 204.37)
+		(at 248.26 381.08)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D32"
@@ -67842,7 +67842,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "c849181d-fe8a-4b0e-be66-19ac3a4ee160")
-		(at 83.94 40.53)
+		(at 428.97 347.67)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J41"
 			(at 6 -12 0)
@@ -68178,7 +68178,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "ca74354a-bf3a-4c9a-ba67-aa814f9151c9")
-		(at 68.99 -5.13)
+		(at 414.02 302.01)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J28"
 			(at 6 -12 0)
@@ -68514,7 +68514,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "cbc020a1-0ba3-4379-94ec-eeeae308fbc5")
-		(at 132.01 166.45)
+		(at 150.25 343.16)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D2"
@@ -68799,7 +68799,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "cc164700-cf54-415d-9350-ca5b15867b70")
-		(at 243.64 176.4)
+		(at 261.88 353.11)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q9"
@@ -69065,7 +69065,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "cc9b3f2e-adbe-4771-9ae4-f72092dd263e")
-		(at 98.89 17.7)
+		(at 443.92 324.84)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J36"
 			(at 6 -12 0)
@@ -69401,7 +69401,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "cee66074-74a7-44df-bb71-b1aac71df6f9")
-		(at 155.755 198.75)
+		(at 173.995 375.46)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K50"
@@ -69754,7 +69754,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "cf5a69eb-dc2f-4ef4-a611-97d2d4170514")
-		(at 243.64 182.51)
+		(at 261.88 359.22)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q10"
@@ -70020,7 +70020,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "d02f8f5c-a8b0-4746-8b4c-14ef6233edd7")
-		(at 210.97 214.32)
+		(at 229.21 391.03)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q37"
@@ -70286,7 +70286,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d139bb7d-5ec8-4e11-aa2d-29d55e9ff97d")
-		(at 251.74 113.96)
+		(at 269.98 290.67)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R101"
@@ -70460,7 +70460,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d176877e-e800-49a0-a89e-b664bbd27136")
-		(at 61.76 225.32)
+		(at 80 402.03)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R38"
@@ -70634,7 +70634,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "d216d94b-c2b9-49a1-a5f1-2bf11626b248")
-		(at 247.97 59.91)
+		(at 523.88 122.46)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U13"
@@ -70878,7 +70878,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "d2731cd5-1350-4033-852c-825cc904ea2c")
-		(at 178.3 176.4)
+		(at 196.54 353.11)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q7"
@@ -71144,7 +71144,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "d37c7fb5-7aab-46c7-875a-d754b4b0c26b")
-		(at 221.095 122.91)
+		(at 239.335 299.62)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K18"
@@ -71497,7 +71497,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d51b860d-b9d4-4d3a-8b2c-cc7b70a12a67")
-		(at 99.24 103.06)
+		(at 117.48 279.77)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R43"
@@ -71671,7 +71671,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d713e0c3-71a5-4e34-9072-91bc6ad5b52c")
-		(at 61.76 179.3)
+		(at 80 356.01)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R33"
@@ -71845,7 +71845,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "d71f919e-21f1-406a-a211-6f5acf35f2ec")
-		(at 153.78 129.53)
+		(at 172.02 306.24)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K11"
@@ -72147,7 +72147,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "d7b1cb11-e07d-45a7-a3fe-a87338cfe5ae")
-		(at 217.35 47.22)
+		(at 493.26 109.77)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U4"
@@ -72391,7 +72391,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "d857c329-fb04-458e-95f6-00b17acaaa1e")
-		(at 54.04 17.7)
+		(at 399.07 324.84)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J33"
 			(at 6 -12 0)
@@ -72727,7 +72727,7 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "d9c53e4c-9a50-4529-9a7a-52dd48cc0f31")
-		(at 221.095 160.83)
+		(at 239.335 337.54)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K10"
@@ -73080,7 +73080,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "dc55317e-b742-4319-857c-adb82ede401a")
-		(at 178.3 144.59)
+		(at 196.54 321.3)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q12"
@@ -73346,7 +73346,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "dc82a38c-a55e-43ac-80e3-2c463dc5bddf")
-		(at 216.95 30.46)
+		(at 492.86 93.01)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R83"
@@ -73520,7 +73520,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "dd5dc5bc-6883-415c-830c-3c55c37c9e75")
-		(at 145.63 214.32)
+		(at 163.87 391.03)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q33"
@@ -73786,7 +73786,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "de0157ce-9219-4997-bf03-c72d230962be")
-		(at 131.91 145.03)
+		(at 150.15 321.74)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R11"
@@ -73960,7 +73960,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "deda4807-e0ee-4820-8779-8e2edda01fb1")
-		(at 251.74 126.65)
+		(at 269.98 303.36)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R93"
@@ -74134,7 +74134,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "df1ee174-941f-4a6e-af33-21e5f9d012bc")
-		(at 130.79 63.36)
+		(at 285.12 113.5)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J20"
 			(at 6 -12 0)
@@ -74470,7 +74470,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e1180024-ffc3-4e45-bd50-0422eb5c6eb7")
-		(at 99.24 145.03)
+		(at 117.48 321.74)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R23"
@@ -74644,7 +74644,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e332c5af-4454-4cc5-8fe6-abaf4f05cdff")
-		(at 164.58 99.01)
+		(at 182.82 275.72)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R66"
@@ -74818,7 +74818,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "e3397cda-4a76-4666-a645-b442b5f7332c")
-		(at 243.64 220.43)
+		(at 261.88 397.14)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q32"
@@ -75084,7 +75084,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "e453165a-739f-4233-8a50-c1a2332fb003")
-		(at 145.63 220.43)
+		(at 163.87 397.14)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q34"
@@ -75350,7 +75350,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e480d47a-448c-4a04-a616-1bd47ec59337")
-		(at 164.58 174.85)
+		(at 182.82 351.56)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R12"
@@ -75524,7 +75524,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "e49b8449-05bd-4705-b257-34ecb9d10253")
-		(at 145.63 182.51)
+		(at 163.87 359.22)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q4"
@@ -75790,7 +75790,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e4ce3b07-dac4-46f6-a2aa-f7320f60d686")
-		(at 29.09 183.35)
+		(at 47.33 360.06)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R31"
@@ -75964,7 +75964,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "e5d637da-c7ae-481a-a403-3b08cd36d98e")
-		(at 145.74 40.53)
+		(at 300.07 90.67)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J15"
 			(at 6 -12 0)
@@ -76300,7 +76300,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e671ef40-8f80-44da-bfbc-beae9a276033")
-		(at 232.26 30.46)
+		(at 508.17 93.01)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R90"
@@ -76474,7 +76474,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "e6af5275-eb5a-4feb-8093-14d929b35e8d")
-		(at 210.97 138.48)
+		(at 229.21 315.19)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q41"
@@ -76740,7 +76740,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e78bc76c-7628-47c4-845f-a3b64f99985f")
-		(at 99.24 174.85)
+		(at 117.48 351.56)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R60"
@@ -76914,7 +76914,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "e9837b9f-5fc3-4cc9-8f8f-ed76f33e266c")
-		(at 251.69 -13.21)
+		(at 527.6 49.34)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U30"
@@ -77158,7 +77158,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "eaa85681-2a42-45dd-bda8-1990b04de090")
-		(at 190.59 63.36)
+		(at 344.92 113.5)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J24"
 			(at 6 -12 0)
@@ -77494,7 +77494,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "eade4e54-38be-4a64-9dc1-49883a01e98a")
-		(at 230.02 94.86)
+		(at 248.26 271.57)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D17"
@@ -77779,7 +77779,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "ed0a4593-70ab-42b4-b600-a81a9e68057a")
-		(at 243.64 144.59)
+		(at 261.88 321.3)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q18"
@@ -78045,7 +78045,7 @@
 	(footprint "Phones:STM32NucleoF303RE"
 		(layer "F.Cu")
 		(uuid "ed2582b9-e6de-4b5c-ac85-ac1ab0d444ed")
-		(at 18.99 76.34)
+		(at 354 161.34)
 		(property "Reference" "U1"
 			(at 30.25 -1.75 0)
 			(unlocked yes)
@@ -79727,7 +79727,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "edd90b27-8bbf-4686-81d6-a9abed2bbe63")
-		(at 75.48 180.85)
+		(at 93.72 357.56)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q21"
@@ -79993,7 +79993,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "eed73b35-a673-4922-99bd-ef63e19857d1")
-		(at 197.25 220.87)
+		(at 215.49 397.58)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R59"
@@ -80167,7 +80167,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "f1d2a253-77d0-4370-b0bc-7060f8878b9e")
-		(at 98.89 40.53)
+		(at 443.92 347.67)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J42"
 			(at 6 -12 0)
@@ -80503,7 +80503,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f268a75b-6e02-4220-825c-92a16ed9782c")
-		(at 164.58 216.82)
+		(at 182.82 393.53)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R76"
@@ -80677,7 +80677,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "f26d0834-1e96-4354-8c38-482e98af1bee")
-		(at 243.64 214.32)
+		(at 261.88 391.03)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q31"
@@ -80943,11 +80943,11 @@
 	(footprint "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
 		(layer "F.Cu")
 		(uuid "f35ed2ff-d2c0-4556-afc6-f6b29f612aed")
-		(at 90.415 84.99)
+		(at 108.655 261.7)
 		(descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
 		(tags "Panasonic Relay SPDT")
 		(property "Reference" "K28"
-			(at 11.7 -11.55 180)
+			(at -119.36 -35.93 180)
 			(layer "F.SilkS")
 			(uuid "cd6b88c2-8880-431e-a24f-9aba4904a6ba")
 			(effects
@@ -81296,7 +81296,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "f3bb745d-be6e-4bff-834b-6be9eb2d9c89")
-		(at 112.96 144.59)
+		(at 131.2 321.3)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q14"
@@ -81562,7 +81562,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f450d21f-d1b1-42cd-91db-f57ef453c6c3")
-		(at 197.35 208.62)
+		(at 215.59 385.33)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D39"
@@ -81847,7 +81847,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f5596a95-0f51-4131-b74b-8879da28138f")
-		(at 61.76 183.35)
+		(at 80 360.06)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R34"
@@ -82021,7 +82021,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "f5b48ccb-6c97-460b-be3c-0e4478999722")
-		(at 202.04 59.91)
+		(at 477.95 122.46)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U26"
@@ -82265,7 +82265,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f67d9115-7699-415c-8b3c-86c842b94029")
-		(at 197.25 216.82)
+		(at 215.49 393.53)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R58"
@@ -82439,7 +82439,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "f70c9128-759f-439a-8677-84fb57fc205f")
-		(at 223.21 6.61)
+		(at 499.12 69.16)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U10"
@@ -82819,7 +82819,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f9344844-5515-4837-84fe-5e90b349e6f9")
-		(at 230.02 208.62)
+		(at 248.26 385.33)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D33"
@@ -83104,7 +83104,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "fa446c95-c508-40ee-b252-51f231b5ffff")
-		(at 197.25 212.77)
+		(at 215.49 389.48)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R57"
@@ -83278,7 +83278,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "fab857c7-9204-4086-9205-64337616e2c9")
-		(at 232.66 47.22)
+		(at 508.57 109.77)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U32"
@@ -83522,7 +83522,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "fb13c2fb-a117-4e8f-b738-c0957ea49248")
-		(at 121.11 167.45)
+		(at 139.35 344.16)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K2"
@@ -83824,7 +83824,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "fc69fadb-6171-498b-a5b4-b8d8a6223f89")
-		(at 115.84 17.7)
+		(at 270.17 67.84)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J7"
 			(at 6 -12 0)
@@ -84160,7 +84160,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "fdcb27c5-ab12-4b8e-8481-c0d1178d4fcd")
-		(at 210.97 144.59)
+		(at 229.21 321.3)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q42"
@@ -84426,7 +84426,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "fe70fd2e-bae1-4030-9761-ec9ac7d464bd")
-		(at 130.79 40.53)
+		(at 285.12 90.67)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J14"
 			(at 6 -12 0)
@@ -84762,7 +84762,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "ff854d48-3453-43cf-a426-b5ba143a4963")
-		(at 164.58 220.87)
+		(at 182.82 397.58)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R77"
@@ -84936,7 +84936,7 @@
 	(footprint "Relay_THT:Relay_StandexMeder_DIP_HighProfile"
 		(layer "F.Cu")
 		(uuid "fff40361-53fb-4973-8069-9ddb8d0ad352")
-		(at 153.78 167.45)
+		(at 172.02 344.16)
 		(descr "package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf")
 		(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay")
 		(property "Reference" "K7"
@@ -85233,6 +85233,30 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(gr_text "Input Jacks"
+		(at 172 43.31 0)
+		(layer "F.SilkS")
+		(uuid "f83a2227-3b03-4725-91c7-51e5bb7cc407")
+		(effects
+			(font
+				(size 10 10)
+				(thickness 1.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Output Jacks"
+		(at 462 300 0)
+		(layer "F.SilkS")
+		(uuid "fcb10a1e-7aaa-40c0-a915-09f22012608c")
+		(effects
+			(font
+				(size 10 10)
+				(thickness 1.25)
+			)
+			(justify left bottom)
 		)
 	)
 	(embedded_fonts no)
