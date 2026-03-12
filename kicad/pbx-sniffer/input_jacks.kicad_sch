@@ -3288,7 +3288,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10492548-a9c2-4d1e-bc05-189d679dffd4")
-		(property "Reference" "J8"
+		(property "Reference" "J2"
 			(at 81.28 53.34 0)
 			(effects
 				(font
@@ -3356,7 +3356,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
-					(reference "J8")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3371,7 +3371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "120e3b30-f315-4b41-9b64-752433c66e87")
-		(property "Reference" "J2"
+		(property "Reference" "J8"
 			(at 85.09 53.34 0)
 			(effects
 				(font
@@ -3439,7 +3439,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
-					(reference "J2")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3455,7 +3455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e176bdf-a5ea-4b68-9803-651f9c08b219")
-		(property "Reference" "J10"
+		(property "Reference" "J4"
 			(at 81.28 93.98 0)
 			(effects
 				(font
@@ -3523,7 +3523,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
-					(reference "J10")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3621,7 +3621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27ac00f6-14d3-4f06-99d2-37eaebf9c3c4")
-		(property "Reference" "J3"
+		(property "Reference" "J9"
 			(at 85.09 73.66 0)
 			(effects
 				(font
@@ -3689,7 +3689,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
-					(reference "J3")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -3705,7 +3705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c74a20f-3608-4eae-8def-10a2d9cc75ca")
-		(property "Reference" "J12"
+		(property "Reference" "J6"
 			(at 81.28 134.62 0)
 			(effects
 				(font
@@ -3773,7 +3773,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
-					(reference "J12")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3954,7 +3954,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65ad4da5-fceb-4391-9243-3a50ad6a22c5")
-		(property "Reference" "J5"
+		(property "Reference" "J11"
 			(at 85.09 114.3 0)
 			(effects
 				(font
@@ -4022,7 +4022,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
-					(reference "J5")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -4038,7 +4038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7389cbff-c8aa-46a6-ba77-d1b9402eed70")
-		(property "Reference" "J11"
+		(property "Reference" "J5"
 			(at 81.28 114.3 0)
 			(effects
 				(font
@@ -4106,7 +4106,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
-					(reference "J11")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4206,7 +4206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86902171-d856-43ae-9b48-1a37fbf4a4e6")
-		(property "Reference" "J9"
+		(property "Reference" "J3"
 			(at 81.28 73.66 0)
 			(effects
 				(font
@@ -4274,7 +4274,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
-					(reference "J9")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4457,7 +4457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fc8f1b5-cb5f-488d-8b66-c17155dff91b")
-		(property "Reference" "J4"
+		(property "Reference" "J10"
 			(at 85.09 93.98 0)
 			(effects
 				(font
@@ -4525,7 +4525,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
-					(reference "J4")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -4541,7 +4541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5168997-8c62-471c-aee2-3a48e972f72f")
-		(property "Reference" "J7"
+		(property "Reference" "J1"
 			(at 81.28 33.02 0)
 			(effects
 				(font
@@ -4609,7 +4609,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
-					(reference "J7")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4791,7 +4791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1932d16-055b-495f-8d8a-151b065e782f")
-		(property "Reference" "J6"
+		(property "Reference" "J12"
 			(at 85.09 134.62 0)
 			(effects
 				(font
@@ -4859,7 +4859,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
-					(reference "J6")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -5125,7 +5125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f11c863e-66a6-4dcb-98a7-b9ad3c5e09fb")
-		(property "Reference" "J1"
+		(property "Reference" "J7"
 			(at 85.09 33.02 0)
 			(effects
 				(font
@@ -5193,7 +5193,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/7f66e062-f194-4d68-9744-df7dfe6719d2"
-					(reference "J1")
+					(reference "J7")
 					(unit 1)
 				)
 			)

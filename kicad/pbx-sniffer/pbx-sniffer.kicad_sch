@@ -3076,6 +3076,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 76.2) (xy 313.69 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28407975-db5b-48e8-8908-4416cc60e14b")
+	)
+	(wire
+		(pts
 			(xy 351.79 161.29) (xy 356.87 161.29)
 		)
 		(stroke
@@ -4206,7 +4216,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 76.2) (xy 311.15 78.74)
+			(xy 311.15 73.66) (xy 311.15 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7887,7 +7897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d03b411-97db-4419-8db2-40534ae517b9")
-		(property "Reference" "#PWR0240"
+		(property "Reference" "#PWR05"
 			(at 308.61 80.01 0)
 			(effects
 				(font
@@ -7937,7 +7947,7 @@
 		(instances
 			(project ""
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
-					(reference "#PWR0240")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8257,7 +8267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "285c0e2d-d934-45bd-b13f-ff4c1cf465c0")
-		(property "Reference" "#PWR0243"
+		(property "Reference" "#PWR06"
 			(at 308.61 167.64 0)
 			(effects
 				(font
@@ -8307,7 +8317,7 @@
 		(instances
 			(project ""
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
-					(reference "#PWR0243")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8323,7 +8333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "320e2a79-8a6a-4ba4-888e-7e6cb0df8ed5")
-		(property "Reference" "#PWR0237"
+		(property "Reference" "#PWR011"
 			(at 339.09 80.01 0)
 			(effects
 				(font
@@ -8374,7 +8384,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
-					(reference "#PWR0237")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8390,7 +8400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d369ee6-82fb-4c96-8d05-4bbbe943fc0b")
-		(property "Reference" "#PWR0238"
+		(property "Reference" "#PWR02"
 			(at 228.6 57.15 0)
 			(effects
 				(font
@@ -8441,7 +8451,72 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
-					(reference "#PWR0238")
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 313.69 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8079a152-1b5d-476b-a48c-96420c03c944")
+		(property "Reference" "#PWR08"
+			(at 313.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 309.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 313.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 313.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b333d425-0310-4c33-a640-73894cb7e329")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8456,7 +8531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cbc1eff-eb8d-4134-8430-b7fe825cc5aa")
-		(property "Reference" "#PWR0246"
+		(property "Reference" "#PWR09"
 			(at 332.74 74.93 0)
 			(effects
 				(font
@@ -8506,7 +8581,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
-					(reference "#PWR0246")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8521,7 +8596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a26eb1a6-2b2d-4a2a-81e2-0d3dc5b64c53")
-		(property "Reference" "#PWR0241"
+		(property "Reference" "#PWR03"
 			(at 231.14 57.15 0)
 			(effects
 				(font
@@ -8571,7 +8646,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
-					(reference "#PWR0241")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8579,15 +8654,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 311.15 76.2 0)
+		(at 311.15 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a397e1a3-8e67-41dc-b8b1-ae99025e28fd")
-		(property "Reference" "#PWR0239"
-			(at 311.15 80.01 0)
+		(property "Reference" "#PWR07"
+			(at 311.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,7 +8671,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 313.69 74.93 0)
+			(at 313.69 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8604,7 +8679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 311.15 76.2 0)
+			(at 311.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8613,7 +8688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 76.2 0)
+			(at 311.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,7 +8697,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 311.15 76.2 0)
+			(at 311.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8636,7 +8711,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
-					(reference "#PWR0239")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8956,7 +9031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1f51059-4afe-4c27-869e-256bcf903b9b")
-		(property "Reference" "#PWR0242"
+		(property "Reference" "#PWR01"
 			(at 72.39 106.68 0)
 			(effects
 				(font
@@ -9006,7 +9081,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
-					(reference "#PWR0242")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -9326,7 +9401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8d9a3d7-6e47-4b6b-9395-35cf74ca3441")
-		(property "Reference" "#PWR0244"
+		(property "Reference" "#PWR010"
 			(at 337.82 179.07 0)
 			(effects
 				(font
@@ -9376,7 +9451,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
-					(reference "#PWR0244")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9391,7 +9466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc87b41e-898e-47c8-a357-0641b1dc3b31")
-		(property "Reference" "#PWR0245"
+		(property "Reference" "#PWR04"
 			(at 300.99 74.93 0)
 			(effects
 				(font
@@ -9441,7 +9516,7 @@
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
-					(reference "#PWR0245")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
