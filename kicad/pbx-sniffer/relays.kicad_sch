@@ -544,7 +544,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -562,7 +562,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -580,7 +580,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -598,7 +598,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -616,7 +616,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2159,7 +2159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC"
+		(property "Footprint" "Phones:K_AZ943-1C_AMZ"
 			(at 106.172 34.29 0)
 			(effects
 				(font
@@ -2190,10 +2190,10 @@
 		(pin "4"
 			(uuid "28169122-fe16-4880-be40-0e451112a503")
 		)
-		(pin "8"
+		(pin "3"
 			(uuid "20edf42f-05ed-4eb3-9e5a-b4b60a3d74a4")
 		)
-		(pin "6"
+		(pin "5"
 			(uuid "f69ffbea-c76b-446f-866f-61fba3a95311")
 		)
 		(pin "2"
