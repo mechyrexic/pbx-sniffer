@@ -2169,7 +2169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.azettler.com/pdfs/az943.pdf"
 			(at 104.902 45.72 0)
 			(effects
 				(font

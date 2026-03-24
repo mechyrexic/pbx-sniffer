@@ -676,7 +676,7 @@
     ],
     [
       "e986fa27-3000-4fd4-977f-685db87b7fc5",
-      "multiplexer"
+      "Multiplexers"
     ],
     [
       "034ac82b-541e-40fe-babd-660f127c9f12",
@@ -873,6 +873,10 @@
     [
       "17ca54db-3786-452b-861c-ca773549c614",
       "Wiretap23"
+    ],
+    [
+      "1e9f4ccf-243b-4d63-b919-69756a1eec5c",
+      "Shift Registers"
     ]
   ],
   "text_variables": {}

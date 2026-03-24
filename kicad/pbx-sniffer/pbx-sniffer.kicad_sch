@@ -3623,7 +3623,7 @@
 	)
 	(rectangle
 		(start 264.16 16.51)
-		(end 317.5 45.72)
+		(end 353.06 45.72)
 		(stroke
 			(width 0)
 			(type default)
@@ -4952,6 +4952,16 @@
 			(type default)
 		)
 		(uuid "46f3a2f5-3bca-4a34-b438-0ee7665ed3e9")
+	)
+	(wire
+		(pts
+			(xy 287.02 83.82) (xy 293.37 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0c3e3b-874a-4aed-9159-c3a342ac0f1a")
 	)
 	(wire
 		(pts
@@ -7583,6 +7593,28 @@
 		)
 		(uuid "f9c15ab2-883d-447a-bd82-617d6074cd61")
 	)
+	(global_label "shiftOut"
+		(shape output)
+		(at 287.02 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0126c1ad-f762-4991-9e44-bdf79d575d2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.5963 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "controlSW1"
 		(shape input)
 		(at 356.87 118.11 0)
@@ -10016,7 +10048,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 309.88 74.93 0)
+			(at 317.5 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11282,6 +11314,48 @@
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 317.5 27.94)
+		(size 21.59 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e9f4ccf-243b-4d63-b919-69756a1eec5c")
+		(property "Sheetname" "Shift Registers"
+			(at 317.5 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shift-registers.kicad_sch"
+			(at 317.5 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
+					(page "56")
 				)
 			)
 		)
@@ -14128,7 +14202,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e986fa27-3000-4fd4-977f-685db87b7fc5")
-		(property "Sheetname" "multiplexer"
+		(property "Sheetname" "Multiplexers"
 			(at 62.23 104.6984 0)
 			(effects
 				(font
