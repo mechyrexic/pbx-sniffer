@@ -3634,18 +3634,6 @@
 		(uuid 2f344861-0123-496d-ba94-3e194f01b54b)
 	)
 	(rectangle
-		(start 321.31 16.51)
-		(end 345.44 45.72)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ac0e3f9d-6960-4e08-af8c-acaff2e8db77)
-	)
-	(rectangle
 		(start 264.16 49.53)
 		(end 379.73 184.15)
 		(stroke
@@ -3666,16 +3654,6 @@
 			)
 		)
 		(uuid "238d45e0-1cd9-42ca-8f0d-be89f2073784")
-	)
-	(text "WIP\n"
-		(exclude_from_sim no)
-		(at 326.39 20.32 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "531b9013-d254-47fb-9930-d9155f872759")
 	)
 	(text "Telephony IO & Sniffing"
 		(exclude_from_sim no)
@@ -11304,48 +11282,6 @@
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 323.85 26.67)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5440b238-ad38-4f50-b001-ed881622e44b")
-		(property "Sheetname" "Power"
-			(at 323.85 25.9584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 323.85 31.0646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "pbx-sniffer"
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31"
-					(page "4")
 				)
 			)
 		)
