@@ -1340,6 +1340,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "559-PS2565L1-1Y-A-ND"
+			(at 50.165 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "78fab816-8ff3-48b6-92a4-df75dbf44818")
 		)

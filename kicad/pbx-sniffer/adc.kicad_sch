@@ -1995,6 +1995,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "MCP3008-I/P-ND"
+			(at 116.84 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "0b05dba6-2748-45d2-a477-c8c9d96e7a54")
 		)
@@ -2107,6 +2116,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "MCP3008-I/P-ND"
+			(at 116.84 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "caaf56e2-2080-4b91-90a1-9483b5bd165e")
 		)
@@ -2211,6 +2229,15 @@
 			)
 		)
 		(property "Description" "A/D Converter, 10-Bit, 8-Channel, SPI Interface , 2.7V-5.5V"
+			(at 116.84 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "MCP3008-I/P-ND"
 			(at 116.84 42.545 0)
 			(effects
 				(font

@@ -2096,6 +2096,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "296-1575-5-ND"
+			(at 59.055 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "327afb46-90c5-4d76-a159-eb0638c0dc3a")
 		)
@@ -2208,6 +2217,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "296-1575-5-ND"
+			(at 198.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "f35acb5d-d0b0-42b7-979c-a8f296ec964a")
 		)
@@ -2312,6 +2330,15 @@
 			)
 		)
 		(property "Description" "3-to-8 line decoder/multiplexer inverting, DIP-16/SOIC-16/SSOP-16"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "296-1575-5-ND"
 			(at 125.73 62.23 0)
 			(effects
 				(font

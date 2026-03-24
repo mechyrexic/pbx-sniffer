@@ -2187,6 +2187,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "3385-AZ943-1CH-5DE-ND"
+			(at 104.902 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "28169122-fe16-4880-be40-0e451112a503")
 		)
@@ -2373,6 +2382,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 79.375 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "2368-1N4003-ND"
+			(at 79.375 53.975 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,6 +3081,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "ZVP3306A-ND"
+			(at 67.945 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "ec04b6f0-06a9-4667-b1da-8203a2735de9")
 		)
@@ -3239,6 +3266,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 104.394 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "2368-1N4003-ND"
 			(at 104.394 59.182 0)
 			(effects
 				(font
@@ -4061,6 +4097,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "1835-1116-ND"
+			(at 65.405 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "bdc4619c-e811-4a02-94be-e9e3d1f1b4a5")
 		)
@@ -4253,6 +4298,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 76.2 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "ZVP3306A-ND"
+			(at 91.44 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
