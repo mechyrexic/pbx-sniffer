@@ -1,0 +1,7 @@
+03-26 17:47:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 409:Plugin executed on: 'linux'
+03-26 17:47:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 410:Plugin executed with python version: '3.13.12 (main, Feb 09 2026, 22:37:44) [GCC]'
+03-26 17:47:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 411:KiCad build version: 9.0.7
+03-26 17:47:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 412:Plugin version: 4.0.3
+03-26 17:47:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 413:Frame repr: <wx._core.Frame object at 0x7f866d205910>
+03-26 17:47:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 437:Preparing replicator with JP27 as a reference
+03-26 17:47:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
