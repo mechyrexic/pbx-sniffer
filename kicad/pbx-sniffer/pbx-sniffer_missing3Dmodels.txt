@@ -1,0 +1,33 @@
+### Missing 3D models - created on 2026-03-26 17:19
+### Printed by checking_3D_models plugin
+Board file: /home/ib/Desktop/pbx-sniffer/kicad/pbx-sniffer/pbx-sniffer.kicad_pcb
+3D missing models written to:
+/home/ib/Desktop/pbx-sniffer/kicad/pbx-sniffer/pbx-sniffer_missing3Dmodels.txt
+-------
+('JP18', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP10', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP8', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP20', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP12', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP11', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP6', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP9', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP3', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP15', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP23', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP5', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP19', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP25', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP4', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP17', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP7', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP2', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP16', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP21', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP22', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP24', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP14', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+('JP13', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')
+-------
+NUM of 3D missing models:24
+checked extensions ['.stp', '.step', '.stpZ']

@@ -1,0 +1,49 @@
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+Can not find model defined with enviroment variable:
+${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl
+[('JP18', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP10', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP8', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP20', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP12', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP11', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP6', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP9', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP3', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP15', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP23', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP5', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP19', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP25', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP4', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP17', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP7', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP2', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP16', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP21', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP22', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP24', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP14', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl'), ('JP13', '${KICAD7_3RD_PARTY}/3dmodels/com_github_Sajitha-Aldeniya_KiCad-Simple-Libraries/SL_Jumpers.3dshapes/JUP_P10mm.wrl')]
