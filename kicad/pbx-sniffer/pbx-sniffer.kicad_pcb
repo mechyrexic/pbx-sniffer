@@ -1481,7 +1481,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "03d9f1d0-c07b-4af5-a3b8-8b242d258bc2")
-		(at 208.08 351.5)
+		(at 206.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J29"
 			(at 6 -12 0)
@@ -1776,7 +1776,7 @@
 			(at -1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 89 "/Input Phone Jacks/ptTX10")
+			(net 65 "/Input Phone Jacks/ptTX4")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -1797,7 +1797,7 @@
 			(at -0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 148 "/Output Phone Jacks/Wiretap10/Tpots")
+			(net 154 "/Output Phone Jacks/Wiretap4/Tpots")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -1818,7 +1818,7 @@
 			(at 0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 91 "/Input Phone Jacks/Rpbx10")
+			(net 64 "/Input Phone Jacks/Rpbx4")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -1839,7 +1839,7 @@
 			(at 1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 90 "/Input Phone Jacks/ptRX10")
+			(net 67 "/Input Phone Jacks/ptRX4")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -1861,7 +1861,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "04ff7df1-8516-4511-b0b1-14022b395d25")
-		(at 504.28 176.2)
+		(at 539.88 497)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R103"
@@ -2035,7 +2035,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0531f7d8-866f-4c70-b228-9ba698b1aaab")
-		(at 128.92 85)
+		(at 497.84 582.3)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R25"
@@ -2551,7 +2551,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "055f5a71-f341-44b0-88db-edbfc8c69bb9")
-		(at 127.34 110)
+		(at 496.26 607.3)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R24"
@@ -3824,7 +3824,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0919c2b4-cadc-4db8-a34f-ffa606a88702")
-		(at 518.34 175.55)
+		(at 553.94 496.35)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J53"
@@ -4077,7 +4077,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "098f93ef-879b-4414-9c57-8ec2367844e7")
-		(at 124 102 -90)
+		(at 492.92 599.3 -90)
 		(property "Reference" "JP8"
 			(at 0 -2 270)
 			(unlocked yes)
@@ -6450,7 +6450,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "1005ff6f-d33f-4234-a897-6651fbfb95b5")
-		(at 375.9 241.9)
+		(at 411.5 562.7)
 		(property "Reference" "JP20"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -6801,7 +6801,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "1066adba-c17b-4dbd-8efb-de98aeea90b1")
-		(at 141.46 100.5)
+		(at 510.38 597.8)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q15"
@@ -7309,7 +7309,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "10df5ab5-8b4c-4f62-be56-2e0a0252cc35")
-		(at 504.28 192.4)
+		(at 539.88 513.2)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R107"
@@ -7795,7 +7795,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "1149a42a-f669-44cf-815e-cfdef55f1315")
-		(at 406 236.85)
+		(at 441.6 557.65)
 		(property "Reference" "JP12"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -10359,7 +10359,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "1a971dfa-3965-493b-b4f6-d58abb8e37dd")
-		(at 406 272.2)
+		(at 441.6 593)
 		(property "Reference" "JP11"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -10514,7 +10514,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "1b5f6c96-6fb1-46a0-bcfd-6784532384cb")
-		(at 427.07 95.09)
+		(at 462.67 415.89)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U27"
@@ -11734,7 +11734,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "1c0ee1ac-f83c-455b-851b-742193941c96")
-		(at 186.08 102.5 180)
+		(at 555 599.8 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R29"
@@ -12776,7 +12776,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "1f805397-968d-4d08-b3ab-8a728438d272")
-		(at 75.5475 274.6125)
+		(at 131.64 130.5)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R6"
@@ -13800,13 +13800,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "22aa939b-707e-40d8-ab47-bf8e9a1d8037")
-		(at 82.9075 288.9725 90)
+		(at 148.18 232.75 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R7"
-			(at 5.08 -2.37 90)
+			(at 5.08 -2.37 0)
 			(layer "F.SilkS")
-			(uuid "925548e7-5b2d-447d-ba33-08129ff83fd1")
+			(uuid "3b0be7a2-7abd-4954-b4a4-7323c6f6a6aa")
 			(effects
 				(font
 					(size 1 1)
@@ -13815,9 +13815,9 @@
 			)
 		)
 		(property "Value" "500"
-			(at 5.08 2.37 90)
+			(at 5.08 2.37 0)
 			(layer "F.Fab")
-			(uuid "bc293aff-b4fe-4b11-a8a5-4e3f5439312c")
+			(uuid "7af18228-ee29-4e14-8733-35a0692d9c1a")
 			(effects
 				(font
 					(size 1 1)
@@ -13826,10 +13826,10 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be79e75e-b562-4dc1-b77d-d19b039a0f7a")
+			(uuid "14c2c411-5af4-4de9-9389-277d0a01c4e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13838,10 +13838,10 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6ec8c88-b12d-4f57-938e-0490285f1316")
+			(uuid "3014d606-06a2-4fb3-bb9c-9bb23450807d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13928,7 +13928,7 @@
 			(uuid "4169b078-e2f5-4834-9ad7-b8c09a38294e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 90)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "a02d3cff-48eb-4a5c-9e38-dfb82bd0537d")
 			(effects
@@ -13939,7 +13939,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 90)
+			(at 0 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -13960,7 +13960,7 @@
 			(uuid "8eb15886-0c21-4402-a4be-ebd3100e81d1")
 		)
 		(pad "2" thru_hole circle
-			(at 10.16 0 90)
+			(at 10.16 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -15050,7 +15050,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "25476a97-d62a-4ad5-b626-a8bc9c8dafa0")
-		(at 504.28 224.8)
+		(at 539.88 545.6)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R115"
@@ -16255,7 +16255,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "276b7abf-47b2-4c3d-a7fd-44c9f11fb765")
-		(at 528.38 196.72)
+		(at 563.98 517.52)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U34"
@@ -16648,7 +16648,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "29a3b9a4-6cd5-4a2e-adcc-cd98358c0990")
-		(at 448.08 351.5)
+		(at 446.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J45"
 			(at 6 -12 0)
@@ -17028,7 +17028,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "29c775b5-0318-49b9-b6ec-c732ad2d51ac")
-		(at 477.95 109.77)
+		(at 513.55 430.57)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U28"
@@ -17855,7 +17855,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "2c4c7e28-8a1c-496a-82ef-a7f900f28514")
-		(at 406 257.05)
+		(at 441.6 577.85)
 		(property "Reference" "JP6"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -18010,7 +18010,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2cc98188-b408-4943-9a71-f5cb985a1b7e")
-		(at 527.54 175.55)
+		(at 563.14 496.35)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J55"
@@ -18263,7 +18263,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "2d5d6190-2dad-498e-8b52-edbac2721ca2")
-		(at 523.48 105.7)
+		(at 559.08 426.5)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R89"
@@ -18459,7 +18459,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2eb8d819-0856-41df-a041-758b8c8fa13e")
-		(at 527.54 182.7)
+		(at 563.14 503.5)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J59"
@@ -18712,7 +18712,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "2feb42ba-ddb8-46ec-83ca-bbe4061bbb61")
-		(at 375.9 252)
+		(at 411.5 572.8)
 		(property "Reference" "JP9"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -19063,7 +19063,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3088742c-505b-4d56-b217-6646d3deb64b")
-		(at 492.86 118.39)
+		(at 528.46 439.19)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R85"
@@ -19259,7 +19259,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "3156aad2-7fb9-4bfe-b212-eeebc7cb685b")
-		(at 253.08 351.5)
+		(at 251.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J32"
 			(at 6 -12 0)
@@ -19554,7 +19554,7 @@
 			(at -1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 52 "/Input Phone Jacks/ptTX1")
+			(net 78 "/Input Phone Jacks/ptTX7")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -19575,7 +19575,7 @@
 			(at -0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 151 "/Output Phone Jacks/Wiretap1/Tpots")
+			(net 145 "/Output Phone Jacks/Wiretap7/Tpots")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -19596,7 +19596,7 @@
 			(at 0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 54 "/Input Phone Jacks/Rpbx1")
+			(net 77 "/Input Phone Jacks/Rpbx7")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -19617,7 +19617,7 @@
 			(at 1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 55 "/Input Phone Jacks/ptRX1")
+			(net 79 "/Input Phone Jacks/ptRX7")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -19951,7 +19951,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "32d634fa-4db6-4a6d-9fb5-c1bb26aa92e9")
-		(at 128.48 95.39)
+		(at 497.4 592.69)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R84"
@@ -20477,7 +20477,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "359acca1-003f-4430-8bfc-ddbe9153cacf")
-		(at 504.28 188.35)
+		(at 539.88 509.15)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R106"
@@ -20651,7 +20651,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3653ea9b-5761-4b16-90e4-26adddf3656f")
-		(at 523.48 118.39)
+		(at 559.08 439.19)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R81"
@@ -20847,7 +20847,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "366e21e4-59d3-40e9-b973-eab64dc3453c")
-		(at 85.2325 215.23771)
+		(at 135.65 179.15)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D5"
@@ -21462,7 +21462,7 @@
 			(at -1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 52 "/Input Phone Jacks/ptTX1")
+			(net 78 "/Input Phone Jacks/ptTX7")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -21483,7 +21483,7 @@
 			(at -0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 53 "/Input Phone Jacks/Line Control1/Tpbx")
+			(net 76 "/Input Phone Jacks/Line Control7/Tpbx")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -21504,7 +21504,7 @@
 			(at 0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 54 "/Input Phone Jacks/Rpbx1")
+			(net 77 "/Input Phone Jacks/Rpbx7")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -21525,7 +21525,7 @@
 			(at 1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 55 "/Input Phone Jacks/ptRX1")
+			(net 79 "/Input Phone Jacks/ptRX7")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -21859,7 +21859,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3797f77e-600c-4f36-8eff-414a954c11d8")
-		(at 155.15 106.5)
+		(at 524.07 603.8)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D19"
@@ -22529,7 +22529,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3914e2a4-ba40-4fbc-9a5a-cde1eb02b842")
-		(at 523.48 93.01)
+		(at 559.08 413.81)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R91"
@@ -22921,7 +22921,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "3a7a6298-4cc0-4aee-972b-209c97bf4e78")
-		(at 128.88 99.46)
+		(at 497.8 596.76)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U16"
@@ -25380,7 +25380,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3f212c8d-33ed-4866-b938-fd549817941c")
-		(at 532.14 168.4)
+		(at 567.74 489.2)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J52"
@@ -26781,7 +26781,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4132d666-1cbe-4670-bc67-5c28dd60fd3c")
-		(at 518.34 168.4)
+		(at 553.94 489.2)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J49"
@@ -27560,7 +27560,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "42cee83c-3657-441c-ae0e-b551ead5e152")
-		(at 375.9 236.85)
+		(at 411.5 557.65)
 		(property "Reference" "JP3"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -28010,7 +28010,7 @@
 			(at -1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 50 "/Input Phone Jacks/ptTX0")
+			(net 75 "/Input Phone Jacks/ptTX6")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -28031,7 +28031,7 @@
 			(at -0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 51 "/Input Phone Jacks/Line Control0/Tpbx")
+			(net 72 "/Input Phone Jacks/Line Control6/Tpbx")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -28052,7 +28052,7 @@
 			(at 0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 49 "/Input Phone Jacks/Rpbx0")
+			(net 73 "/Input Phone Jacks/Rpbx6")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -28073,7 +28073,7 @@
 			(at 1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 48 "/Input Phone Jacks/ptRX0")
+			(net 74 "/Input Phone Jacks/ptRX6")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -29057,7 +29057,7 @@
 	(footprint "Phones:K_AZ943-1C_AMZ"
 		(layer "F.Cu")
 		(uuid "43c672bf-d376-4bae-85fa-20b55de6be48")
-		(at 135.5 65.300801)
+		(at 504.42 562.600801)
 		(tags "AZ943-1CH-5DE ")
 		(property "Reference" "K16"
 			(at 0 8.0996 0)
@@ -30014,7 +30014,7 @@
 			(at -1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 93 "/Input Phone Jacks/ptTX11")
+			(net 70 "/Input Phone Jacks/ptTX5")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -30035,7 +30035,7 @@
 			(at -0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 95 "/Input Phone Jacks/Line Control11/Tpbx")
+			(net 68 "/Input Phone Jacks/Line Control5/Tpbx")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -30056,7 +30056,7 @@
 			(at 0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 94 "/Input Phone Jacks/Rpbx11")
+			(net 71 "/Input Phone Jacks/Rpbx5")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -30077,7 +30077,7 @@
 			(at 1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 92 "/Input Phone Jacks/ptRX11")
+			(net 69 "/Input Phone Jacks/ptRX5")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -30295,7 +30295,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "4659c6b1-6b88-45d3-b887-214739b8c16e")
-		(at 427.07 118.96)
+		(at 462.67 439.76)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U11"
@@ -33455,7 +33455,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "4e7d0dd3-d5d6-42f0-9cb1-4c9b003fd4b1")
-		(at 375.9 262.1)
+		(at 411.5 582.9)
 		(property "Reference" "JP15"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -34302,7 +34302,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4fbe38e1-51e7-4f41-b814-c2178186ba81")
-		(at 504.28 184.3)
+		(at 539.88 505.1)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R105"
@@ -34476,7 +34476,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "4ff8c70c-e0e0-4b6f-ad99-ec5c017f83ae")
-		(at 390.95 267.15)
+		(at 426.55 587.95)
 		(property "Reference" "JP23"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -35877,7 +35877,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "52b84d07-8de5-4315-a48e-2a0b8f94d1e9")
-		(at 148.08 351.5)
+		(at 142.705 152.475 180)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J25"
 			(at 6 -12 0)
@@ -35926,7 +35926,7 @@
 			)
 		)
 		(property "DKPN" "WM5574-ND"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35943,54 +35943,14 @@
 		(sheetfile "output_jacks.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -6.605 -10.22)
-			(end -6.605 -1.7)
+			(start 6.605 7.8)
+			(end 6.605 1.7)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "95fb5ee5-16a2-47d5-9935-c2b6aebd224d")
-		)
-		(fp_line
-			(start -6.605 -10.22)
-			(end -3 -10.22)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1a86e9db-77ce-40f8-92d9-7f973cf6c4e3")
-		)
-		(fp_line
-			(start -6.605 1.7)
-			(end -6.605 7.8)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cf8e388f-206a-4fe1-a9e2-b40193aa3952")
-		)
-		(fp_line
-			(start 3 -10.22)
-			(end 6.605 -10.22)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "83f17976-bbde-49cb-8001-145f8d8e73fd")
-		)
-		(fp_line
-			(start 6.605 -10.22)
-			(end 6.605 -1.7)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1d033558-adad-4230-85f8-f722edad20f4")
+			(uuid "ae5b65e9-1715-4192-8b7b-65ab92da1d3f")
 		)
 		(fp_line
 			(start 6.605 7.8)
@@ -36003,14 +35963,54 @@
 			(uuid "ea7b9459-303a-4fe0-9f4d-5d4b1c65ad52")
 		)
 		(fp_line
-			(start 6.605 7.8)
-			(end 6.605 1.7)
+			(start 6.605 -10.22)
+			(end 6.605 -1.7)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ae5b65e9-1715-4192-8b7b-65ab92da1d3f")
+			(uuid "1d033558-adad-4230-85f8-f722edad20f4")
+		)
+		(fp_line
+			(start 3 -10.22)
+			(end 6.605 -10.22)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "83f17976-bbde-49cb-8001-145f8d8e73fd")
+		)
+		(fp_line
+			(start -6.605 1.7)
+			(end -6.605 7.8)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cf8e388f-206a-4fe1-a9e2-b40193aa3952")
+		)
+		(fp_line
+			(start -6.605 -10.22)
+			(end -3 -10.22)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1a86e9db-77ce-40f8-92d9-7f973cf6c4e3")
+		)
+		(fp_line
+			(start -6.605 -10.22)
+			(end -6.605 -1.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "95fb5ee5-16a2-47d5-9935-c2b6aebd224d")
 		)
 		(fp_circle
 			(center -3.175 -11.049)
@@ -36024,64 +36024,14 @@
 			(uuid "7891881f-3f63-4836-9889-b273643abfad")
 		)
 		(fp_line
-			(start -6.95 -10.47)
-			(end -2.535 -10.47)
+			(start 6.95 8.13)
+			(end 6.95 -10.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f197fe23-05cb-4af0-8899-08aac9c0da55")
-		)
-		(fp_line
-			(start -6.95 8.13)
-			(end -6.95 -10.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ac482970-5be5-4860-a08f-fdeda0c95d8e")
-		)
-		(fp_line
-			(start -6.95 8.13)
-			(end 6.95 8.13)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0e1e1a7d-96a5-4986-be0e-92ef7aa83539")
-		)
-		(fp_line
-			(start -2.535 -13.65)
-			(end 2.535 -13.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "cb181d94-3216-4ea1-9425-b55c6a3605a9")
-		)
-		(fp_line
-			(start -2.535 -10.47)
-			(end -2.535 -13.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3c33081f-d8b7-45bd-be1e-ad7a6931125e")
-		)
-		(fp_line
-			(start 2.535 -13.65)
-			(end 2.535 -10.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "67e055f8-2f29-45e3-a1df-ddeefb7a0214")
+			(uuid "0e99137e-8724-464a-b432-4d47e6970b23")
 		)
 		(fp_line
 			(start 6.95 -10.47)
@@ -36094,34 +36044,74 @@
 			(uuid "df153ab4-2afb-440a-968a-4fa91417e2af")
 		)
 		(fp_line
-			(start 6.95 8.13)
-			(end 6.95 -10.47)
+			(start 2.535 -13.65)
+			(end 2.535 -10.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0e99137e-8724-464a-b432-4d47e6970b23")
+			(uuid "67e055f8-2f29-45e3-a1df-ddeefb7a0214")
 		)
 		(fp_line
-			(start -6.605 -10.22)
-			(end 6.605 -10.22)
+			(start -2.535 -10.47)
+			(end -2.535 -13.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3c33081f-d8b7-45bd-be1e-ad7a6931125e")
+		)
+		(fp_line
+			(start -2.535 -13.65)
+			(end 2.535 -13.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cb181d94-3216-4ea1-9425-b55c6a3605a9")
+		)
+		(fp_line
+			(start -6.95 8.13)
+			(end 6.95 8.13)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0e1e1a7d-96a5-4986-be0e-92ef7aa83539")
+		)
+		(fp_line
+			(start -6.95 8.13)
+			(end -6.95 -10.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ac482970-5be5-4860-a08f-fdeda0c95d8e")
+		)
+		(fp_line
+			(start -6.95 -10.47)
+			(end -2.535 -10.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f197fe23-05cb-4af0-8899-08aac9c0da55")
+		)
+		(fp_line
+			(start 6.605 7.88)
+			(end -6.605 7.88)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3cc92785-52c5-4fad-b28b-b7632df75b7b")
-		)
-		(fp_line
-			(start -6.605 7.88)
-			(end -6.605 -10.22)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c314b47f-2f89-43e5-9c66-95fdfa4641c3")
+			(uuid "209ce0ca-7dd3-4fa8-8a5e-598d4fbcbe45")
 		)
 		(fp_line
 			(start 6.605 -10.22)
@@ -36134,14 +36124,24 @@
 			(uuid "131d291e-7a42-4552-931d-920035c57855")
 		)
 		(fp_line
-			(start 6.605 7.88)
-			(end -6.605 7.88)
+			(start -6.605 7.88)
+			(end -6.605 -10.22)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "209ce0ca-7dd3-4fa8-8a5e-598d4fbcbe45")
+			(uuid "c314b47f-2f89-43e5-9c66-95fdfa4641c3")
+		)
+		(fp_line
+			(start -6.605 -10.22)
+			(end 6.605 -10.22)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3cc92785-52c5-4fad-b28b-b7632df75b7b")
 		)
 		(fp_circle
 			(center -3.175 -11.049)
@@ -36155,24 +36155,24 @@
 			(uuid "8423a5a8-b971-4bcd-a1df-5c4968950a77")
 		)
 		(pad "" np_thru_hole circle
-			(at -5.08 0)
+			(at -5.08 0 180)
 			(size 3.25 3.25)
 			(drill 3.25)
 			(layers "*.Cu" "*.Mask")
 			(uuid "0aba6e32-5f12-4555-bd3f-2ae6935d52fa")
 		)
 		(pad "" np_thru_hole circle
-			(at 5.08 0)
+			(at 5.08 0 180)
 			(size 3.25 3.25)
 			(drill 3.25)
 			(layers "*.Cu" "*.Mask")
 			(uuid "d986acad-9183-4284-a4f8-5c9634b1aca0")
 		)
 		(pad "1" smd rect
-			(at -1.905 -10.225)
+			(at -1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 75 "/Input Phone Jacks/ptTX6")
+			(net 50 "/Input Phone Jacks/ptTX0")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -36190,10 +36190,10 @@
 			(uuid "7fac2ae4-a259-434e-b285-eeffc591e837")
 		)
 		(pad "2" smd rect
-			(at -0.635 -10.225)
+			(at -0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 144 "/Output Phone Jacks/Wiretap6/Tpots")
+			(net 150 "/Output Phone Jacks/Wiretap0/Tpots")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -36211,10 +36211,10 @@
 			(uuid "edb68855-424d-4516-997a-0f4539db8f13")
 		)
 		(pad "3" smd rect
-			(at 0.635 -10.225)
+			(at 0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 73 "/Input Phone Jacks/Rpbx6")
+			(net 49 "/Input Phone Jacks/Rpbx0")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -36232,10 +36232,10 @@
 			(uuid "04b8fa24-a934-4b80-8f71-4eb274ed6316")
 		)
 		(pad "4" smd rect
-			(at 1.905 -10.225)
+			(at 1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 74 "/Input Phone Jacks/ptRX6")
+			(net 48 "/Input Phone Jacks/ptRX0")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -36577,7 +36577,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5311a82a-7a9e-46be-9fec-428d1a1ce023")
-		(at 441.98 114.89)
+		(at 477.58 435.69)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R97"
@@ -37068,7 +37068,7 @@
 			(at -1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 83 "/Input Phone Jacks/ptTX8")
+			(net 58 "/Input Phone Jacks/ptTX2")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -37089,7 +37089,7 @@
 			(at -0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 82 "/Input Phone Jacks/Line Control8/Tpbx")
+			(net 57 "/Input Phone Jacks/Line Control2/Tpbx")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -37110,7 +37110,7 @@
 			(at 0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 80 "/Input Phone Jacks/Rpbx8")
+			(net 56 "/Input Phone Jacks/Rpbx2")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -37131,7 +37131,7 @@
 			(at 1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 81 "/Input Phone Jacks/ptRX8")
+			(net 59 "/Input Phone Jacks/ptRX2")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -37669,7 +37669,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "55e7f6b0-3bee-4ef9-93d8-9adbc9eb1680")
-		(at 178.08 351.5)
+		(at 176.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J27"
 			(at 6 -12 0)
@@ -37964,7 +37964,7 @@
 			(at -1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 83 "/Input Phone Jacks/ptTX8")
+			(net 58 "/Input Phone Jacks/ptTX2")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -37985,7 +37985,7 @@
 			(at -0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 146 "/Output Phone Jacks/Wiretap8/Tpots")
+			(net 152 "/Output Phone Jacks/Wiretap2/Tpots")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -38006,7 +38006,7 @@
 			(at 0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 80 "/Input Phone Jacks/Rpbx8")
+			(net 56 "/Input Phone Jacks/Rpbx2")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -38027,7 +38027,7 @@
 			(at 1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 81 "/Input Phone Jacks/ptRX8")
+			(net 59 "/Input Phone Jacks/ptRX2")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -38049,7 +38049,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5940ff50-b76c-4914-b638-66278dc7358d")
-		(at 426.67 114.89)
+		(at 462.27 435.69)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R79"
@@ -38596,7 +38596,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5ca67d20-bc16-4e0f-a9a5-6f371895e299")
-		(at 504.28 228.85)
+		(at 539.88 549.65)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R116"
@@ -38770,7 +38770,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "5e8b8d99-cec6-4094-89e5-967695391046")
-		(at 493.26 122.46)
+		(at 528.86 443.26)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U17"
@@ -40549,7 +40549,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "63fd814f-f768-402b-ba46-067e866c8bb3")
-		(at 504.28 208.6)
+		(at 539.88 529.4)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R111"
@@ -40723,7 +40723,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "644c3b0b-93f9-41a9-ba14-e690eb240613")
-		(at 406 246.95)
+		(at 441.6 567.75)
 		(property "Reference" "JP5"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -43933,7 +43933,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "6be83963-7c58-4525-b808-69cd602cf4cb")
-		(at 493.26 97.08)
+		(at 528.86 417.88)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U15"
@@ -44234,7 +44234,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "6bf53c7a-408d-4342-acf3-a712a55f82b5")
-		(at 390.95 252)
+		(at 426.55 572.8)
 		(property "Reference" "JP19"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -44781,7 +44781,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "6e1e42f7-6208-46bc-9400-27fbd70a1ad6")
-		(at 493.08 351.5)
+		(at 491.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J48"
 			(at 6 -12 0)
@@ -45456,7 +45456,7 @@
 			(at -1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 65 "/Input Phone Jacks/ptTX4")
+			(net 89 "/Input Phone Jacks/ptTX10")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -45477,7 +45477,7 @@
 			(at -0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 66 "/Input Phone Jacks/Line Control4/Tpbx")
+			(net 88 "/Input Phone Jacks/Line Control10/Tpbx")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -45498,7 +45498,7 @@
 			(at 0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 64 "/Input Phone Jacks/Rpbx4")
+			(net 91 "/Input Phone Jacks/Rpbx10")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -45519,7 +45519,7 @@
 			(at 1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 67 "/Input Phone Jacks/ptRX4")
+			(net 90 "/Input Phone Jacks/ptRX10")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -48208,7 +48208,7 @@
 			(at -1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 89 "/Input Phone Jacks/ptTX10")
+			(net 65 "/Input Phone Jacks/ptTX4")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -48229,7 +48229,7 @@
 			(at -0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 88 "/Input Phone Jacks/Line Control10/Tpbx")
+			(net 66 "/Input Phone Jacks/Line Control4/Tpbx")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -48250,7 +48250,7 @@
 			(at 0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 91 "/Input Phone Jacks/Rpbx10")
+			(net 64 "/Input Phone Jacks/Rpbx4")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -48271,7 +48271,7 @@
 			(at 1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 90 "/Input Phone Jacks/ptRX10")
+			(net 67 "/Input Phone Jacks/ptRX4")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -48809,7 +48809,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "76b9a798-bc13-40d2-a6b9-fa8f58803e42")
-		(at 358.08 351.5)
+		(at 356.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J39"
 			(at 6 -12 0)
@@ -49189,7 +49189,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "779da905-0785-4538-b1d9-5ca93ae80130")
-		(at 406 262.1)
+		(at 441.6 582.9)
 		(property "Reference" "JP25"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -49656,7 +49656,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "78463f25-7fe2-4382-be94-2bcc6757c6c0")
-		(at 390.95 257.05)
+		(at 426.55 577.85)
 		(property "Reference" "JP4"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -49811,7 +49811,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "78fad0fc-a1e3-4f1c-85ed-efa6706d4784")
-		(at 532.14 189.85)
+		(at 567.74 510.65)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J64"
@@ -50376,7 +50376,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "7c02a018-bac6-4ae6-a8e3-5a99505ebf73")
-		(at 283.08 351.5)
+		(at 281.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J34"
 			(at 6 -12 0)
@@ -50671,7 +50671,7 @@
 			(at -1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 62 "/Input Phone Jacks/ptTX3")
+			(net 87 "/Input Phone Jacks/ptTX9")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -50692,7 +50692,7 @@
 			(at -0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 153 "/Output Phone Jacks/Wiretap3/Tpots")
+			(net 147 "/Output Phone Jacks/Wiretap9/Tpots")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -50713,7 +50713,7 @@
 			(at 0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 61 "/Input Phone Jacks/Rpbx3")
+			(net 84 "/Input Phone Jacks/Rpbx9")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -50734,7 +50734,7 @@
 			(at 1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 60 "/Input Phone Jacks/ptRX3")
+			(net 86 "/Input Phone Jacks/ptRX9")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -50952,7 +50952,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "7e14a7af-57b4-4bdd-bece-9b4b9bb3df6d")
-		(at 522.94 189.85)
+		(at 558.54 510.65)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J62"
@@ -51205,7 +51205,7 @@
 	(footprint "Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A"
 		(layer "F.Cu")
 		(uuid "7e9e7f2a-dd38-4eee-be15-4951aac37951")
-		(at 129.92 90.5)
+		(at 498.84 587.8)
 		(descr "Standex-Meder SIL-relais, Form 1A, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf")
 		(tags "Standex Meder SIL reed relais")
 		(property "Reference" "K15"
@@ -51855,7 +51855,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7f107f35-96c4-496f-8584-0b237712447c")
-		(at 151.42 119)
+		(at 520.34 616.3)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R26"
@@ -52051,7 +52051,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "7fb1773e-89ba-4409-b64d-e3060bd64fec")
-		(at 418.08 351.5)
+		(at 416.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J43"
 			(at 6 -12 0)
@@ -53101,7 +53101,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "8303576f-5fc2-461e-96f1-42c1cb89cc12")
-		(at 159.508043 43 180)
+		(at 156.88 65.2 180)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J2"
 			(at 6 -12 0)
@@ -53396,7 +53396,7 @@
 			(at -1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 78 "/Input Phone Jacks/ptTX7")
+			(net 52 "/Input Phone Jacks/ptTX1")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -53417,7 +53417,7 @@
 			(at -0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 76 "/Input Phone Jacks/Line Control7/Tpbx")
+			(net 53 "/Input Phone Jacks/Line Control1/Tpbx")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -53438,7 +53438,7 @@
 			(at 0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 77 "/Input Phone Jacks/Rpbx7")
+			(net 54 "/Input Phone Jacks/Rpbx1")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -53459,7 +53459,7 @@
 			(at 1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 79 "/Input Phone Jacks/ptRX7")
+			(net 55 "/Input Phone Jacks/ptRX1")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -53481,7 +53481,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "832f2586-08cb-44e6-8f09-4e4f6c82508d")
-		(at 504.28 200.5)
+		(at 539.88 521.3)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R109"
@@ -54317,7 +54317,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "84346e22-e85a-4507-bd28-4c21fc5a4ece")
-		(at 441.98 91.02)
+		(at 477.58 411.82)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R98"
@@ -55145,7 +55145,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "87dea0c9-9960-4e3c-a32b-8f9cb6441cad")
-		(at 163.08 351.5)
+		(at 151.505 107.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J26"
 			(at 6 -12 0)
@@ -55440,7 +55440,7 @@
 			(at -1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 78 "/Input Phone Jacks/ptTX7")
+			(net 52 "/Input Phone Jacks/ptTX1")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -55461,7 +55461,7 @@
 			(at -0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 145 "/Output Phone Jacks/Wiretap7/Tpots")
+			(net 151 "/Output Phone Jacks/Wiretap1/Tpots")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -55482,7 +55482,7 @@
 			(at 0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 77 "/Input Phone Jacks/Rpbx7")
+			(net 54 "/Input Phone Jacks/Rpbx1")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -55503,7 +55503,7 @@
 			(at 1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 79 "/Input Phone Jacks/ptRX7")
+			(net 55 "/Input Phone Jacks/ptRX1")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -55525,7 +55525,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "87f11e60-dabe-4a7d-9915-1357e05db26b")
-		(at 504.28 180.25)
+		(at 539.88 501.05)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R104"
@@ -55699,7 +55699,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "88107d15-63e8-43ec-9573-2cd1522f5f7d")
-		(at 508.57 97.08)
+		(at 544.17 417.88)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U22"
@@ -56000,7 +56000,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "88f17220-1452-4690-b870-373d6e8e9044")
-		(at 442.38 118.96)
+		(at 477.98 439.76)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U29"
@@ -56497,7 +56497,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "89a4dfb0-1c71-4eb2-be7d-93f31bbaccf9")
-		(at 477.95 97.08)
+		(at 513.55 417.88)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U20"
@@ -57110,7 +57110,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8b51d693-bac5-4643-a665-8eda3e0454e1")
-		(at 504.28 172.15)
+		(at 539.88 492.95)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R102"
@@ -57480,7 +57480,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8e66778d-fd7f-46e7-a89b-b78ac2025201")
-		(at 504.28 220.75)
+		(at 539.88 541.55)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R114"
@@ -57654,7 +57654,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8e707489-084f-4de2-901e-7f6471fe9001")
-		(at 504.28 216.7)
+		(at 539.88 537.5)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R113"
@@ -59485,7 +59485,7 @@
 			(at -1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 58 "/Input Phone Jacks/ptTX2")
+			(net 83 "/Input Phone Jacks/ptTX8")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -59506,7 +59506,7 @@
 			(at -0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 57 "/Input Phone Jacks/Line Control2/Tpbx")
+			(net 82 "/Input Phone Jacks/Line Control8/Tpbx")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -59527,7 +59527,7 @@
 			(at 0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 56 "/Input Phone Jacks/Rpbx2")
+			(net 80 "/Input Phone Jacks/Rpbx8")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -59548,7 +59548,7 @@
 			(at 1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 59 "/Input Phone Jacks/ptRX2")
+			(net 81 "/Input Phone Jacks/ptRX8")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -59570,7 +59570,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "940f0379-24a1-473c-8871-a5519cebce95")
-		(at 162.08 85.5 180)
+		(at 531 582.8 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R28"
@@ -59766,7 +59766,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "94465e1a-648b-42da-93bc-6fde6565087e")
-		(at 504.28 212.65)
+		(at 539.88 533.45)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R112"
@@ -60776,7 +60776,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "97e6fdb9-7729-4b2d-926c-2f009b12e575")
-		(at 373.08 351.5)
+		(at 371.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J40"
 			(at 6 -12 0)
@@ -61352,7 +61352,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "988a720b-963f-4255-80e9-6075456cfa0e")
-		(at 477.55 93.01)
+		(at 513.15 413.81)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R88"
@@ -61548,7 +61548,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "98fba6c4-b2e5-476c-a170-3e0d1d9aa625")
-		(at 298.08 351.5)
+		(at 296.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J35"
 			(at 6 -12 0)
@@ -61843,7 +61843,7 @@
 			(at -1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 65 "/Input Phone Jacks/ptTX4")
+			(net 89 "/Input Phone Jacks/ptTX10")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -61864,7 +61864,7 @@
 			(at -0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 154 "/Output Phone Jacks/Wiretap4/Tpots")
+			(net 148 "/Output Phone Jacks/Wiretap10/Tpots")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -61885,7 +61885,7 @@
 			(at 0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 64 "/Input Phone Jacks/Rpbx4")
+			(net 91 "/Input Phone Jacks/Rpbx10")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -61906,7 +61906,7 @@
 			(at 1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 67 "/Input Phone Jacks/ptRX4")
+			(net 90 "/Input Phone Jacks/ptRX10")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -61928,7 +61928,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "9a435b0c-def4-493e-a552-be3498ca2759")
-		(at 523.88 97.08)
+		(at 559.48 417.88)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U23"
@@ -62229,7 +62229,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9ab776b7-5964-493c-8e0e-44590a2ee10b")
-		(at 155.92 110)
+		(at 524.84 607.3)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R27"
@@ -62737,7 +62737,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "9b3d8984-b527-4717-a537-e6ffa64a7500")
-		(at 522.94 168.4)
+		(at 558.54 489.2)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J50"
@@ -63340,7 +63340,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "9c09e660-8a6e-46ee-bea4-d1e9ed5b4f9e")
-		(at 166 100.5)
+		(at 534.92 597.8)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q17"
@@ -63652,7 +63652,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "9c753a02-9e5d-48c6-8277-ac2ea8959767")
-		(at 522.94 182.7)
+		(at 558.54 503.5)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J58"
@@ -63905,7 +63905,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9d6d5302-2e61-4a2e-b61b-2fc7d4894366")
-		(at 426.67 91.02)
+		(at 462.27 411.82)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R95"
@@ -64297,7 +64297,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9f41d450-ae04-46a6-b814-0de0ce00b4f9")
-		(at 150 88.65 -90)
+		(at 518.92 585.95 -90)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D18"
@@ -64617,7 +64617,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9fe9f3b3-f6d7-477d-9b64-da07d3609e12")
-		(at 504.28 204.55)
+		(at 539.88 525.35)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R110"
@@ -64791,7 +64791,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "a0ac3d34-dbad-4b15-bcf5-2264299c1746")
-		(at 238.08 351.5)
+		(at 211.92 139.9 180)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J31"
 			(at 6 -12 0)
@@ -64840,7 +64840,7 @@
 			)
 		)
 		(property "DKPN" "WM5574-ND"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -64857,54 +64857,14 @@
 		(sheetfile "output_jacks.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -6.605 -10.22)
-			(end -6.605 -1.7)
+			(start 6.605 7.8)
+			(end 6.605 1.7)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b3ec31e1-846b-458e-8706-63132d6f3a8f")
-		)
-		(fp_line
-			(start -6.605 -10.22)
-			(end -3 -10.22)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0e01965f-238c-4ad6-b6f3-092e08532d1b")
-		)
-		(fp_line
-			(start -6.605 1.7)
-			(end -6.605 7.8)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6a48e3ef-3f92-41c7-a196-d8e900d889ac")
-		)
-		(fp_line
-			(start 3 -10.22)
-			(end 6.605 -10.22)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "081b1809-daa1-47f2-8995-e41129e3275a")
-		)
-		(fp_line
-			(start 6.605 -10.22)
-			(end 6.605 -1.7)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cfe2c45a-aecd-40f5-bf38-966a0efa7dbc")
+			(uuid "22e87f06-7372-497c-a29d-e9e22de50ce2")
 		)
 		(fp_line
 			(start 6.605 7.8)
@@ -64917,14 +64877,54 @@
 			(uuid "046e8f58-1d1a-4e74-8da5-35a09f4bd5d0")
 		)
 		(fp_line
-			(start 6.605 7.8)
-			(end 6.605 1.7)
+			(start 6.605 -10.22)
+			(end 6.605 -1.7)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "22e87f06-7372-497c-a29d-e9e22de50ce2")
+			(uuid "cfe2c45a-aecd-40f5-bf38-966a0efa7dbc")
+		)
+		(fp_line
+			(start 3 -10.22)
+			(end 6.605 -10.22)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "081b1809-daa1-47f2-8995-e41129e3275a")
+		)
+		(fp_line
+			(start -6.605 1.7)
+			(end -6.605 7.8)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6a48e3ef-3f92-41c7-a196-d8e900d889ac")
+		)
+		(fp_line
+			(start -6.605 -10.22)
+			(end -3 -10.22)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0e01965f-238c-4ad6-b6f3-092e08532d1b")
+		)
+		(fp_line
+			(start -6.605 -10.22)
+			(end -6.605 -1.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b3ec31e1-846b-458e-8706-63132d6f3a8f")
 		)
 		(fp_circle
 			(center -3.175 -11.049)
@@ -64938,64 +64938,14 @@
 			(uuid "d48d5806-01b1-4507-9ca6-3ac660ccc774")
 		)
 		(fp_line
-			(start -6.95 -10.47)
-			(end -2.535 -10.47)
+			(start 6.95 8.13)
+			(end 6.95 -10.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "235b9271-e489-4b75-a97b-96eada9178d1")
-		)
-		(fp_line
-			(start -6.95 8.13)
-			(end -6.95 -10.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8f5a3645-1fbe-4277-8b45-962ace84aa0f")
-		)
-		(fp_line
-			(start -6.95 8.13)
-			(end 6.95 8.13)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1fb70dfb-b313-45bb-a3b0-e71001399f5b")
-		)
-		(fp_line
-			(start -2.535 -13.65)
-			(end 2.535 -13.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "91cb220c-47c6-4cb2-82cb-5e029d662dbb")
-		)
-		(fp_line
-			(start -2.535 -10.47)
-			(end -2.535 -13.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "16899145-1153-46f4-b741-b340e83b5c0a")
-		)
-		(fp_line
-			(start 2.535 -13.65)
-			(end 2.535 -10.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "516ea921-dbbd-41b2-bd75-80cd642bfd49")
+			(uuid "ea305884-11b8-4d64-9135-05eec12737af")
 		)
 		(fp_line
 			(start 6.95 -10.47)
@@ -65008,34 +64958,74 @@
 			(uuid "28c4775b-e607-4338-bf12-0006028dea52")
 		)
 		(fp_line
-			(start 6.95 8.13)
-			(end 6.95 -10.47)
+			(start 2.535 -13.65)
+			(end 2.535 -10.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ea305884-11b8-4d64-9135-05eec12737af")
+			(uuid "516ea921-dbbd-41b2-bd75-80cd642bfd49")
 		)
 		(fp_line
-			(start -6.605 -10.22)
-			(end 6.605 -10.22)
+			(start -2.535 -10.47)
+			(end -2.535 -13.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "16899145-1153-46f4-b741-b340e83b5c0a")
+		)
+		(fp_line
+			(start -2.535 -13.65)
+			(end 2.535 -13.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "91cb220c-47c6-4cb2-82cb-5e029d662dbb")
+		)
+		(fp_line
+			(start -6.95 8.13)
+			(end 6.95 8.13)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1fb70dfb-b313-45bb-a3b0-e71001399f5b")
+		)
+		(fp_line
+			(start -6.95 8.13)
+			(end -6.95 -10.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8f5a3645-1fbe-4277-8b45-962ace84aa0f")
+		)
+		(fp_line
+			(start -6.95 -10.47)
+			(end -2.535 -10.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "235b9271-e489-4b75-a97b-96eada9178d1")
+		)
+		(fp_line
+			(start 6.605 7.88)
+			(end -6.605 7.88)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6180c43c-b949-43bb-b479-66b920dc32cd")
-		)
-		(fp_line
-			(start -6.605 7.88)
-			(end -6.605 -10.22)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2d1a4568-412a-4ee3-b466-7445cd2f4497")
+			(uuid "be02fa56-c722-4b25-b3e8-40ef357f7444")
 		)
 		(fp_line
 			(start 6.605 -10.22)
@@ -65048,14 +65038,24 @@
 			(uuid "882a5bcc-5c12-4749-8cbb-df91079235b2")
 		)
 		(fp_line
-			(start 6.605 7.88)
-			(end -6.605 7.88)
+			(start -6.605 7.88)
+			(end -6.605 -10.22)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "be02fa56-c722-4b25-b3e8-40ef357f7444")
+			(uuid "2d1a4568-412a-4ee3-b466-7445cd2f4497")
+		)
+		(fp_line
+			(start -6.605 -10.22)
+			(end 6.605 -10.22)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6180c43c-b949-43bb-b479-66b920dc32cd")
 		)
 		(fp_circle
 			(center -3.175 -11.049)
@@ -65069,24 +65069,24 @@
 			(uuid "6631b586-6403-4843-a80b-a251aa438a9a")
 		)
 		(pad "" np_thru_hole circle
-			(at -5.08 0)
+			(at -5.08 0 180)
 			(size 3.25 3.25)
 			(drill 3.25)
 			(layers "*.Cu" "*.Mask")
 			(uuid "9271119c-f42c-4ae1-ae44-d89599edacad")
 		)
 		(pad "" np_thru_hole circle
-			(at 5.08 0)
+			(at 5.08 0 180)
 			(size 3.25 3.25)
 			(drill 3.25)
 			(layers "*.Cu" "*.Mask")
 			(uuid "713e92ca-c3e4-4988-a03c-7cf722afe6b9")
 		)
 		(pad "1" smd rect
-			(at -1.905 -10.225)
+			(at -1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 50 "/Input Phone Jacks/ptTX0")
+			(net 75 "/Input Phone Jacks/ptTX6")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -65104,10 +65104,10 @@
 			(uuid "763b3c1f-12c3-4713-9f0d-ae7eaba91e0b")
 		)
 		(pad "2" smd rect
-			(at -0.635 -10.225)
+			(at -0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 150 "/Output Phone Jacks/Wiretap0/Tpots")
+			(net 144 "/Output Phone Jacks/Wiretap6/Tpots")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -65125,10 +65125,10 @@
 			(uuid "02fb6e97-6af7-4835-b34c-dcbe6848e41f")
 		)
 		(pad "3" smd rect
-			(at 0.635 -10.225)
+			(at 0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 49 "/Input Phone Jacks/Rpbx0")
+			(net 73 "/Input Phone Jacks/Rpbx6")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -65146,10 +65146,10 @@
 			(uuid "d4478826-6994-4474-ae8e-1563874eab91")
 		)
 		(pad "4" smd rect
-			(at 1.905 -10.225)
+			(at 1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 48 "/Input Phone Jacks/ptRX0")
+			(net 74 "/Input Phone Jacks/ptRX6")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -65740,7 +65740,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "a1b0660e-127f-41ed-8dbf-ce8e9eaa46f5")
-		(at 478.08 351.5)
+		(at 476.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J47"
 			(at 6 -12 0)
@@ -66735,7 +66735,7 @@
 			(at -1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 87 "/Input Phone Jacks/ptTX9")
+			(net 62 "/Input Phone Jacks/ptTX3")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -66756,7 +66756,7 @@
 			(at -0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 85 "/Input Phone Jacks/Line Control9/Tpbx")
+			(net 63 "/Input Phone Jacks/Line Control3/Tpbx")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -66777,7 +66777,7 @@
 			(at 0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 84 "/Input Phone Jacks/Rpbx9")
+			(net 61 "/Input Phone Jacks/Rpbx3")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -66798,7 +66798,7 @@
 			(at 1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 86 "/Input Phone Jacks/ptRX9")
+			(net 60 "/Input Phone Jacks/ptRX3")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -66820,7 +66820,7 @@
 	(footprint "Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A"
 		(layer "F.Cu")
 		(uuid "a2d24eff-0408-4511-b1ff-f1c23bfc8ec9")
-		(at 154.5 90.5)
+		(at 523.42 587.8)
 		(descr "Standex-Meder SIL-relais, Form 1A, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf")
 		(tags "Standex Meder SIL reed relais")
 		(property "Reference" "K17"
@@ -67150,7 +67150,7 @@
 	(footprint "Phones:K_AZ943-1C_AMZ"
 		(layer "F.Cu")
 		(uuid "a333bdf5-f4b7-4c7e-9301-ece48c22bbf3")
-		(at 91.382501 219.037709)
+		(at 141.835 182.6504)
 		(tags "AZ943-1CH-5DE ")
 		(property "Reference" "K4"
 			(at 0 8.0996 0)
@@ -67801,7 +67801,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a3ecc927-21c5-435b-a403-98becbdf9edc")
-		(at 127.34 106.55)
+		(at 496.26 603.85)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D16"
@@ -68416,7 +68416,7 @@
 			(at -1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 70 "/Input Phone Jacks/ptTX5")
+			(net 93 "/Input Phone Jacks/ptTX11")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -68437,7 +68437,7 @@
 			(at -0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 68 "/Input Phone Jacks/Line Control5/Tpbx")
+			(net 95 "/Input Phone Jacks/Line Control11/Tpbx")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -68458,7 +68458,7 @@
 			(at 0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 71 "/Input Phone Jacks/Rpbx5")
+			(net 94 "/Input Phone Jacks/Rpbx11")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -68479,7 +68479,7 @@
 			(at 1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 69 "/Input Phone Jacks/ptRX5")
+			(net 92 "/Input Phone Jacks/ptRX11")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -68501,7 +68501,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "a42cd527-07e0-434e-8244-88f01ae339b6")
-		(at 523.88 109.77)
+		(at 559.48 430.57)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U21"
@@ -69097,7 +69097,7 @@
 			(at -1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 62 "/Input Phone Jacks/ptTX3")
+			(net 87 "/Input Phone Jacks/ptTX9")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -69118,7 +69118,7 @@
 			(at -0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 63 "/Input Phone Jacks/Line Control3/Tpbx")
+			(net 85 "/Input Phone Jacks/Line Control9/Tpbx")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -69139,7 +69139,7 @@
 			(at 0.635 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 61 "/Input Phone Jacks/Rpbx3")
+			(net 84 "/Input Phone Jacks/Rpbx9")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -69160,7 +69160,7 @@
 			(at 1.905 -10.225 180)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 60 "/Input Phone Jacks/ptRX3")
+			(net 86 "/Input Phone Jacks/ptRX9")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -70616,7 +70616,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a6c38dca-6f19-4ccd-be07-0d7c5f30951f")
-		(at 477.55 105.7)
+		(at 513.15 426.5)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R96"
@@ -72031,7 +72031,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ad5e5bd4-6d4f-4c1d-944d-e2ad21e445cd")
-		(at 527.54 168.4)
+		(at 563.14 489.2)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J51"
@@ -72284,7 +72284,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "ae20d852-94ac-422d-a7ce-1c2572c18635")
-		(at 223.08 351.5)
+		(at 221.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J30"
 			(at 6 -12 0)
@@ -72579,7 +72579,7 @@
 			(at -1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 93 "/Input Phone Jacks/ptTX11")
+			(net 70 "/Input Phone Jacks/ptTX5")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -72600,7 +72600,7 @@
 			(at -0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 149 "/Output Phone Jacks/Wiretap11/Tpots")
+			(net 155 "/Output Phone Jacks/Wiretap5/Tpots")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -72621,7 +72621,7 @@
 			(at 0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 94 "/Input Phone Jacks/Rpbx11")
+			(net 71 "/Input Phone Jacks/Rpbx5")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -72642,7 +72642,7 @@
 			(at 1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 92 "/Input Phone Jacks/ptRX11")
+			(net 69 "/Input Phone Jacks/ptRX5")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -73492,7 +73492,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "b053d76f-4f57-47ef-ad7d-11e4e50b671c")
-		(at 433.08 351.5)
+		(at 431.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J44"
 			(at 6 -12 0)
@@ -73872,7 +73872,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "b0c4b2c2-c068-405c-9b6e-44f1f2440cd2")
-		(at 463.08 351.5)
+		(at 461.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J46"
 			(at 6 -12 0)
@@ -74252,7 +74252,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b0c7c887-bb40-43c0-b597-123e66d9e8aa")
-		(at 532.14 175.55)
+		(at 567.74 496.35)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J56"
@@ -75167,7 +75167,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "b2d1835b-a461-4cfc-b675-6e5eabe5d255")
-		(at 406 267.15)
+		(at 441.6 587.95)
 		(property "Reference" "JP17"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -76376,7 +76376,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "b4017a3c-21fd-4cea-8594-dd035936829a")
-		(at 343.08 351.5)
+		(at 341.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J38"
 			(at 6 -12 0)
@@ -76756,7 +76756,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "b4622203-0626-487f-a503-691d4c91ecb4")
-		(at 406 241.9)
+		(at 441.6 562.7)
 		(property "Reference" "JP7"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -76911,7 +76911,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "b4ae8b9c-e7b6-4a22-8592-581e52c25906")
-		(at 85.1475 155.8125 -90)
+		(at 148.15 170.95 -90)
 		(property "Reference" "JP2"
 			(at 0 -2 270)
 			(unlocked yes)
@@ -78252,7 +78252,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b795f579-b166-466c-bf25-ce9481a9a423")
-		(at 508.17 105.7)
+		(at 543.77 426.5)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R100"
@@ -78448,7 +78448,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b9037bc6-66bb-4465-8b08-7dddb5e7061d")
-		(at 74.3075 152.2125 180)
+		(at 142.2 137.3 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R78"
@@ -78633,7 +78633,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "b95cd3d8-7b05-49c1-bb49-9fbb4d5a13df")
-		(at 390.95 272.2)
+		(at 426.55 593)
 		(property "Reference" "JP16"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -79458,11 +79458,11 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "b992e0b7-8da2-4702-803c-3fea5489f9d3")
-		(at 90.0975 273.4825 90)
+		(at 140.7 223.9 180)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q3"
-			(at 1.27 -4.4 90)
+			(at 1.27 -4.4 0)
 			(layer "F.SilkS")
 			(uuid "660fc7d1-bffe-4637-99f6-5c1538817b40")
 			(effects
@@ -79473,7 +79473,7 @@
 			)
 		)
 		(property "Value" "PMOS"
-			(at 1.27 2.79 90)
+			(at 1.27 2.79 0)
 			(layer "F.Fab")
 			(uuid "2101fb1d-b1a5-4cee-b339-bbd933fe9f78")
 			(effects
@@ -79484,7 +79484,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -79497,7 +79497,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -79510,7 +79510,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -79523,7 +79523,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -79536,7 +79536,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -79549,7 +79549,7 @@
 			)
 		)
 		(property "DKPN" "ZVP3306A-ND"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -79598,26 +79598,6 @@
 			(uuid "4575e932-d1b5-495b-bce3-5a139a588444")
 		)
 		(fp_line
-			(start -1.46 -3.05)
-			(end 4 -3.05)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "744da53f-8700-4fae-874f-22e549a68436")
-		)
-		(fp_line
-			(start -1.46 -3.05)
-			(end -1.46 2.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3f85e8c2-103d-4513-a9cf-91e3d75037c2")
-		)
-		(fp_line
 			(start 4 2.01)
 			(end 4 -3.05)
 			(stroke
@@ -79636,6 +79616,26 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "8d4b2971-d677-4e64-b6c5-8491536030e9")
+		)
+		(fp_line
+			(start -1.46 -3.05)
+			(end 4 -3.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "744da53f-8700-4fae-874f-22e549a68436")
+		)
+		(fp_line
+			(start -1.46 -3.05)
+			(end -1.46 2.01)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3f85e8c2-103d-4513-a9cf-91e3d75037c2")
 		)
 		(fp_line
 			(start -0.5 1.75)
@@ -79670,7 +79670,7 @@
 			(uuid "da8ca468-15d4-4151-8d64-dcc7be34cab8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 90)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "ef3eace0-e282-43f8-8e22-10a780c65024")
 			(effects
@@ -79681,7 +79681,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 90)
+			(at 0 0 180)
 			(size 1.1 1.8)
 			(drill 0.75
 				(offset 0 0.4)
@@ -79705,7 +79705,7 @@
 			(uuid "b8d92729-d9a4-4ace-9b9d-231d2277b0b7")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 -1.27 90)
+			(at 1.27 -1.27 180)
 			(size 1.1 1.8)
 			(drill 0.75
 				(offset 0 -0.4)
@@ -79730,7 +79730,7 @@
 			(uuid "f1f032c0-f19e-4190-8a15-9930ff2329e6")
 		)
 		(pad "3" thru_hole roundrect
-			(at 2.54 0 90)
+			(at 2.54 0 180)
 			(size 1.1 1.8)
 			(drill 0.75
 				(offset 0 0.4)
@@ -79770,7 +79770,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ba90717d-8d92-48fb-9ff6-f1e70ebd5620")
-		(at 527.54 189.85)
+		(at 563.14 510.65)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J63"
@@ -80539,7 +80539,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "bc362bbd-69a2-4192-a7eb-5977fbc60d2c")
-		(at 328.08 351.5)
+		(at 326.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J37"
 			(at 6 -12 0)
@@ -80919,7 +80919,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "bc683876-a9ff-467e-904e-ea4d23871cdd")
-		(at 168.96 118.5)
+		(at 537.88 615.8)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q16"
@@ -82213,7 +82213,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "be193fca-dcc5-4e8e-a0a7-b91dee861940")
-		(at 504.28 168.1)
+		(at 539.88 488.9)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
@@ -83264,7 +83264,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "bffa6167-8622-434c-ae8e-2b6d0572e6fa")
-		(at 518.34 182.7)
+		(at 553.94 503.5)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J57"
@@ -83517,7 +83517,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c136bfdb-161e-4cc5-992f-2cdefc9613ba")
-		(at 532.14 182.7)
+		(at 567.74 503.5)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J60"
@@ -84278,7 +84278,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c30a970b-c8fe-46cc-b599-65842b88cd23")
-		(at 81.3825 217.95771 -90)
+		(at 100.2 -27 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R8"
@@ -85167,7 +85167,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c75fdfab-ceb9-4dbe-9efb-16a9b4831c93")
-		(at 518.34 189.85)
+		(at 553.94 510.65)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J61"
@@ -86621,7 +86621,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "c849181d-fe8a-4b0e-be66-19ac3a4ee160")
-		(at 388.08 351.5)
+		(at 386.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J41"
 			(at 6 -12 0)
@@ -87001,7 +87001,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "ca74354a-bf3a-4c9a-ba67-aa814f9151c9")
-		(at 193.08 351.5)
+		(at 191.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J28"
 			(at 6 -12 0)
@@ -87296,7 +87296,7 @@
 			(at -1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 87 "/Input Phone Jacks/ptTX9")
+			(net 62 "/Input Phone Jacks/ptTX3")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -87317,7 +87317,7 @@
 			(at -0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 147 "/Output Phone Jacks/Wiretap9/Tpots")
+			(net 153 "/Output Phone Jacks/Wiretap3/Tpots")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -87338,7 +87338,7 @@
 			(at 0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 84 "/Input Phone Jacks/Rpbx9")
+			(net 61 "/Input Phone Jacks/Rpbx3")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -87359,7 +87359,7 @@
 			(at 1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 86 "/Input Phone Jacks/ptRX9")
+			(net 60 "/Input Phone Jacks/ptRX3")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -87381,11 +87381,11 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "cbc020a1-0ba3-4379-94ec-eeeae308fbc5")
-		(at 94.7575 272.2125)
+		(at 146.8 225.7 90)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D4"
-			(at 6.35 -2.47 0)
+			(at 6.35 -2.47 90)
 			(layer "F.SilkS")
 			(uuid "4b6cc0b7-6427-4fd7-9f69-857af229f3f9")
 			(effects
@@ -87396,7 +87396,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 6.35 2.47 0)
+			(at 6.35 2.47 90)
 			(layer "F.Fab")
 			(uuid "0ee3ffa7-3934-493c-8a8c-ed818a68fb19")
 			(effects
@@ -87407,7 +87407,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c63625ae-57c3-44ca-80f4-fac8cb1f36e7")
@@ -87419,7 +87419,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d76b1f8c-0b50-47e0-8dc7-0f919ea4b7d8")
@@ -87431,7 +87431,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -87444,7 +87444,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -87457,7 +87457,7 @@
 			)
 		)
 		(property "DKPN" "2368-1N4003-ND"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -87475,24 +87475,14 @@
 		(sheetfile "relays.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 1.14 0)
-			(end 3.63 0)
+			(start 4.65 -1.47)
+			(end 4.65 1.47)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "88d68b1a-a616-4ae5-8675-9d933d5a58d1")
-		)
-		(fp_line
-			(start 4.41 -1.47)
-			(end 4.41 1.47)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "73379a94-1c0c-424b-a766-a2ce89525556")
+			(uuid "4263bae5-1c70-4d5e-b64e-516f1c0db573")
 		)
 		(fp_line
 			(start 4.53 -1.47)
@@ -87505,14 +87495,14 @@
 			(uuid "de180501-d914-4da0-acf9-36a3db5604ef")
 		)
 		(fp_line
-			(start 4.65 -1.47)
-			(end 4.65 1.47)
+			(start 4.41 -1.47)
+			(end 4.41 1.47)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4263bae5-1c70-4d5e-b64e-516f1c0db573")
+			(uuid "73379a94-1c0c-424b-a766-a2ce89525556")
 		)
 		(fp_line
 			(start 11.56 0)
@@ -87523,6 +87513,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "ab6fda53-f589-40ac-ae88-5436fa228a2e")
+		)
+		(fp_line
+			(start 1.14 0)
+			(end 3.63 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "88d68b1a-a616-4ae5-8675-9d933d5a58d1")
 		)
 		(fp_rect
 			(start 3.63 -1.47)
@@ -87547,24 +87547,14 @@
 			(uuid "3cfacfdb-4952-4755-9e0d-a9880b3b2688")
 		)
 		(fp_line
-			(start 0 0)
-			(end 3.75 0)
+			(start 4.63 -1.35)
+			(end 4.63 1.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9a5edb2d-8d09-40dd-b5e2-c59042abb9b4")
-		)
-		(fp_line
-			(start 4.43 -1.35)
-			(end 4.43 1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c8c589f8-bf2d-4826-800d-4e3fa6508ae9")
+			(uuid "b2affe55-5c7c-4d60-8701-eb3025de4362")
 		)
 		(fp_line
 			(start 4.53 -1.35)
@@ -87577,14 +87567,14 @@
 			(uuid "c21cafdc-9389-4edb-8948-a35cb5cbc35d")
 		)
 		(fp_line
-			(start 4.63 -1.35)
-			(end 4.63 1.35)
+			(start 4.43 -1.35)
+			(end 4.43 1.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b2affe55-5c7c-4d60-8701-eb3025de4362")
+			(uuid "c8c589f8-bf2d-4826-800d-4e3fa6508ae9")
 		)
 		(fp_line
 			(start 12.7 0)
@@ -87595,6 +87585,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "e694ef71-5789-4e7f-94ab-f2bf377ba8bc")
+		)
+		(fp_line
+			(start 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9a5edb2d-8d09-40dd-b5e2-c59042abb9b4")
 		)
 		(fp_rect
 			(start 3.75 -1.35)
@@ -87608,7 +87608,7 @@
 			(uuid "9488b905-4859-497d-a11b-9eb94c057454")
 		)
 		(fp_text user "K"
-			(at 0 -1.9 0)
+			(at 0 -1.9 90)
 			(layer "F.SilkS")
 			(uuid "6d1b784e-a1a0-4d73-b497-5342866adac7")
 			(effects
@@ -87619,7 +87619,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 6.74 0 0)
+			(at 6.74 0 90)
 			(layer "F.Fab")
 			(uuid "0634942d-a169-40b0-b8f2-f1acce2a9d14")
 			(effects
@@ -87630,7 +87630,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.9 0)
+			(at 0 -1.9 90)
 			(layer "F.Fab")
 			(uuid "12ed8848-08b1-40b0-9d47-e84d71c39c6e")
 			(effects
@@ -87641,7 +87641,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.8 1.8)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -87664,7 +87664,7 @@
 			(uuid "9efe65e1-0de1-48ec-9778-e731b2f7dc20")
 		)
 		(pad "2" thru_hole circle
-			(at 12.7 0)
+			(at 12.7 0 90)
 			(size 1.8 1.8)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -87701,7 +87701,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "cc09e627-deb7-45bb-8596-82275c8af144")
-		(at 390.95 236.85)
+		(at 426.55 557.65)
 		(property "Reference" "JP21"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -88168,7 +88168,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "cc9b3f2e-adbe-4771-9ae4-f72092dd263e")
-		(at 313.08 351.5)
+		(at 311.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J36"
 			(at 6 -12 0)
@@ -88463,7 +88463,7 @@
 			(at -1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 70 "/Input Phone Jacks/ptTX5")
+			(net 93 "/Input Phone Jacks/ptTX11")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -88484,7 +88484,7 @@
 			(at -0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 155 "/Output Phone Jacks/Wiretap5/Tpots")
+			(net 149 "/Output Phone Jacks/Wiretap11/Tpots")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -88505,7 +88505,7 @@
 			(at 0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 71 "/Input Phone Jacks/Rpbx5")
+			(net 94 "/Input Phone Jacks/Rpbx11")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -88526,7 +88526,7 @@
 			(at 1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 69 "/Input Phone Jacks/ptRX5")
+			(net 92 "/Input Phone Jacks/ptRX11")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -88548,7 +88548,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "ce250f31-ce50-48dd-83c9-dbbacf641807")
-		(at 406 252)
+		(at 441.6 572.8)
 		(property "Reference" "JP22"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -89677,7 +89677,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "d11b6ff5-298a-44d3-b0e8-a0001274110f")
-		(at 375.9 267.15)
+		(at 411.5 587.95)
 		(property "Reference" "JP24"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -90224,7 +90224,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "d216d94b-c2b9-49a1-a5f1-2bf11626b248")
-		(at 523.88 122.46)
+		(at 559.48 443.26)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U13"
@@ -90837,7 +90837,7 @@
 	(footprint "Phones:K_AZ943-1C_AMZ"
 		(layer "F.Cu")
 		(uuid "d37c7fb5-7aab-46c7-875a-d754b4b0c26b")
-		(at 158.500001 65.499999)
+		(at 527.420001 562.799999)
 		(tags "AZ943-1CH-5DE ")
 		(property "Reference" "K18"
 			(at 0 8.0996 0)
@@ -91909,7 +91909,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "d7b1cb11-e07d-45a7-a3fe-a87338cfe5ae")
-		(at 81.7675 157.9525 180)
+		(at 144.77 173.09 180)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U10"
@@ -92210,7 +92210,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "d857c329-fb04-458e-95f6-00b17acaaa1e")
-		(at 268.08 351.5)
+		(at 266.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J33"
 			(at 6 -12 0)
@@ -92505,7 +92505,7 @@
 			(at -1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 58 "/Input Phone Jacks/ptTX2")
+			(net 83 "/Input Phone Jacks/ptTX8")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -92526,7 +92526,7 @@
 			(at -0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 152 "/Output Phone Jacks/Wiretap2/Tpots")
+			(net 146 "/Output Phone Jacks/Wiretap8/Tpots")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -92547,7 +92547,7 @@
 			(at 0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 56 "/Input Phone Jacks/Rpbx2")
+			(net 80 "/Input Phone Jacks/Rpbx8")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -92568,7 +92568,7 @@
 			(at 1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 59 "/Input Phone Jacks/ptRX2")
+			(net 81 "/Input Phone Jacks/ptRX8")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -93252,7 +93252,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "dc82a38c-a55e-43ac-80e3-2c463dc5bddf")
-		(at 492.86 93.01)
+		(at 528.46 413.81)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R83"
@@ -93448,7 +93448,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "dcb854e9-c094-46af-b91b-43d6fbfa05e3")
-		(at 504.28 196.45)
+		(at 539.88 517.25)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R108"
@@ -95410,7 +95410,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "e34b7ad4-db28-487e-a71c-cdb8eef4409d")
-		(at 517.6 196.72)
+		(at 553.2 517.52)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U2"
@@ -96311,11 +96311,11 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "e49b8449-05bd-4705-b257-34ecb9d10253")
-		(at 80.9825 214.97771 90)
+		(at 137.1 204.3 180)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q4"
-			(at 1.27 -4.4 90)
+			(at 1.27 -4.4 0)
 			(layer "F.SilkS")
 			(uuid "c6a39067-65a8-4b66-8d72-61c18c7e706c")
 			(effects
@@ -96326,7 +96326,7 @@
 			)
 		)
 		(property "Value" "PMOS"
-			(at 1.27 2.79 90)
+			(at 1.27 2.79 0)
 			(layer "F.Fab")
 			(uuid "952d47fd-9f8f-4864-bcf3-fd1ac3066942")
 			(effects
@@ -96337,7 +96337,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -96350,7 +96350,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -96363,7 +96363,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -96376,7 +96376,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -96389,7 +96389,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -96402,7 +96402,7 @@
 			)
 		)
 		(property "DKPN" "ZVP3306A-ND"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -96451,26 +96451,6 @@
 			(uuid "61146196-dfcf-4e85-b896-481cb10d1acb")
 		)
 		(fp_line
-			(start -1.46 -3.05)
-			(end 4 -3.05)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1ff4714f-d210-4a5d-bfe5-33510769502c")
-		)
-		(fp_line
-			(start -1.46 -3.05)
-			(end -1.46 2.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "39680421-ada3-49c0-a34e-3a51cc7ff295")
-		)
-		(fp_line
 			(start 4 2.01)
 			(end 4 -3.05)
 			(stroke
@@ -96489,6 +96469,26 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "15ff1302-7082-4f7b-b7d7-32e4d393c1e0")
+		)
+		(fp_line
+			(start -1.46 -3.05)
+			(end 4 -3.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1ff4714f-d210-4a5d-bfe5-33510769502c")
+		)
+		(fp_line
+			(start -1.46 -3.05)
+			(end -1.46 2.01)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "39680421-ada3-49c0-a34e-3a51cc7ff295")
 		)
 		(fp_line
 			(start -0.5 1.75)
@@ -96523,7 +96523,7 @@
 			(uuid "97ec60d0-f553-412a-b86b-747c17c3b421")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 90)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "cde90c0b-3c1f-4ae5-b93c-c62c4045a204")
 			(effects
@@ -96534,7 +96534,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 90)
+			(at 0 0 180)
 			(size 1.1 1.8)
 			(drill 0.75
 				(offset 0 0.4)
@@ -96558,7 +96558,7 @@
 			(uuid "1c79a4e7-f8d7-411e-b4ac-7eb5dd2b3843")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 -1.27 90)
+			(at 1.27 -1.27 180)
 			(size 1.1 1.8)
 			(drill 0.75
 				(offset 0 -0.4)
@@ -96583,7 +96583,7 @@
 			(uuid "1d5c8278-a1f3-45fa-bde7-0c9ee26c6169")
 		)
 		(pad "3" thru_hole roundrect
-			(at 2.54 0 90)
+			(at 2.54 0 180)
 			(size 1.1 1.8)
 			(drill 0.75
 				(offset 0 0.4)
@@ -97199,7 +97199,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e671ef40-8f80-44da-bfbc-beae9a276033")
-		(at 508.17 93.01)
+		(at 543.77 413.81)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R90"
@@ -97903,7 +97903,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "e9837b9f-5fc3-4cc9-8f8f-ed76f33e266c")
-		(at 442.38 95.09)
+		(at 477.98 415.89)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U30"
@@ -98584,7 +98584,7 @@
 	(footprint "Diode_THT:D_A-405_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "eade4e54-38be-4a64-9dc1-49883a01e98a")
-		(at 124.5 81.15 -90)
+		(at 493.42 578.45 -90)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D17"
@@ -98904,7 +98904,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_HandSolder"
 		(layer "F.Cu")
 		(uuid "ed0a4593-70ab-42b4-b600-a81a9e68057a")
-		(at 175 112.5 90)
+		(at 543.92 609.8 90)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q18"
@@ -99216,7 +99216,7 @@
 	(footprint "Phones:STM32NucleoF303RE"
 		(layer "F.Cu")
 		(uuid "ed2582b9-e6de-4b5c-ac85-ac1ab0d444ed")
-		(at 276.04 145.86)
+		(at 311.64 466.66)
 		(property "Reference" "U1"
 			(at 30.25 -1.75 0)
 			(unlocked yes)
@@ -102285,7 +102285,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "f0a07586-532b-4297-ab95-810000f32bf0")
-		(at 375.9 257.05)
+		(at 411.5 577.85)
 		(property "Reference" "JP14"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -102440,7 +102440,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "f1d2a253-77d0-4370-b0bc-7060f8878b9e")
-		(at 403.08 351.5)
+		(at 401.835 112.625)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J42"
 			(at 6 -12 0)
@@ -106088,7 +106088,7 @@
 	(footprint "Package_DIP:DIP-4_W7.62mm_LongPads"
 		(layer "F.Cu")
 		(uuid "fab857c7-9204-4086-9205-64337616e2c9")
-		(at 508.57 109.77)
+		(at 544.17 430.57)
 		(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U32"
@@ -106389,11 +106389,11 @@
 	(footprint "Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A"
 		(layer "F.Cu")
 		(uuid "fb13c2fb-a117-4e8f-b738-c0957ea49248")
-		(at 87.3475 279.0125)
+		(at 141.56 218.86 90)
 		(descr "Standex-Meder SIL-relais, Form 1A, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf")
 		(tags "Standex Meder SIL reed relais")
 		(property "Reference" "K3"
-			(at 7.75 -3.65 0)
+			(at 7.75 -3.65 90)
 			(layer "F.SilkS")
 			(uuid "679134b9-35aa-4aaa-9246-f1b6d0af0476")
 			(effects
@@ -106404,7 +106404,7 @@
 			)
 		)
 		(property "Value" "Relay_SPST-NO"
-			(at 7.65 3.55 0)
+			(at 7.65 3.55 90)
 			(layer "F.Fab")
 			(uuid "4f0642e4-80db-4ebb-9fb5-7bc465640ee4")
 			(effects
@@ -106415,7 +106415,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -106428,7 +106428,7 @@
 			)
 		)
 		(property "Description" "Relay SPST, normally open, EN50005"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -106441,7 +106441,7 @@
 			)
 		)
 		(property "DKPN" "1835-1116-ND"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -106459,14 +106459,14 @@
 		(sheetfile "relays.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -2.55 2.8)
-			(end -2.55 1.8)
+			(start 17.55 -2.6)
+			(end 17.55 2.6)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d1e8bd4c-33a0-49af-a672-0dd35c648524")
+			(uuid "f3060838-0c0d-427b-b41c-8513c53e010c")
 		)
 		(fp_line
 			(start -2.35 -2.6)
@@ -106477,6 +106477,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "5ab69b65-f981-4a40-b5bc-de9dce8ddd70")
+		)
+		(fp_line
+			(start 17.55 2.6)
+			(end -2.35 2.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "180be445-fc67-4fb0-b011-04d586d5d92f")
 		)
 		(fp_line
 			(start -2.35 2.6)
@@ -106499,34 +106509,14 @@
 			(uuid "ed238b7b-2f07-417c-a6a3-064a3e657b69")
 		)
 		(fp_line
-			(start 17.55 -2.6)
-			(end 17.55 2.6)
+			(start -2.55 2.8)
+			(end -2.55 1.8)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f3060838-0c0d-427b-b41c-8513c53e010c")
-		)
-		(fp_line
-			(start 17.55 2.6)
-			(end -2.35 2.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "180be445-fc67-4fb0-b011-04d586d5d92f")
-		)
-		(fp_line
-			(start -2.55 -2.8)
-			(end -2.55 2.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e05b30ec-331c-499e-b7dc-46c37749e3c5")
+			(uuid "d1e8bd4c-33a0-49af-a672-0dd35c648524")
 		)
 		(fp_line
 			(start -2.55 -2.8)
@@ -106539,14 +106529,14 @@
 			(uuid "a3390f0d-90cd-45fd-ad7e-382bcbe0d6af")
 		)
 		(fp_line
-			(start 17.75 2.8)
+			(start -2.55 -2.8)
 			(end -2.55 2.8)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "365d7a6f-d4b3-4a7c-8880-1d23080ed60c")
+			(uuid "e05b30ec-331c-499e-b7dc-46c37749e3c5")
 		)
 		(fp_line
 			(start 17.75 2.8)
@@ -106557,6 +106547,26 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "dfd957b7-5176-41e4-9a52-c8b7c004d7eb")
+		)
+		(fp_line
+			(start 17.75 2.8)
+			(end -2.55 2.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "365d7a6f-d4b3-4a7c-8880-1d23080ed60c")
+		)
+		(fp_line
+			(start 17.5 -2.58326)
+			(end 17.5 2.51674)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c07d288d-e983-431c-8f11-aedd767b0da6")
 		)
 		(fp_line
 			(start -2.3 -2.58326)
@@ -106579,26 +106589,6 @@
 			(uuid "3a459e8b-fa8b-4c7e-b987-38be9906cf24")
 		)
 		(fp_line
-			(start -1.5 2.51674)
-			(end -2.3 1.66674)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f731e1ab-69e1-43d0-b459-7433f129e021")
-		)
-		(fp_line
-			(start 17.5 -2.58326)
-			(end 17.5 2.51674)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c07d288d-e983-431c-8f11-aedd767b0da6")
-		)
-		(fp_line
 			(start 17.5 2.51674)
 			(end -1.5 2.51674)
 			(stroke
@@ -106608,8 +106598,18 @@
 			(layer "F.Fab")
 			(uuid "11fa0c21-d929-473f-95fe-f40d9c4b0d8b")
 		)
+		(fp_line
+			(start -1.5 2.51674)
+			(end -2.3 1.66674)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f731e1ab-69e1-43d0-b459-7433f129e021")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 7.75 0 0)
+			(at 7.75 0 90)
 			(layer "F.Fab")
 			(uuid "804676fd-a73d-49b5-8122-1096af47df16")
 			(effects
@@ -106620,7 +106620,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
@@ -106641,7 +106641,7 @@
 			(uuid "df30e592-feca-4fcf-9111-21c1445cf599")
 		)
 		(pad "3" thru_hole circle
-			(at 5.08 0)
+			(at 5.08 0 90)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
@@ -106662,7 +106662,7 @@
 			(uuid "66fc7c56-965b-491a-a52b-2790bb4f9215")
 		)
 		(pad "5" thru_hole circle
-			(at 10.16 0)
+			(at 10.16 0 90)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
@@ -106683,7 +106683,7 @@
 			(uuid "1c2e429b-c36a-4f3e-9d07-179799230b0b")
 		)
 		(pad "7" thru_hole circle
-			(at 15.24 0)
+			(at 15.24 0 90)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
@@ -106719,7 +106719,7 @@
 	(footprint "Phones:Molex 0955016649"
 		(layer "F.Cu")
 		(uuid "fc69fadb-6171-498b-a5b4-b8d8a6223f89")
-		(at 143.095 43 180)
+		(at 142.28 248.2)
 		(descr "<b>Modular Jack</b><p>with Panel Stops")
 		(property "Reference" "J1"
 			(at 6.095 -12.225 0)
@@ -106768,7 +106768,7 @@
 			)
 		)
 		(property "DKPN" "WM5574-ND"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -106785,54 +106785,14 @@
 		(sheetfile "input_jacks.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 6.605 7.8)
-			(end 6.605 1.7)
+			(start -6.605 -10.22)
+			(end -6.605 -1.7)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5d34ba4b-684a-4da4-bf7e-e80452774e2c")
-		)
-		(fp_line
-			(start 6.605 7.8)
-			(end -6.605 7.8)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4df62ff8-9133-4630-9c1f-3d983715ab2d")
-		)
-		(fp_line
-			(start 6.605 -10.22)
-			(end 6.605 -1.7)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4df748b9-57da-48a5-848c-923701c5a37e")
-		)
-		(fp_line
-			(start 3 -10.22)
-			(end 6.605 -10.22)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5b3efe3e-3112-4d13-bd88-b4df1d50dd63")
-		)
-		(fp_line
-			(start -6.605 1.7)
-			(end -6.605 7.8)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e7730fdd-a313-4b6b-89cf-3b1ad3ac07b8")
+			(uuid "405d7398-272b-41c1-bb52-334a0b1adb76")
 		)
 		(fp_line
 			(start -6.605 -10.22)
@@ -106845,14 +106805,54 @@
 			(uuid "f8d82850-cb21-44e8-b252-f7c18b40260d")
 		)
 		(fp_line
-			(start -6.605 -10.22)
-			(end -6.605 -1.7)
+			(start -6.605 1.7)
+			(end -6.605 7.8)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "405d7398-272b-41c1-bb52-334a0b1adb76")
+			(uuid "e7730fdd-a313-4b6b-89cf-3b1ad3ac07b8")
+		)
+		(fp_line
+			(start 3 -10.22)
+			(end 6.605 -10.22)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5b3efe3e-3112-4d13-bd88-b4df1d50dd63")
+		)
+		(fp_line
+			(start 6.605 -10.22)
+			(end 6.605 -1.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4df748b9-57da-48a5-848c-923701c5a37e")
+		)
+		(fp_line
+			(start 6.605 7.8)
+			(end -6.605 7.8)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4df62ff8-9133-4630-9c1f-3d983715ab2d")
+		)
+		(fp_line
+			(start 6.605 7.8)
+			(end 6.605 1.7)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5d34ba4b-684a-4da4-bf7e-e80452774e2c")
 		)
 		(fp_circle
 			(center -3.175 -11.049)
@@ -106866,64 +106866,14 @@
 			(uuid "72bf229b-aff1-4e5b-9e98-ac7a0594bbfe")
 		)
 		(fp_line
-			(start 6.95 8.13)
-			(end 6.95 -10.47)
+			(start -6.95 -10.47)
+			(end -2.535 -10.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "226a0b43-55de-44b1-b783-efae2cc0a39b")
-		)
-		(fp_line
-			(start 6.95 -10.47)
-			(end 2.535 -10.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "18b3d07d-3c9c-48a1-840d-334d65d65e8a")
-		)
-		(fp_line
-			(start 2.535 -13.65)
-			(end 2.535 -10.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "68d2ee79-7a40-4c01-a08b-798fc2391638")
-		)
-		(fp_line
-			(start -2.535 -10.47)
-			(end -2.535 -13.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b1edd3f8-8f0f-4cc4-8d6e-88c22647054a")
-		)
-		(fp_line
-			(start -2.535 -13.65)
-			(end 2.535 -13.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "eaeb3007-c186-4e58-ae4b-607a70a76551")
-		)
-		(fp_line
-			(start -6.95 8.13)
-			(end 6.95 8.13)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "54aab626-83e8-4703-a788-2ebabaf80807")
+			(uuid "d0d2e258-357e-425d-85e0-373d00794fb6")
 		)
 		(fp_line
 			(start -6.95 8.13)
@@ -106936,34 +106886,74 @@
 			(uuid "4ab984d4-7d44-489f-9290-0210f5a85eff")
 		)
 		(fp_line
-			(start -6.95 -10.47)
-			(end -2.535 -10.47)
+			(start -6.95 8.13)
+			(end 6.95 8.13)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d0d2e258-357e-425d-85e0-373d00794fb6")
+			(uuid "54aab626-83e8-4703-a788-2ebabaf80807")
 		)
 		(fp_line
-			(start 6.605 7.88)
-			(end -6.605 7.88)
+			(start -2.535 -13.65)
+			(end 2.535 -13.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eaeb3007-c186-4e58-ae4b-607a70a76551")
+		)
+		(fp_line
+			(start -2.535 -10.47)
+			(end -2.535 -13.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b1edd3f8-8f0f-4cc4-8d6e-88c22647054a")
+		)
+		(fp_line
+			(start 2.535 -13.65)
+			(end 2.535 -10.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "68d2ee79-7a40-4c01-a08b-798fc2391638")
+		)
+		(fp_line
+			(start 6.95 -10.47)
+			(end 2.535 -10.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "18b3d07d-3c9c-48a1-840d-334d65d65e8a")
+		)
+		(fp_line
+			(start 6.95 8.13)
+			(end 6.95 -10.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "226a0b43-55de-44b1-b783-efae2cc0a39b")
+		)
+		(fp_line
+			(start -6.605 -10.22)
+			(end 6.605 -10.22)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c832e048-a241-4f16-8a7e-49543f32ffb7")
-		)
-		(fp_line
-			(start 6.605 -10.22)
-			(end 6.605 7.88)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "14591b90-2743-4b70-95a2-cb8ce258e210")
+			(uuid "5c0d9131-b29f-4ae6-89c4-c08c7dfa378f")
 		)
 		(fp_line
 			(start -6.605 7.88)
@@ -106976,14 +106966,24 @@
 			(uuid "dc03a64c-1e53-4dc7-98d5-314639534733")
 		)
 		(fp_line
-			(start -6.605 -10.22)
-			(end 6.605 -10.22)
+			(start 6.605 -10.22)
+			(end 6.605 7.88)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5c0d9131-b29f-4ae6-89c4-c08c7dfa378f")
+			(uuid "14591b90-2743-4b70-95a2-cb8ce258e210")
+		)
+		(fp_line
+			(start 6.605 7.88)
+			(end -6.605 7.88)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c832e048-a241-4f16-8a7e-49543f32ffb7")
 		)
 		(fp_circle
 			(center -3.175 -11.049)
@@ -106997,24 +106997,24 @@
 			(uuid "299fba45-758e-420c-a405-aab30e277510")
 		)
 		(pad "" np_thru_hole circle
-			(at -5.08 0 180)
+			(at -5.08 0)
 			(size 3.25 3.25)
 			(drill 3.25)
 			(layers "*.Cu" "*.Mask")
 			(uuid "77d7b13d-d75d-47bc-abcd-643a581e849a")
 		)
 		(pad "" np_thru_hole circle
-			(at 5.08 0 180)
+			(at 5.08 0)
 			(size 3.25 3.25)
 			(drill 3.25)
 			(layers "*.Cu" "*.Mask")
 			(uuid "af7c6bd9-97e4-49d3-a9d4-c3837a5e4d5a")
 		)
 		(pad "1" smd rect
-			(at -1.905 -10.225 180)
+			(at -1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 75 "/Input Phone Jacks/ptTX6")
+			(net 50 "/Input Phone Jacks/ptTX0")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -107032,10 +107032,10 @@
 			(uuid "a41d3eb3-e445-4ddf-a4ba-de9d6cf8108d")
 		)
 		(pad "2" smd rect
-			(at -0.635 -10.225 180)
+			(at -0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 72 "/Input Phone Jacks/Line Control6/Tpbx")
+			(net 51 "/Input Phone Jacks/Line Control0/Tpbx")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -107053,10 +107053,10 @@
 			(uuid "1191f985-e385-4183-baa6-c711ef993c46")
 		)
 		(pad "3" smd rect
-			(at 0.635 -10.225 180)
+			(at 0.635 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 73 "/Input Phone Jacks/Rpbx6")
+			(net 49 "/Input Phone Jacks/Rpbx0")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -107074,10 +107074,10 @@
 			(uuid "3afbdb5e-5c66-4aba-9beb-4b2a7c21f8da")
 		)
 		(pad "4" smd rect
-			(at 1.905 -10.225 180)
+			(at 1.905 -10.225)
 			(size 0.76 6.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 74 "/Input Phone Jacks/ptRX6")
+			(net 48 "/Input Phone Jacks/ptRX0")
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
@@ -107099,7 +107099,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "fd6cd43d-c017-4968-8280-eaff1431d169")
-		(at 522.94 175.55)
+		(at 558.54 496.35)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J54"
@@ -107664,7 +107664,7 @@
 	(footprint "PCM_SL_Jumpers:JUP_P10mm"
 		(layer "F.Cu")
 		(uuid "fddafc57-79bf-4db9-860d-7a7ded08d44c")
-		(at 375.9 272.2)
+		(at 411.5 593)
 		(property "Reference" "JP13"
 			(at 0 -2 0)
 			(unlocked yes)
@@ -108722,6 +108722,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 132.4 144.425)
+		(end 149.6 256.33)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eb834d02-4069-453f-abc4-f5ba6682f77d")
+	)
 	(gr_text "Input Jacks"
 		(at 43.5 48.5 0)
 		(layer "F.SilkS")
@@ -108735,7 +108746,7 @@
 		)
 	)
 	(gr_text "Output Jacks"
-		(at 513.5 356 0)
+		(at 512.255 117.125 0)
 		(layer "F.SilkS")
 		(uuid "fcb10a1e-7aaa-40c0-a915-09f22012608c")
 		(effects
@@ -110958,44 +110969,6 @@
 		)
 	)
 	(zone
-		(net 261)
-		(net_name "/Input Phone Jacks/Tpbx0")
-		(layer "F.Cu")
-		(uuid "4066b176-f740-4cc7-94ba-a771dd81d389")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30003)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 91.482501 217.234309) (xy 91.282501 217.234309) (xy 90.480801 218.136009) (xy 91.382501 219.038709)
-				(xy 92.284201 218.136009)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 91.482501 217.234309) (xy 91.282501 217.234309) (xy 90.480801 218.136009) (xy 91.382501 219.038709)
-				(xy 92.284201 218.136009)
-			)
-		)
-	)
-	(zone
 		(net 185)
 		(net_name "/hookSW8")
 		(layer "F.Cu")
@@ -111146,44 +111119,6 @@
 		)
 	)
 	(zone
-		(net 261)
-		(net_name "/Input Phone Jacks/Tpbx0")
-		(layer "F.Cu")
-		(uuid "67a85b62-eb9f-4580-afd6-998cac0aa36c")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30005)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 83.062474 159.388896) (xy 83.203896 159.247474) (xy 82.9675 158.02113) (xy 81.766793 157.951793)
-				(xy 81.43613 158.7525)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 83.062474 159.388896) (xy 83.203896 159.247474) (xy 82.9675 158.02113) (xy 81.766793 157.951793)
-				(xy 81.43613 158.7525)
-			)
-		)
-	)
-	(zone
 		(net 320)
 		(net_name "Net-(K19-Pad1)")
 		(layer "F.Cu")
@@ -111222,80 +111157,6 @@
 		)
 	)
 	(zone
-		(net 3)
-		(net_name "Net-(D5-K)")
-		(layer "F.Cu")
-		(uuid "710f9de2-8e45-4d36-87a6-4d848c5a2dd2")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30022)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 85.1325 217.03771) (xy 85.3325 217.03771) (xy 86.059277 216.064487) (xy 85.2325 215.23671) (xy 84.405723 216.064487)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 85.1325 217.03771) (xy 85.3325 217.03771) (xy 86.059277 216.064487) (xy 85.2325 215.23671) (xy 84.405723 216.064487)
-			)
-		)
-	)
-	(zone
-		(net 260)
-		(net_name "Net-(K3-Pad1)")
-		(layer "F.Cu")
-		(uuid "73f40c19-8619-4e3e-82eb-25f4a971c088")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30047)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 84.492128 278.9125) (xy 84.492128 278.7125) (xy 83.351956 278.147324) (xy 82.9065 278.8125)
-				(xy 83.351956 279.477676)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 84.492128 278.9125) (xy 84.492128 278.7125) (xy 83.351956 278.147324) (xy 82.9065 278.8125)
-				(xy 83.351956 279.477676)
-			)
-		)
-	)
-	(zone
 		(net 297)
 		(net_name "/Input Phone Jacks/Tpbx8")
 		(layer "F.Cu")
@@ -111330,82 +111191,6 @@
 			(pts
 				(xy 93.026194 149.672384) (xy 93.167616 149.813806) (xy 94.612836 149.344246) (xy 94.428207 148.411793)
 				(xy 93.495754 148.227164)
-			)
-		)
-	)
-	(zone
-		(net 49)
-		(net_name "/Input Phone Jacks/Rpbx0")
-		(layer "F.Cu")
-		(uuid "7d8f3d99-8831-4f60-baee-f41bbb831107")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30063)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 101.536351 279.922228) (xy 101.677772 280.063649) (xy 102.724063 279.69905) (xy 102.588207 279.011793)
-				(xy 101.90095 278.875937)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 101.536351 279.922228) (xy 101.677772 280.063649) (xy 102.724063 279.69905) (xy 102.588207 279.011793)
-				(xy 101.90095 278.875937)
-			)
-		)
-	)
-	(zone
-		(net 261)
-		(net_name "/Input Phone Jacks/Tpbx0")
-		(layer "F.Cu")
-		(uuid "80a5e1eb-703b-4e8b-9b62-ef103a5fae8e")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30007)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 86.817435 161.223856) (xy 86.958856 161.082435) (xy 85.675292 160.022604) (xy 85.146793 160.811793)
-				(xy 85.332836 161.744246)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 86.817435 161.223856) (xy 86.958856 161.082435) (xy 85.675292 160.022604) (xy 85.146793 160.811793)
-				(xy 85.332836 161.744246)
 			)
 		)
 	)
@@ -111518,44 +111303,6 @@
 			(pts
 				(xy 92.742474 146.188896) (xy 92.883896 146.047474) (xy 92.6475 144.82113) (xy 91.446793 144.751793)
 				(xy 91.11613 145.5525)
-			)
-		)
-	)
-	(zone
-		(net 150)
-		(net_name "/Output Phone Jacks/Wiretap0/Tpots")
-		(layer "F.Cu")
-		(uuid "9926108b-70b6-4438-b20a-7932463fce41")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30015)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 85.2475 148.930754) (xy 85.0475 148.930754) (xy 84.357604 150.284708) (xy 85.1475 150.8135)
-				(xy 85.937396 150.284708)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 85.2475 148.930754) (xy 85.0475 148.930754) (xy 84.357604 150.284708) (xy 85.1475 150.8135)
-				(xy 85.937396 150.284708)
 			)
 		)
 	)
@@ -111674,80 +111421,6 @@
 		)
 	)
 	(zone
-		(net 170)
-		(net_name "controlSW0")
-		(layer "F.Cu")
-		(uuid "b0f9da92-6f7d-4d0a-9ed9-2ba2167422ef")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30049)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 80.33271 216.766498) (xy 80.191288 216.90792) (xy 80.597872 218.113782) (xy 81.383207 217.958417)
-				(xy 81.538572 217.173082)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 80.33271 216.766498) (xy 80.191288 216.90792) (xy 80.597872 218.113782) (xy 81.383207 217.958417)
-				(xy 81.538572 217.173082)
-			)
-		)
-	)
-	(zone
-		(net 3)
-		(net_name "Net-(D5-K)")
-		(layer "F.Cu")
-		(uuid "b2bbc81d-b4ab-4e27-a2be-b0f1fd9474f3")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30021)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 83.4325 215.13771) (xy 83.4325 215.33771) (xy 84.405723 216.064487) (xy 85.2335 215.23771) (xy 84.405723 214.410933)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 83.4325 215.13771) (xy 83.4325 215.33771) (xy 84.405723 216.064487) (xy 85.2335 215.23771) (xy 84.405723 214.410933)
-			)
-		)
-	)
-	(zone
 		(net 16)
 		(net_name "Net-(D20-K)")
 		(layer "F.Cu")
@@ -111780,78 +111453,6 @@
 			(layer "F.Cu")
 			(pts
 				(xy 93.8675 254.3125) (xy 93.8675 254.5125) (xy 94.840723 255.239277) (xy 95.6685 254.4125) (xy 94.840723 253.585723)
-			)
-		)
-	)
-	(zone
-		(net 3)
-		(net_name "Net-(D5-K)")
-		(layer "F.Cu")
-		(uuid "bcb562c4-bd6e-4550-9888-475b4efd46e8")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30060)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 82.8325 215.33771) (xy 82.8325 215.13771) (xy 82.2825 214.605055) (xy 80.9815 214.97771) (xy 82.2825 215.52771)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 82.8325 215.33771) (xy 82.8325 215.13771) (xy 82.2825 214.605055) (xy 80.9815 214.97771) (xy 82.2825 215.52771)
-			)
-		)
-	)
-	(zone
-		(net 260)
-		(net_name "Net-(K3-Pad1)")
-		(layer "F.Cu")
-		(uuid "be9c69e6-7e27-4f0e-b439-68e64c015d7f")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30057)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 85.9475 278.7125) (xy 85.9475 278.9125) (xy 86.6475 279.619525) (xy 87.3485 279.0125) (xy 86.6475 278.3125)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 85.9475 278.7125) (xy 85.9475 278.9125) (xy 86.6475 279.619525) (xy 87.3485 279.0125) (xy 86.6475 278.3125)
 			)
 		)
 	)
@@ -111890,80 +111491,6 @@
 			(pts
 				(xy 86.955268 168.279647) (xy 86.813847 168.421068) (xy 87.263128 169.789215) (xy 88.148209 169.614009)
 				(xy 88.323415 168.728928)
-			)
-		)
-	)
-	(zone
-		(net 2)
-		(net_name "Net-(D4-K)")
-		(layer "F.Cu")
-		(uuid "c138551c-c20a-41ad-98ad-4d596460374f")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30069)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 91.107119 272.614302) (xy 90.965698 272.472881) (xy 89.869682 272.9325) (xy 90.096793 273.483207)
-				(xy 91.3975 272.9325)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 91.107119 272.614302) (xy 90.965698 272.472881) (xy 89.869682 272.9325) (xy 90.096793 273.483207)
-				(xy 91.3975 272.9325)
-			)
-		)
-	)
-	(zone
-		(net 170)
-		(net_name "controlSW0")
-		(layer "F.Cu")
-		(uuid "c44b576f-8ab9-4021-8b16-bc7de06c450a")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30076)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 79.6125 214.80771) (xy 79.8125 214.80771) (xy 80.191567 214.087948) (xy 79.7125 213.70671) (xy 79.1625 214.25771)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 79.6125 214.80771) (xy 79.8125 214.80771) (xy 80.191567 214.087948) (xy 79.7125 213.70671) (xy 79.1625 214.25771)
 			)
 		)
 	)
@@ -112040,44 +111567,6 @@
 			(pts
 				(xy 99.662474 132.188896) (xy 99.803896 132.047474) (xy 99.5675 130.82113) (xy 98.366793 130.751793)
 				(xy 98.03613 131.5525)
-			)
-		)
-	)
-	(zone
-		(net 150)
-		(net_name "/Output Phone Jacks/Wiretap0/Tpots")
-		(layer "F.Cu")
-		(uuid "cde47612-8481-4297-a79a-0bfb2ecee9a5")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30042)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 82.106911 153.994511) (xy 81.965489 153.853089) (xy 81.086504 154.679616) (xy 81.766793 155.413207)
-				(xy 82.6867 154.822068)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 82.106911 153.994511) (xy 81.965489 153.853089) (xy 81.086504 154.679616) (xy 81.766793 155.413207)
-				(xy 82.6867 154.822068)
 			)
 		)
 	)
@@ -112234,42 +111723,6 @@
 		)
 	)
 	(zone
-		(net 2)
-		(net_name "Net-(D4-K)")
-		(layer "F.Cu")
-		(uuid "df1cdc72-9cdf-49a6-9809-c938f3b673c6")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30016)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 92.9575 272.1125) (xy 92.9575 272.3125) (xy 93.930723 273.039277) (xy 94.7585 272.2125) (xy 93.930723 271.385723)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 92.9575 272.1125) (xy 92.9575 272.3125) (xy 93.930723 273.039277) (xy 94.7585 272.2125) (xy 93.930723 271.385723)
-			)
-		)
-	)
-	(zone
 		(net 32)
 		(net_name "Net-(D36-K)")
 		(layer "F.Cu")
@@ -112304,44 +111757,6 @@
 			(pts
 				(xy 91.227119 241.014302) (xy 91.085698 240.872881) (xy 89.989682 241.3325) (xy 90.216793 241.883207)
 				(xy 91.5175 241.3325)
-			)
-		)
-	)
-	(zone
-		(net 51)
-		(net_name "/Input Phone Jacks/Line Control0/Tpbx")
-		(layer "F.Cu")
-		(uuid "e0f55ebf-a7a8-4ed0-b093-2581bba094c9")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30053)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 84.098712 287.92271) (xy 83.95729 287.781288) (xy 82.751428 288.187872) (xy 82.906793 288.973207)
-				(xy 83.692128 289.128572)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 84.098712 287.92271) (xy 83.95729 287.781288) (xy 82.751428 288.187872) (xy 82.906793 288.973207)
-				(xy 83.692128 289.128572)
 			)
 		)
 	)
@@ -112458,120 +111873,6 @@
 		)
 	)
 	(zone
-		(net 2)
-		(net_name "Net-(D4-K)")
-		(layer "F.Cu")
-		(uuid "fab9b2df-efca-4fdd-af00-be84d264f04e")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30070)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 90.965698 274.492119) (xy 91.107119 274.350698) (xy 91.3975 274.0325) (xy 90.096793 273.481793)
-				(xy 89.869682 274.0325)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 90.965698 274.492119) (xy 91.107119 274.350698) (xy 91.3975 274.0325) (xy 90.096793 273.481793)
-				(xy 89.869682 274.0325)
-			)
-		)
-	)
-	(zone
-		(net 261)
-		(net_name "/Input Phone Jacks/Tpbx0")
-		(layer "F.Cu")
-		(uuid "faf9cf4e-901c-43c3-8bed-5fb36be837ec")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 83.681028 159.724606) (xy 83.539606 159.866028) (xy 84.357604 161.340292) (xy 85.148207 160.813207)
-				(xy 85.332836 159.880754)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 83.681028 159.724606) (xy 83.539606 159.866028) (xy 84.357604 161.340292) (xy 85.148207 160.813207)
-				(xy 85.332836 159.880754)
-			)
-		)
-	)
-	(zone
-		(net 150)
-		(net_name "/Output Phone Jacks/Wiretap0/Tpots")
-		(layer "F.Cu")
-		(uuid "fb91cad1-d223-48e2-a972-918bf9983216")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30012)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 83.746194 152.072384) (xy 83.887616 152.213806) (xy 85.332836 151.744246) (xy 85.148207 150.811793)
-				(xy 84.215754 150.627164)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 83.746194 152.072384) (xy 83.887616 152.213806) (xy 85.332836 151.744246) (xy 85.148207 150.811793)
-				(xy 84.215754 150.627164)
-			)
-		)
-	)
-	(zone
 		(net 32)
 		(net_name "Net-(D36-K)")
 		(layer "F.Cu")
@@ -112606,80 +111907,6 @@
 			(pts
 				(xy 90.857772 245.831351) (xy 90.716351 245.972772) (xy 91.08095 247.019063) (xy 91.768207 246.883207)
 				(xy 91.904063 246.19595)
-			)
-		)
-	)
-	(zone
-		(net 2)
-		(net_name "Net-(D4-K)")
-		(layer "F.Cu")
-		(uuid "fd3ba33a-f84e-4ab9-9b32-751455c8ae05")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30061)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 92.5275 277.62595) (xy 92.3275 277.62595) (xy 91.845471 278.623601) (xy 92.4275 279.0135) (xy 93.009529 278.623601)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 92.5275 277.62595) (xy 92.3275 277.62595) (xy 91.845471 278.623601) (xy 92.4275 279.0135) (xy 93.009529 278.623601)
-			)
-		)
-	)
-	(zone
-		(net 3)
-		(net_name "Net-(D5-K)")
-		(layer "F.Cu")
-		(uuid "ff8424eb-1517-4653-98dd-b2bd4cd2fdd1")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30008)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 85.3325 219.251636) (xy 85.1325 219.251636) (xy 84.498128 220.861797) (xy 85.382502 221.03871)
-				(xy 86.132238 220.536752)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 85.3325 219.251636) (xy 85.1325 219.251636) (xy 84.498128 220.861797) (xy 85.382502 221.03871)
-				(xy 86.132238 220.536752)
 			)
 		)
 	)
@@ -112857,44 +112084,6 @@
 		)
 	)
 	(zone
-		(net 51)
-		(net_name "/Input Phone Jacks/Line Control0/Tpbx")
-		(layer "B.Cu")
-		(uuid "a9d4cf1b-1e2e-4fba-bf54-1e8364e952d2")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30004)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 84.1085 287.843921) (xy 83.9085 287.843921) (xy 82.751428 288.187872) (xy 82.9075 288.9735)
-				(xy 83.692128 289.128572)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 84.1085 287.843921) (xy 83.9085 287.843921) (xy 82.751428 288.187872) (xy 82.9075 288.9735)
-				(xy 83.692128 289.128572)
-			)
-		)
-	)
-	(zone
 		(net 82)
 		(net_name "/Input Phone Jacks/Line Control8/Tpbx")
 		(layer "B.Cu")
@@ -112929,44 +112118,6 @@
 			(pts
 				(xy 81.738712 269.64271) (xy 81.59729 269.501288) (xy 80.391428 269.907872) (xy 80.546793 270.693207)
 				(xy 81.332128 270.848572)
-			)
-		)
-	)
-	(zone
-		(net 51)
-		(net_name "/Input Phone Jacks/Line Control0/Tpbx")
-		(layer "B.Cu")
-		(uuid "e0f1dfc4-2fca-407a-88c9-be3de2d7dca8")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 97.2825 235.022982) (xy 97.4825 235.022982) (xy 98.132236 233.737866) (xy 97.3825 233.235908)
-				(xy 96.632764 233.737866)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 97.2825 235.022982) (xy 97.4825 235.022982) (xy 98.132236 233.737866) (xy 97.3825 233.235908)
-				(xy 96.632764 233.737866)
 			)
 		)
 	)

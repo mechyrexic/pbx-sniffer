@@ -2203,8 +2203,7 @@
 	)
 	(symbol
 		(lib_id "Phones:Jack 6P4C RJ11")
-		(at 82.55 114.3 0)
-		(mirror y)
+		(at 86.36 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2212,7 +2211,7 @@
 		(dnp no)
 		(uuid "01403055-388e-43c7-9eee-167b97d8916a")
 		(property "Reference" "J29"
-			(at 82.55 113.03 0)
+			(at 86.36 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +2219,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 81.28 111.76 0)
+			(at 87.63 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2228,7 @@
 			)
 		)
 		(property "Footprint" "Phones:Molex 0955016649"
-			(at 82.55 114.3 0)
+			(at 86.36 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,7 +2237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 114.3 0)
+			(at 86.36 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2246,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 114.3 0)
+			(at 86.36 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +2255,7 @@
 			)
 		)
 		(property "DKPN" "WM5574-ND"
-			(at 82.55 114.3 0)
+			(at 86.36 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,8 +2369,7 @@
 	)
 	(symbol
 		(lib_id "Phones:Jack 6P4C RJ11")
-		(at 82.55 33.02 0)
-		(mirror y)
+		(at 86.36 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2379,7 +2377,7 @@
 		(dnp no)
 		(uuid "26fe42a6-c49f-43ff-95f2-1ea8bde8a030")
 		(property "Reference" "J25"
-			(at 82.55 31.75 0)
+			(at 86.36 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2385,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 81.28 30.48 0)
+			(at 87.63 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2394,7 @@
 			)
 		)
 		(property "Footprint" "Phones:Molex 0955016649"
-			(at 82.55 33.02 0)
+			(at 86.36 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 33.02 0)
+			(at 86.36 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2412,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 33.02 0)
+			(at 86.36 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2421,7 @@
 			)
 		)
 		(property "DKPN" "WM5574-ND"
-			(at 82.55 33.02 0)
+			(at 86.36 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2454,8 +2452,7 @@
 	)
 	(symbol
 		(lib_id "Phones:Jack 6P4C RJ11")
-		(at 82.55 73.66 0)
-		(mirror y)
+		(at 86.36 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2463,7 +2460,7 @@
 		(dnp no)
 		(uuid "281240c7-4590-4d2f-8746-0959b109d631")
 		(property "Reference" "J27"
-			(at 82.55 72.39 0)
+			(at 86.36 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2468,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 81.28 71.12 0)
+			(at 87.63 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +2477,7 @@
 			)
 		)
 		(property "Footprint" "Phones:Molex 0955016649"
-			(at 82.55 73.66 0)
+			(at 86.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +2486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 73.66 0)
+			(at 86.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +2495,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 73.66 0)
+			(at 86.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,7 +2504,7 @@
 			)
 		)
 		(property "DKPN" "WM5574-ND"
-			(at 82.55 73.66 0)
+			(at 86.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,8 +2535,7 @@
 	)
 	(symbol
 		(lib_id "Phones:Jack 6P4C RJ11")
-		(at 82.55 53.34 0)
-		(mirror y)
+		(at 86.36 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2547,7 +2543,7 @@
 		(dnp no)
 		(uuid "2c8dad4f-68ef-4bfb-b6b8-0c4d9dbc8758")
 		(property "Reference" "J26"
-			(at 82.55 52.07 0)
+			(at 86.36 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +2551,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 81.28 50.8 0)
+			(at 87.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2560,7 @@
 			)
 		)
 		(property "Footprint" "Phones:Molex 0955016649"
-			(at 82.55 53.34 0)
+			(at 86.36 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +2569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 53.34 0)
+			(at 86.36 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2582,7 +2578,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 53.34 0)
+			(at 86.36 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +2587,7 @@
 			)
 		)
 		(property "DKPN" "WM5574-ND"
-			(at 82.55 53.34 0)
+			(at 86.36 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +2618,8 @@
 	)
 	(symbol
 		(lib_id "Phones:Jack 6P4C RJ11")
-		(at 86.36 93.98 0)
+		(at 82.55 93.98 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2630,7 +2627,7 @@
 		(dnp no)
 		(uuid "2fb210e1-6767-4a44-b0fd-c3263441d036")
 		(property "Reference" "J34"
-			(at 86.36 92.71 0)
+			(at 82.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +2635,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 87.63 91.44 0)
+			(at 81.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +2644,7 @@
 			)
 		)
 		(property "Footprint" "Phones:Molex 0955016649"
-			(at 86.36 93.98 0)
+			(at 82.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +2653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 93.98 0)
+			(at 82.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +2662,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 93.98 0)
+			(at 82.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +2671,7 @@
 			)
 		)
 		(property "DKPN" "WM5574-ND"
-			(at 86.36 93.98 0)
+			(at 82.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,7 +2785,8 @@
 	)
 	(symbol
 		(lib_id "Phones:Jack 6P4C RJ11")
-		(at 86.36 73.66 0)
+		(at 82.55 73.66 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2796,7 +2794,7 @@
 		(dnp no)
 		(uuid "372d2efe-ed28-4bfe-8ad4-cd909230fabf")
 		(property "Reference" "J33"
-			(at 86.36 72.39 0)
+			(at 82.55 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +2802,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 87.63 71.12 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2811,7 @@
 			)
 		)
 		(property "Footprint" "Phones:Molex 0955016649"
-			(at 86.36 73.66 0)
+			(at 82.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 73.66 0)
+			(at 82.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +2829,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 73.66 0)
+			(at 82.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +2838,7 @@
 			)
 		)
 		(property "DKPN" "WM5574-ND"
-			(at 86.36 73.66 0)
+			(at 82.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +2953,8 @@
 	)
 	(symbol
 		(lib_id "Phones:Jack 6P4C RJ11")
-		(at 86.36 33.02 0)
+		(at 82.55 33.02 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2963,7 +2962,7 @@
 		(dnp no)
 		(uuid "4e972836-bbd9-4edf-80b0-23e95a23b31f")
 		(property "Reference" "J31"
-			(at 86.36 31.75 0)
+			(at 82.55 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,7 +2970,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 87.63 30.48 0)
+			(at 81.28 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +2979,7 @@
 			)
 		)
 		(property "Footprint" "Phones:Molex 0955016649"
-			(at 86.36 33.02 0)
+			(at 82.55 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +2988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 33.02 0)
+			(at 82.55 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +2997,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 33.02 0)
+			(at 82.55 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +3006,7 @@
 			)
 		)
 		(property "DKPN" "WM5574-ND"
-			(at 86.36 33.02 0)
+			(at 82.55 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3370,8 @@
 	)
 	(symbol
 		(lib_id "Phones:Jack 6P4C RJ11")
-		(at 86.36 114.3 0)
+		(at 82.55 114.3 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3379,7 +3379,7 @@
 		(dnp no)
 		(uuid "a8656d20-986d-4fbc-a8ed-b00d3d386e74")
 		(property "Reference" "J35"
-			(at 86.36 113.03 0)
+			(at 82.55 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3387,7 +3387,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 87.63 111.76 0)
+			(at 81.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +3396,7 @@
 			)
 		)
 		(property "Footprint" "Phones:Molex 0955016649"
-			(at 86.36 114.3 0)
+			(at 82.55 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +3405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 114.3 0)
+			(at 82.55 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +3414,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 114.3 0)
+			(at 82.55 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,7 +3423,7 @@
 			)
 		)
 		(property "DKPN" "WM5574-ND"
-			(at 86.36 114.3 0)
+			(at 82.55 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3538,8 @@
 	)
 	(symbol
 		(lib_id "Phones:Jack 6P4C RJ11")
-		(at 86.36 134.62 0)
+		(at 82.55 134.62 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3546,7 +3547,7 @@
 		(dnp no)
 		(uuid "af9ae923-c263-4aee-bb74-9532cfbe7662")
 		(property "Reference" "J36"
-			(at 86.36 133.35 0)
+			(at 82.55 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +3555,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 87.63 132.08 0)
+			(at 81.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +3564,7 @@
 			)
 		)
 		(property "Footprint" "Phones:Molex 0955016649"
-			(at 86.36 134.62 0)
+			(at 82.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 134.62 0)
+			(at 82.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3582,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 134.62 0)
+			(at 82.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +3591,7 @@
 			)
 		)
 		(property "DKPN" "WM5574-ND"
-			(at 86.36 134.62 0)
+			(at 82.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,8 +3622,7 @@
 	)
 	(symbol
 		(lib_id "Phones:Jack 6P4C RJ11")
-		(at 82.55 93.98 0)
-		(mirror y)
+		(at 86.36 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3630,7 +3630,7 @@
 		(dnp no)
 		(uuid "ba7bd8ef-29ab-413b-acdd-73f6bb026158")
 		(property "Reference" "J28"
-			(at 82.55 92.71 0)
+			(at 86.36 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,7 +3638,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 81.28 91.44 0)
+			(at 87.63 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +3647,7 @@
 			)
 		)
 		(property "Footprint" "Phones:Molex 0955016649"
-			(at 82.55 93.98 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,7 +3656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 93.98 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,7 +3665,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 93.98 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,7 +3674,7 @@
 			)
 		)
 		(property "DKPN" "WM5574-ND"
-			(at 82.55 93.98 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +3873,8 @@
 	)
 	(symbol
 		(lib_id "Phones:Jack 6P4C RJ11")
-		(at 86.36 53.34 0)
+		(at 82.55 53.34 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3881,7 +3882,7 @@
 		(dnp no)
 		(uuid "d2be467e-16fb-4ef6-8a4f-f17e3170047a")
 		(property "Reference" "J32"
-			(at 86.36 52.07 0)
+			(at 82.55 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3890,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 87.63 50.8 0)
+			(at 81.28 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +3899,7 @@
 			)
 		)
 		(property "Footprint" "Phones:Molex 0955016649"
-			(at 86.36 53.34 0)
+			(at 82.55 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,7 +3908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 53.34 0)
+			(at 82.55 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +3917,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 53.34 0)
+			(at 82.55 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +3926,7 @@
 			)
 		)
 		(property "DKPN" "WM5574-ND"
-			(at 86.36 53.34 0)
+			(at 82.55 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3956,8 +3957,7 @@
 	)
 	(symbol
 		(lib_id "Phones:Jack 6P4C RJ11")
-		(at 82.55 134.62 0)
-		(mirror y)
+		(at 86.36 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3965,7 +3965,7 @@
 		(dnp no)
 		(uuid "d35bcf98-5553-4faf-be7e-e44d92bb1b10")
 		(property "Reference" "J30"
-			(at 82.55 133.35 0)
+			(at 86.36 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +3973,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 81.28 132.08 0)
+			(at 87.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +3982,7 @@
 			)
 		)
 		(property "Footprint" "Phones:Molex 0955016649"
-			(at 82.55 134.62 0)
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +3991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 134.62 0)
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4000,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 134.62 0)
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +4009,7 @@
 			)
 		)
 		(property "DKPN" "WM5574-ND"
-			(at 82.55 134.62 0)
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
