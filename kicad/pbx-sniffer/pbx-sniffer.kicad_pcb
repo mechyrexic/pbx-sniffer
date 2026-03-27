@@ -132048,7 +132048,7 @@
 	)
 	(gr_rect
 		(start 522.9 215.3)
-		(end 817.6 385.4)
+		(end 799 385.4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -132253,7 +132253,7 @@
 		)
 	)
 	(gr_text "Transfer Call Buttons"
-		(at 808.350001 355.820001 90)
+		(at 777.6 357 90)
 		(layer "F.SilkS")
 		(uuid "744dc078-825f-4f0a-a5e7-37fa09ee7034")
 		(effects
