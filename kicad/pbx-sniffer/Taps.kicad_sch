@@ -686,7 +686,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDA"
+		(symbol "power:GNDD"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -707,8 +707,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GNDA"
-				(at 0 -3.81 0)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -733,7 +733,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -751,10 +751,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "GNDA_0_1"
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy 0 0) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -765,7 +776,7 @@
 					)
 				)
 			)
-			(symbol "GNDA_1_1"
+			(symbol "GNDD_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -790,7 +801,7 @@
 	)
 	(text "determine resistor value based on selected optocoupler\n"
 		(exclude_from_sim no)
-		(at 88.9 46.355 0)
+		(at 88.9 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -825,7 +836,7 @@
 		(uuid "4c77c0be-9242-4d51-8a8c-3272d36d8211")
 	)
 	(junction
-		(at 57.785 36.83)
+		(at 58.42 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92321b57-0e8f-45d9-b06b-327abcc953d7")
@@ -848,7 +859,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.785 45.72) (xy 57.785 46.99)
+			(xy 58.42 45.72) (xy 58.42 46.99)
 		)
 		(stroke
 			(width 0)
@@ -878,7 +889,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.785 38.1) (xy 57.785 36.83)
+			(xy 58.42 38.1) (xy 58.42 36.83)
 		)
 		(stroke
 			(width 0)
@@ -908,13 +919,23 @@
 	)
 	(wire
 		(pts
-			(xy 57.785 36.83) (xy 70.485 36.83)
+			(xy 58.42 36.83) (xy 71.12 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b559d57f-3abd-48c7-9512-60ce6b266309")
+	)
+	(wire
+		(pts
+			(xy 58.42 36.83) (xy 57.785 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5973f0b-e25e-41a6-a3d6-332ae2bc6f1d")
 	)
 	(wire
 		(pts
@@ -939,7 +960,7 @@
 	)
 	(hierarchical_label "+ADC"
 		(shape input)
-		(at 70.485 36.83 0)
+		(at 71.12 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -958,168 +979,6 @@
 			(justify right)
 		)
 		(uuid "c0ec9aaa-2d45-4cd1-ab9c-303ce410713f")
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 57.785 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58c1b6f5-710b-47b9-af7d-0e78e2cf4da4")
-		(property "Reference" "#PWR048"
-			(at 57.785 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 57.785 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.785 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.785 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 57.785 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "defe41af-9d9d-4959-88fc-5f4f27eb579d")
-		)
-		(instances
-			(project ""
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/11d81b46-994e-4f58-8697-a646ee6448ef"
-					(reference "#PWR048")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/0956ae1a-90dc-428e-b431-249c52aa7182"
-					(reference "#PWR0216")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/10e443a7-459f-441e-9592-8c2f6c693208"
-					(reference "#PWR0218")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/113be237-5b73-490f-a8ab-d5c030792766"
-					(reference "#PWR0230")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/17ca54db-3786-452b-861c-ca773549c614"
-					(reference "#PWR0246")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/182b0c80-1b33-4b2c-b9c2-9e3313b0cab1"
-					(reference "#PWR0228")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/1a15ccd7-9d7f-4907-97c9-09843c7be1c3"
-					(reference "#PWR0242")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/2df6f248-7c81-478b-91bf-add6716d808c"
-					(reference "#PWR0212")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/35495e3d-f844-449e-8c85-de93e48cea43"
-					(reference "#PWR0208")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/4a14bb63-a3c3-44cc-91f9-e60bb935e08b"
-					(reference "#PWR0204")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/50945489-524d-472f-b16a-a09628b2ee52"
-					(reference "#PWR0240")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/5e88ab23-afe7-4927-bd12-19aaf67ed715"
-					(reference "#PWR0234")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/5fd5abe0-4e58-4347-83d7-8e1478f1950f"
-					(reference "#PWR0206")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/78762502-41b4-4492-a69b-ace172dd70b9"
-					(reference "#PWR0202")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/7f5bf101-97e6-4212-810a-fe8f57732f71"
-					(reference "#PWR0222")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/89817619-83dd-4c1b-8063-e03ad7e435e5"
-					(reference "#PWR0244")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/97372a5d-a7f8-41f2-8052-fe8ae008ca63"
-					(reference "#PWR0226")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/a1f00f55-f37c-40dc-9e5f-0f0cc695ef2d"
-					(reference "#PWR0224")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/b037c902-87ce-42d7-96b1-b9c478e8b127"
-					(reference "#PWR0214")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/b9f2f72a-0170-4079-87ae-da5b84d69b9c"
-					(reference "#PWR0200")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/be8b0cc4-f3b3-49c9-9746-b9c4c1922617"
-					(reference "#PWR0210")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/bf736f3f-d6c9-4f94-8e20-42afe0189638"
-					(reference "#PWR0232")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/c12b5601-7499-4df0-ba9f-8238026f129f"
-					(reference "#PWR0236")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/ddb71293-9ed5-43ec-89cf-8260616072db"
-					(reference "#PWR0220")
-					(unit 1)
-				)
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/efdd2138-979c-4556-93bf-20243141d1da"
-					(reference "#PWR0238")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:VDDA")
@@ -1468,7 +1327,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 57.785 41.91 0)
+		(at 58.42 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1477,7 +1336,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2f48cf6-1f7e-42c2-af14-10bb888846b3")
 		(property "Reference" "R2"
-			(at 59.69 40.6399 0)
+			(at 60.325 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +1345,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 59.69 43.1799 0)
+			(at 60.325 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1354,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 56.007 41.91 90)
+			(at 56.642 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1363,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.785 41.91 0)
+			(at 58.42 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1372,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 57.785 41.91 0)
+			(at 58.42 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,6 +1486,168 @@
 				)
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/efdd2138-979c-4556-93bf-20243141d1da"
 					(reference "R97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 58.42 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db28e541-f160-4a96-bdba-e7f60d77be25")
+		(property "Reference" "#PWR048"
+			(at 58.42 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 58.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 58.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80d49804-64d0-477f-ac97-f1fc2ca45cfe")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/11d81b46-994e-4f58-8697-a646ee6448ef"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/0956ae1a-90dc-428e-b431-249c52aa7182"
+					(reference "#PWR0216")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/10e443a7-459f-441e-9592-8c2f6c693208"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/113be237-5b73-490f-a8ab-d5c030792766"
+					(reference "#PWR0230")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/17ca54db-3786-452b-861c-ca773549c614"
+					(reference "#PWR0246")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/182b0c80-1b33-4b2c-b9c2-9e3313b0cab1"
+					(reference "#PWR0228")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/1a15ccd7-9d7f-4907-97c9-09843c7be1c3"
+					(reference "#PWR0242")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/2df6f248-7c81-478b-91bf-add6716d808c"
+					(reference "#PWR0212")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/35495e3d-f844-449e-8c85-de93e48cea43"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/4a14bb63-a3c3-44cc-91f9-e60bb935e08b"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/50945489-524d-472f-b16a-a09628b2ee52"
+					(reference "#PWR0240")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/5e88ab23-afe7-4927-bd12-19aaf67ed715"
+					(reference "#PWR0234")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/5fd5abe0-4e58-4347-83d7-8e1478f1950f"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/78762502-41b4-4492-a69b-ace172dd70b9"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/7f5bf101-97e6-4212-810a-fe8f57732f71"
+					(reference "#PWR0222")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/89817619-83dd-4c1b-8063-e03ad7e435e5"
+					(reference "#PWR0244")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/97372a5d-a7f8-41f2-8052-fe8ae008ca63"
+					(reference "#PWR0226")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/a1f00f55-f37c-40dc-9e5f-0f0cc695ef2d"
+					(reference "#PWR0224")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/b037c902-87ce-42d7-96b1-b9c478e8b127"
+					(reference "#PWR0214")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/b9f2f72a-0170-4079-87ae-da5b84d69b9c"
+					(reference "#PWR0200")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/be8b0cc4-f3b3-49c9-9746-b9c4c1922617"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/bf736f3f-d6c9-4f94-8e20-42afe0189638"
+					(reference "#PWR0232")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/c12b5601-7499-4df0-ba9f-8238026f129f"
+					(reference "#PWR0236")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/ddb71293-9ed5-43ec-89cf-8260616072db"
+					(reference "#PWR0220")
+					(unit 1)
+				)
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/bcc2d39f-170c-4a52-880c-ce8759f83294/efdd2138-979c-4556-93bf-20243141d1da"
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)

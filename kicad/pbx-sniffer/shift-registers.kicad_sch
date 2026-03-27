@@ -789,7 +789,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "power:GNDD"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -810,8 +810,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -836,7 +836,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -854,10 +854,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy 0 0) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -868,7 +879,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GNDD_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -2785,6 +2796,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 41.91 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03ed54de-623e-4517-81be-7b2e2b35cc3b")
+		(property "Reference" "#PWR029"
+			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "030ba684-b137-4949-a0fd-2bf20a42e85f")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 135.89 63.5 0)
 		(unit 1)
@@ -2990,17 +3067,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 41.91 88.9 0)
+		(lib_id "power:GNDD")
+		(at 41.91 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0c324dcc-d7fb-4892-aaf9-49fda7f7ee85")
-		(property "Reference" "#PWR023"
-			(at 41.91 95.25 0)
+		(uuid "139ba0a6-97b7-41ad-b71f-27f649c7cfc5")
+		(property "Reference" "#PWR027"
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,17 +3085,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 41.91 93.98 0)
+		(property "Value" "GNDD"
+			(at 41.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 88.9 0)
+			(at 41.91 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 88.9 0)
+			(at 41.91 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,75 +3111,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9c46788-1e86-44a1-bfb1-01412ddacff5")
-		)
-		(instances
-			(project "pbx-sniffer"
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 41.91 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "162538a6-0653-47ba-a099-c225302173f7")
-		(property "Reference" "#PWR015"
-			(at 41.91 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 190.5 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 41.91 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,12 +3121,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a67a82e-a6c0-4097-b668-84b617a4beed")
+			(uuid "5710af75-b669-44b7-943d-35a036a996b0")
 		)
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR015")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3463,139 +3472,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 135.89 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e5bd7ee-02fe-45f3-b2f7-2eab110687a4")
-		(property "Reference" "#PWR044"
-			(at 135.89 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8007d723-5662-4a3a-a719-6cf6a2b4769e")
-		)
-		(instances
-			(project "pbx-sniffer"
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "321dc79e-8b71-46f3-a542-ae452a1b2b2d")
-		(property "Reference" "#PWR047"
-			(at 190.5 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bdc957b0-52b6-4cc9-b3c4-7c9cd9b395d6")
-		)
-		(instances
-			(project "pbx-sniffer"
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 135.89 104.14 0)
 		(unit 1)
@@ -3865,73 +3741,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 41.91 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3afa0da9-f23c-4e31-91d7-68d2c0639b4d")
-		(property "Reference" "#PWR019"
-			(at 41.91 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49951037-e11a-4e26-91b8-17344c87d6ab")
-		)
-		(instances
-			(project "pbx-sniffer"
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 129.54 58.42 180)
 		(unit 1)
@@ -4069,6 +3878,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 135.89 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42f22f76-b908-4442-b120-72c9ab6060e2")
+		(property "Reference" "#PWR045"
+			(at 135.89 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 135.89 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 135.89 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08286248-1531-4990-ae1a-6b7f0309e5a5")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 134.62 34.29 0)
 		(unit 1)
@@ -4128,6 +4003,72 @@
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 135.89 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45f25233-1ac2-41e6-99df-1214f3e8a4e6")
+		(property "Reference" "#PWR039"
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 135.89 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "980d2cdf-a132-4d56-a62e-05bb91914376")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4200,7 +4141,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDD")
 		(at 135.89 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4208,7 +4149,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "536f3e5b-258f-470c-b2fd-90639fd30aa3")
+		(uuid "4b0e34bc-5ca8-4b74-b050-ad6ed1904fcb")
 		(property "Reference" "#PWR040"
 			(at 135.89 95.25 0)
 			(effects
@@ -4218,13 +4159,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 135.89 93.98 0)
+		(property "Value" "GNDD"
+			(at 135.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -4245,7 +4185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 135.89 88.9 0)
 			(effects
 				(font
@@ -4255,12 +4195,144 @@
 			)
 		)
 		(pin "1"
-			(uuid "025a6b2d-5e2a-4c65-a37f-b0f25789aff3")
+			(uuid "d03fdce9-bf0d-477d-926e-a55316fde9f2")
 		)
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 135.89 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e478a25-6c25-4d7c-b280-fd7717678f5f")
+		(property "Reference" "#PWR038"
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 135.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 135.89 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1900084e-285f-426a-a1fb-03cbccac2c6a")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 135.89 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e72b97b-a72a-4379-9d89-394afad3657a")
+		(property "Reference" "#PWR042"
+			(at 135.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 135.89 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 135.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b71b5e00-d697-40ed-940b-c57d98d1751b")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4399,6 +4471,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 135.89 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58704f82-eec4-4700-9a40-c4a8bce6ab12")
+		(property "Reference" "#PWR041"
+			(at 135.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 135.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56f421f9-977e-49cb-a3d2-07c029cd98f2")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 134.62 176.53 0)
 		(unit 1)
@@ -4529,17 +4667,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 41.91 48.26 0)
+		(lib_id "power:GNDD")
+		(at 41.91 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5aceaae0-73d3-44ce-918a-ec381b850853")
-		(property "Reference" "#PWR029"
-			(at 41.91 54.61 0)
+		(uuid "5e07c8bf-d973-4e16-aafc-4217916175ae")
+		(property "Reference" "#PWR017"
+			(at 41.91 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,17 +4685,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 41.91 53.34 0)
+		(property "Value" "GNDD"
+			(at 41.91 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 48.26 0)
+			(at 41.91 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +4703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 48.26 0)
+			(at 41.91 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,8 +4711,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 48.26 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 41.91 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4584,29 +4721,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "21292dc1-f131-43ac-b8bf-c4a26a055391")
+			(uuid "ea6faa93-c431-4db8-b313-eb39d591e6e2")
 		)
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR029")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 135.89 190.5 0)
+		(lib_id "power:GNDD")
+		(at 135.89 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5b4ec90a-1b8a-48c9-9672-bb3390e1d63a")
-		(property "Reference" "#PWR045"
-			(at 135.89 196.85 0)
+		(uuid "62f19a09-8ae5-4dca-9efb-c4ada4b35a80")
+		(property "Reference" "#PWR043"
+			(at 135.89 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,17 +4751,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 135.89 195.58 0)
+		(property "Value" "GNDD"
+			(at 135.89 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 190.5 0)
+			(at 135.89 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 190.5 0)
+			(at 135.89 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,8 +4777,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 190.5 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 135.89 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,12 +4787,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "88a9e136-a3ad-4d8d-bc4c-f8eb81e0ddcc")
+			(uuid "b1e8c773-ee1d-477c-b7c5-09344207be82")
 		)
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR045")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4784,17 +4920,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 41.91 170.18 0)
+		(lib_id "power:GNDD")
+		(at 41.91 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "66cf7214-5357-41f3-bdae-903306afbb55")
-		(property "Reference" "#PWR017"
-			(at 41.91 176.53 0)
+		(uuid "6a7817bc-7f2d-4c77-8ae8-381c9b8b2238")
+		(property "Reference" "#PWR025"
+			(at 41.91 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,17 +4938,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 41.91 175.26 0)
+		(property "Value" "GNDD"
+			(at 41.91 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 170.18 0)
+			(at 41.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +4956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 170.18 0)
+			(at 41.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,75 +4964,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cce024aa-3735-495b-8a8a-09a316bef68c")
-		)
-		(instances
-			(project "pbx-sniffer"
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cac4e6c-7172-452f-8df9-1f44c56e2783")
-		(property "Reference" "#PWR041"
-			(at 135.89 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 109.22 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 41.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,79 +4974,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b94b1dd-0624-48fc-be50-4b6b0122e983")
+			(uuid "6ba9a4eb-e262-4c4b-a6ca-0789d56f245e")
 		)
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "717ece7a-97d4-4086-9f33-e3083c74528c")
-		(property "Reference" "#PWR038"
-			(at 135.89 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac4c6f71-6dcb-4500-a5e2-dbd056a3c496")
-		)
-		(instances
-			(project "pbx-sniffer"
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR038")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5192,17 +5193,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 135.89 129.54 0)
+		(lib_id "power:GNDD")
+		(at 135.89 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7ca4c933-0735-4bc5-b0a5-807c1e2562fb")
-		(property "Reference" "#PWR042"
-			(at 135.89 135.89 0)
+		(uuid "7a0aae51-fc9a-40fd-addd-32d55ce75c8a")
+		(property "Reference" "#PWR044"
+			(at 135.89 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,17 +5211,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 135.89 134.62 0)
+		(property "Value" "GNDD"
+			(at 135.89 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 129.54 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5229,7 +5229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 129.54 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,8 +5237,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 129.54 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,29 +5247,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "e6597a05-a51c-4613-bf5b-97ef7fb4a073")
+			(uuid "564c2433-0f71-4e35-a2b3-7b56c715de5a")
 		)
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 41.91 129.54 0)
+		(lib_id "power:GNDD")
+		(at 41.91 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8126f375-7a56-4abc-b7a7-3fe38605be16")
-		(property "Reference" "#PWR025"
-			(at 41.91 135.89 0)
+		(uuid "7eb4a8f1-5946-4f7b-9746-9bc312a29014")
+		(property "Reference" "#PWR024"
+			(at 41.91 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,17 +5277,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 41.91 134.62 0)
+		(property "Value" "GNDD"
+			(at 41.91 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 129.54 0)
+			(at 41.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +5295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 129.54 0)
+			(at 41.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,8 +5303,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 129.54 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 41.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,12 +5313,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ba53864-88bc-4842-9aa4-b411167f1737")
+			(uuid "db9e4ea8-1f9d-4ff4-876c-e2835f1fd97e")
 		)
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5525,72 +5524,6 @@
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 96.52 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96fe64a6-95f6-4d03-ac05-93e677096900")
-		(property "Reference" "#PWR013"
-			(at 96.52 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42c64b0f-652d-4873-b291-aab233c3277a")
-		)
-		(instances
-			(project ""
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6393,17 +6326,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 41.91 68.58 0)
+		(lib_id "power:GNDD")
+		(at 41.91 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc92af99-f855-4399-9ef0-85e7d9144b78")
-		(property "Reference" "#PWR027"
-			(at 41.91 74.93 0)
+		(uuid "cc30bfc8-e223-46c6-8166-2395adc1dfd8")
+		(property "Reference" "#PWR015"
+			(at 41.91 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,17 +6344,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 41.91 73.66 0)
+		(property "Value" "GNDD"
+			(at 41.91 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 68.58 0)
+			(at 41.91 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +6362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 68.58 0)
+			(at 41.91 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,8 +6370,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 68.58 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 41.91 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,12 +6380,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ce4cdda-f4a8-41b1-9ca7-73df56f00c62")
+			(uuid "03bf81fb-0a43-4ce1-a929-b19125477878")
 		)
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR027")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6592,17 +6524,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 135.89 149.86 0)
+		(lib_id "power:GNDD")
+		(at 190.5 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d2abcaba-0480-4997-add7-93cd0368d4dd")
-		(property "Reference" "#PWR043"
-			(at 135.89 156.21 0)
+		(uuid "d3d07e7d-6f01-4b30-bd8f-0ceb8daed7d8")
+		(property "Reference" "#PWR047"
+			(at 190.5 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,17 +6542,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 135.89 154.94 0)
+		(property "Value" "GNDD"
+			(at 190.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 149.86 0)
+			(at 190.5 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6629,7 +6560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 149.86 0)
+			(at 190.5 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,8 +6568,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 149.86 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 190.5 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,12 +6578,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "eeb87727-92c3-40f6-a73e-3e2f9329b7b4")
+			(uuid "d3839c60-4d0f-4969-bb34-7258e227b0ec")
 		)
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR043")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7070,6 +7001,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 41.91 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3fba053-9fe6-40c5-9b90-97bcc48401e1")
+		(property "Reference" "#PWR019"
+			(at 41.91 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 41.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 41.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ab2b26e-51c2-4202-979a-bbbf2d8a33f2")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 41.91 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9731067-3c02-4fdb-94f4-5e401c7de25b")
+		(property "Reference" "#PWR023"
+			(at 41.91 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 41.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 41.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49fcd35d-a992-46d0-9020-35402456b540")
+		)
+		(instances
+			(project "pbx-sniffer"
+				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 41.91 63.5 0)
 		(unit 1)
@@ -7205,17 +7268,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 41.91 109.22 0)
+		(lib_id "power:GNDD")
+		(at 96.52 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f777bf0f-fb38-4398-8d45-d5fcd6aded07")
-		(property "Reference" "#PWR024"
-			(at 41.91 115.57 0)
+		(uuid "f8227f15-7d4c-4f65-b48e-0044ddb4c47c")
+		(property "Reference" "#PWR013"
+			(at 96.52 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,17 +7286,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 41.91 114.3 0)
+		(property "Value" "GNDD"
+			(at 96.52 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 109.22 0)
+			(at 96.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +7304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 109.22 0)
+			(at 96.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7250,75 +7312,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71830ec5-da03-4b58-9656-f5ffa23882db")
-		)
-		(instances
-			(project "pbx-sniffer"
-				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fddb467f-61d8-48e4-aa74-620191d7fb0f")
-		(property "Reference" "#PWR039"
-			(at 135.89 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 68.58 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 96.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,12 +7322,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "00d879b7-3215-4673-93d7-104a4225de52")
+			(uuid "045e3df0-46a4-4887-8622-c0aa1d8fea4d")
 		)
 		(instances
 			(project "pbx-sniffer"
 				(path "/4a5b9b8a-323a-4796-bf73-ccba532d2e31/1e9f4ccf-243b-4d63-b919-69756a1eec5c"
-					(reference "#PWR039")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
