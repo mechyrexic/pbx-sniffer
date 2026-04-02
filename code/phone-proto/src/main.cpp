@@ -4,7 +4,9 @@
 //#define LINE_CTRL_PIN D2
 //#define OFFHOOK_CTRL_PIN D3
 #define NUM_PHONES 24
+#define NUM_TRANSFER_BTNS 16
 #define PHONE_DIGITS 10
+
 
 
 // binary, eg phone 3 is indexed from PC9 & PC8
@@ -45,6 +47,11 @@ uint8_t offhook_ctrls[] =
   PB0,
   PA4
 };
+
+const uint8_t transfer_shiftout_pin = PC10;
+const uint8_t transfer_shiftld_pin = PC11;
+const uint8_t transfer_shiftclk_pin = PC12;
+const uint8_t transfer_shiftinh_pin = PD2;
 
 size_t dial_offhook_ms = 100;
 size_t dial_onhook_ms = 100;
