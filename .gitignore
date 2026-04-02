@@ -38,3 +38,6 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+/code/phone-proto/.cache/clangd/index
+/code/phone-proto/.vscode
+/kicad/pbx-sniffer/production
