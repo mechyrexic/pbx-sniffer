@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include <SPI.h>
 // TODO use relative timestamps
 
 //#define LINE_CTRL_PIN D2
@@ -49,6 +50,8 @@ uint8_t offhook_ctrls[] =
 };
 
 bool transfer_btn_pressed[NUM_TRANSFER_BTNS] = {0};
+
+SPISettings adc_settings;
 
 const uint8_t transfer_shiftout_pin = PC10;
 const uint8_t transfer_shiftld_pin = PC11;
@@ -194,6 +197,9 @@ void setup()
   pinMode(transfer_shiftld_pin, OUTPUT);
   pinMode(transfer_shiftclk_pin, OUTPUT);
   pinMode(transfer_shiftinh_pin, OUTPUT);
+
+  adc_settings = SPISettings(200000, LSBFIRST, SPI_MODE0);
+
 
   //uint8_t test_queue[PHONE_DIGITS] = {1, 10, 1, 0, 0, 0, 0, 0, 0, 0};
   //queue_dial(test_queue, phones[0]);
