@@ -48,6 +48,8 @@ uint8_t offhook_ctrls[] =
   PA4
 };
 
+bool transfer_btn_pressed[NUM_TRANSFER_BTNS] = {0};
+
 const uint8_t transfer_shiftout_pin = PC10;
 const uint8_t transfer_shiftld_pin = PC11;
 const uint8_t transfer_shiftclk_pin = PC12;
@@ -154,7 +156,24 @@ void process_dialing()
 
 void process_transfer_btns()
 {
+  // load button states into register
+  digitalWrite(transfer_shiftinh_pin, HIGH);
+  digitalWrite(transfer_shiftld_pin, LOW);
 
+  digitalWrite(transfer_shiftclk_pin, HIGH);
+
+  // shift out states
+  digitalWrite(transfer_shiftinh_pin, LOW);
+  digitalWrite(transfer_shiftld_pin, HIGH);
+
+  digitalWrite(transfer_shiftclk_pin, LOW);
+
+  for (size_t i = 0; i < NUM_TRANSFER_BTNS; i++)
+  {
+    digitalWrite(transfer_shiftclk_pin, HIGH);
+    transfer_btn_pressed[i] = (bool)digitalRead(transfer_shiftout_pin);
+    digitalWrite(transfer_shiftclk_pin, LOW);
+  }
 }
 
 void setup() 
