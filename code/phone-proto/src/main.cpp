@@ -152,6 +152,11 @@ void process_dialing()
   
 }
 
+void process_transfer_btns()
+{
+
+}
+
 void setup() 
 {
   pinMode(LED_BUILTIN, OUTPUT);
@@ -166,6 +171,10 @@ void setup()
     pinMode(offhook_ctrls[i], OUTPUT);
   }
 
+  pinMode(transfer_shiftout_pin, INPUT);
+  pinMode(transfer_shiftld_pin, OUTPUT);
+  pinMode(transfer_shiftclk_pin, OUTPUT);
+  pinMode(transfer_shiftinh_pin, OUTPUT);
 
   //uint8_t test_queue[PHONE_DIGITS] = {1, 10, 1, 0, 0, 0, 0, 0, 0, 0};
   //queue_dial(test_queue, phones[0]);
@@ -173,5 +182,6 @@ void setup()
 
 void loop() 
 {
+  process_transfer_btns();
   process_dialing();
 }
