@@ -53,7 +53,7 @@ const uint8_t offhook_ctrls[] =
 
 //bool transfer_btn_pressed[NUM_TRANSFER_BTNS] = {0};
 
-SPISettings adc_settings;
+SPISettings adc_settings = SPISettings(2340000, MSBFIRST, SPI_MODE0);
 
 const uint8_t adc_cs[] =
 {
@@ -209,10 +209,6 @@ void process_adcs()
     }
   }
   SPI.endTransaction();
-
-  Serial.print('[');
-  Serial.write((uint8_t*)adc_samples, sizeof(adc_samples));
-  Serial.print(']');
 }
 
 void process_transfer_btns()
@@ -240,6 +236,17 @@ void process_transfer_btns()
   }
 }
 
+void process_serial_transfer()
+{
+  Serial.print('[');
+  for (size_t i = 0; i < NUM_PHONES; i++)
+  {
+    Serial.write(phones[i].offhook);
+  }
+  Serial.write((uint8_t*)adc_samples, sizeof(adc_samples));
+  Serial.print(']');
+}
+
 void setup() 
 {
   pinMode(LED_BUILTIN, OUTPUT);
@@ -259,8 +266,6 @@ void setup()
   pinMode(transfer_shiftclk_pin, OUTPUT);
   pinMode(transfer_shiftinh_pin, OUTPUT);
 
-  adc_settings = SPISettings(2340000, MSBFIRST, SPI_MODE0);
-
   Serial.begin(115200);
 
   //uint8_t test_queue[PHONE_DIGITS] = {1, 10, 1, 0, 0, 0, 0, 0, 0, 0};
@@ -272,4 +277,5 @@ void loop()
   process_adcs();
   process_transfer_btns();
   process_dialing();
+  process_serial_transfer();
 }
