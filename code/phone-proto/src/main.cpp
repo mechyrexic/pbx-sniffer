@@ -185,11 +185,11 @@ void select_adc(uint8_t id)
 
 void process_adcs()
 {
+  SPI.beginTransaction(adc_settings);
   for (size_t sample_idx = 0; sample_idx < SAMPLE_BUFFER_SIZE; sample_idx++)
   {
     for (size_t phone_idx = 0; phone_idx < NUM_PHONES/NUM_ADCS; phone_idx++)
     {
-      SPI.beginTransaction(adc_settings);
       for (size_t adc_idx = 0; adc_idx < NUM_ADCS; adc_idx++)
       {
         select_adc(adc_idx);
@@ -202,12 +202,12 @@ void process_adcs()
 
         uint16_t raw_sample = ((recv_2msb & 0x3) << 8) | recv_8lsb;
 
-        adc_samples[phone_idx*adc_idx][sample_idx] = raw_sample;
+        adc_samples[(NUM_PHONES/NUM_ADCS)*adc_idx + phone_idx][sample_idx] = raw_sample;
 
       }
-      SPI.endTransaction();
     }
   }
+  SPI.endTransaction();
 }
 
 void process_transfer_btns()
@@ -252,8 +252,6 @@ void setup()
   pinMode(transfer_shiftinh_pin, OUTPUT);
 
   adc_settings = SPISettings(2340000, MSBFIRST, SPI_MODE0);
-
-  SPI.begin();
 
   //uint8_t test_queue[PHONE_DIGITS] = {1, 10, 1, 0, 0, 0, 0, 0, 0, 0};
   //queue_dial(test_queue, phones[0]);
