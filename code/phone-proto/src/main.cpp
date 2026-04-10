@@ -11,7 +11,7 @@
 
 
 // binary, eg phone 3 is indexed from PC9 & PC8
-uint8_t line_ctrls[] =
+const uint8_t line_ctrls[] =
 {
   PC9,
   PC8,
@@ -21,7 +21,7 @@ uint8_t line_ctrls[] =
 };
 
 // regular, each index is each phone
-uint8_t offhook_ctrls[] = 
+const uint8_t offhook_ctrls[] = 
 {
   PB6,
   PB11,
@@ -52,6 +52,13 @@ uint8_t offhook_ctrls[] =
 bool transfer_btn_pressed[NUM_TRANSFER_BTNS] = {0};
 
 SPISettings adc_settings;
+
+const uint8_t adc_cs[] =
+{
+  PA12,
+  PA11,
+  PB12
+};
 
 const uint8_t transfer_shiftout_pin = PC10;
 const uint8_t transfer_shiftld_pin = PC11;
@@ -157,6 +164,13 @@ void process_dialing()
   
 }
 
+void process_adcs()
+{
+  SPI.beginTransaction(adc_settings);
+  SPI.transfer16(0);
+
+}
+
 void process_transfer_btns()
 {
   // load button states into register
@@ -198,8 +212,9 @@ void setup()
   pinMode(transfer_shiftclk_pin, OUTPUT);
   pinMode(transfer_shiftinh_pin, OUTPUT);
 
-  adc_settings = SPISettings(200000, LSBFIRST, SPI_MODE0);
+  adc_settings = SPISettings(200000, MSBFIRST, SPI_MODE0);
 
+  SPI.begin();
 
   //uint8_t test_queue[PHONE_DIGITS] = {1, 10, 1, 0, 0, 0, 0, 0, 0, 0};
   //queue_dial(test_queue, phones[0]);
@@ -207,6 +222,7 @@ void setup()
 
 void loop() 
 {
+  process_adcs();
   process_transfer_btns();
   process_dialing();
 }
