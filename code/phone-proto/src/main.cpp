@@ -51,7 +51,7 @@ const uint8_t offhook_ctrls[] =
   PA4
 };
 
-bool transfer_btn_pressed[NUM_TRANSFER_BTNS] = {0};
+//bool transfer_btn_pressed[NUM_TRANSFER_BTNS] = {0};
 
 SPISettings adc_settings;
 
@@ -72,6 +72,8 @@ const uint8_t transfer_shiftinh_pin = PD2;
 size_t dial_offhook_ms = 100;
 size_t dial_onhook_ms = 100;
 size_t dial_number_wait = 400;
+
+const uint8_t baird_number[PHONE_DIGITS] = {1, 10, 1, 0, 0, 0, 0, 0, 0, 0};
 
 struct phone
 {
@@ -97,7 +99,7 @@ void line_ctrl_mux_write(uint32_t value, uint8_t phone_index)
   }
 }
 
-void queue_dial(uint8_t number[PHONE_DIGITS], uint8_t phone_index)
+void queue_dial(const uint8_t number[PHONE_DIGITS], uint8_t phone_index)
 {
 
   if (phone_index > NUM_PHONES) return; // bounds check
@@ -203,11 +205,14 @@ void process_adcs()
         uint16_t raw_sample = ((recv_2msb & 0x3) << 8) | recv_8lsb;
 
         adc_samples[(NUM_PHONES/NUM_ADCS)*adc_idx + phone_idx][sample_idx] = raw_sample;
-
       }
     }
   }
   SPI.endTransaction();
+
+  Serial.print('[');
+  Serial.write((uint8_t*)adc_samples, sizeof(adc_samples));
+  Serial.print(']');
 }
 
 void process_transfer_btns()
@@ -227,7 +232,10 @@ void process_transfer_btns()
   for (size_t i = 0; i < NUM_TRANSFER_BTNS; i++)
   {
     digitalWrite(transfer_shiftclk_pin, HIGH);
-    transfer_btn_pressed[i] = (bool)digitalRead(transfer_shiftout_pin);
+    if (digitalRead(transfer_shiftout_pin))
+    {
+      queue_dial(baird_number, i);
+    }
     digitalWrite(transfer_shiftclk_pin, LOW);
   }
 }
@@ -252,6 +260,8 @@ void setup()
   pinMode(transfer_shiftinh_pin, OUTPUT);
 
   adc_settings = SPISettings(2340000, MSBFIRST, SPI_MODE0);
+
+  Serial.begin(115200);
 
   //uint8_t test_queue[PHONE_DIGITS] = {1, 10, 1, 0, 0, 0, 0, 0, 0, 0};
   //queue_dial(test_queue, phones[0]);
