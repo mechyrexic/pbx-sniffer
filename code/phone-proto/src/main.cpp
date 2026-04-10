@@ -6,6 +6,8 @@
 //#define OFFHOOK_CTRL_PIN D3
 #define NUM_PHONES 24
 #define NUM_TRANSFER_BTNS 16
+#define NUM_ADCS 3
+#define SAMPLE_BUFFER_SIZE 32
 #define PHONE_DIGITS 10
 
 
@@ -59,6 +61,8 @@ const uint8_t adc_cs[] =
   PA11,
   PB12
 };
+
+float adc_samples[NUM_PHONES][SAMPLE_BUFFER_SIZE] = {0};
 
 const uint8_t transfer_shiftout_pin = PC10;
 const uint8_t transfer_shiftld_pin = PC11;
@@ -164,11 +168,16 @@ void process_dialing()
   
 }
 
+void select_adc(uint8_t id)
+{
+
+}
+
 void process_adcs()
 {
   SPI.beginTransaction(adc_settings);
   SPI.transfer16(0);
-
+  SPI.endTransaction();
 }
 
 void process_transfer_btns()
