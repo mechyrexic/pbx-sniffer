@@ -62,7 +62,7 @@ const uint8_t adc_cs[] =
   PB12
 };
 
-float adc_samples[NUM_PHONES][SAMPLE_BUFFER_SIZE] = {0};
+uint16_t adc_samples[NUM_PHONES][SAMPLE_BUFFER_SIZE] = {0};
 
 const uint8_t transfer_shiftout_pin = PC10;
 const uint8_t transfer_shiftld_pin = PC11;
@@ -170,14 +170,44 @@ void process_dialing()
 
 void select_adc(uint8_t id)
 {
-
+  for (size_t i = 0; i < NUM_ADCS; i++)
+  {
+    if (i == id)
+    {
+      digitalWrite(adc_cs[i], LOW);
+    }
+    else
+    {
+      digitalWrite(adc_cs[i], HIGH);
+    }
+  }
 }
 
 void process_adcs()
 {
-  SPI.beginTransaction(adc_settings);
-  SPI.transfer16(0);
-  SPI.endTransaction();
+  for (size_t sample_idx = 0; sample_idx < SAMPLE_BUFFER_SIZE; sample_idx++)
+  {
+    for (size_t phone_idx = 0; phone_idx < NUM_PHONES/NUM_ADCS; phone_idx++)
+    {
+      SPI.beginTransaction(adc_settings);
+      for (size_t adc_idx = 0; adc_idx < NUM_ADCS; adc_idx++)
+      {
+        select_adc(adc_idx);
+        // start adc transfer
+        SPI.transfer(0x1);
+
+        uint8_t transmit_data = (1 << 7) | (phone_idx << 4);
+        uint8_t recv_2msb = SPI.transfer(transmit_data);
+        uint8_t recv_8lsb = SPI.transfer(0x0);
+
+        uint16_t raw_sample = ((recv_2msb & 0x3) << 8) | recv_8lsb;
+
+        adc_samples[phone_idx*adc_idx][sample_idx] = raw_sample;
+
+      }
+      SPI.endTransaction();
+    }
+  }
 }
 
 void process_transfer_btns()
@@ -221,7 +251,7 @@ void setup()
   pinMode(transfer_shiftclk_pin, OUTPUT);
   pinMode(transfer_shiftinh_pin, OUTPUT);
 
-  adc_settings = SPISettings(200000, MSBFIRST, SPI_MODE0);
+  adc_settings = SPISettings(2340000, MSBFIRST, SPI_MODE0);
 
   SPI.begin();
 
