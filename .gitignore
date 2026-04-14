@@ -41,3 +41,7 @@ fp-info-cache
 /code/phone-proto/.cache/clangd/index
 /code/phone-proto/.vscode
 /kicad/pbx-sniffer/production
+/kicad/pbx-sniffer/main-board-export.kicad_pcb
+/kicad/pbx-sniffer/main-board-export.kicad_pro
+/kicad/pbx-sniffer/sub-board-export.kicad_pcb
+/kicad/pbx-sniffer/sub-board-export.kicad_pro
