@@ -190,7 +190,7 @@ void process_adcs()
   SPI.beginTransaction(adc_settings);
   for (size_t sample_idx = 0; sample_idx < SAMPLE_BUFFER_SIZE; sample_idx++)
   {
-    for (size_t phone_idx = 0; phone_idx < NUM_PHONES/NUM_ADCS; phone_idx++)
+    for (size_t phone_idx = 0; phone_idx < 8; phone_idx++)
     {
       for (size_t adc_idx = 0; adc_idx < NUM_ADCS; adc_idx++)
       {
@@ -204,7 +204,7 @@ void process_adcs()
 
         uint16_t raw_sample = ((recv_2msb & 0x3) << 8) | recv_8lsb;
 
-        adc_samples[(NUM_PHONES/NUM_ADCS)*adc_idx + phone_idx][sample_idx] = raw_sample;
+        adc_samples[8*adc_idx + phone_idx][sample_idx] = raw_sample;
       }
     }
   }
