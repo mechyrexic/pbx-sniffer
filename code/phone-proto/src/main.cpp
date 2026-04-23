@@ -9,6 +9,7 @@
 #define NUM_ADCS 3
 #define SAMPLE_BUFFER_SIZE 32
 #define PHONE_DIGITS 10
+#define SPI_F 2340
 
 
 
@@ -53,7 +54,7 @@ const uint8_t offhook_ctrls[] =
 
 //bool transfer_btn_pressed[NUM_TRANSFER_BTNS] = {0};
 
-SPISettings adc_settings = SPISettings(2340000, MSBFIRST, SPI_MODE0);
+SPISettings adc_settings = SPISettings(SPI_F, MSBFIRST, SPI_MODE0);
 
 const uint8_t adc_cs[] =
 {
@@ -176,6 +177,11 @@ void select_adc(uint8_t id)
   {
     if (i == id)
     {
+
+      // digitalWrite(adc_cs[i], HIGH);
+      // uint16_t wait_time = 100000/SPI_F;
+      // uint32_t start_time = micros();
+      // while (micros()-start_time < wait_time);
       digitalWrite(adc_cs[i], LOW);
     }
     else
@@ -201,8 +207,17 @@ void process_adcs()
         uint8_t transmit_data = (1 << 7) | (phone_idx << 4);
         uint8_t recv_2msb = SPI.transfer(transmit_data);
         uint8_t recv_8lsb = SPI.transfer(0x0);
+        SPI.transfer(0x0);
+
+
 
         uint16_t raw_sample = ((recv_2msb & 0x3) << 8) | recv_8lsb;
+
+
+        // uint16_t transmit_data = (1 << 7) | (1<<6) | (phone_idx << 0);
+        // uint16_t raw_sample = SPI.transfer16(transmit_data);
+        // SPI.transfer(0x0);
+
 
         adc_samples[8*adc_idx + phone_idx][sample_idx] = raw_sample;
       }
@@ -241,9 +256,25 @@ void process_serial_transfer()
   Serial.print('[');
   for (size_t i = 0; i < NUM_PHONES; i++)
   {
-    Serial.write(phones[i].offhook);
+    Serial.print((phones[i].offhook));
   }
-  Serial.write((uint8_t*)adc_samples, sizeof(adc_samples));
+  Serial.write(char('|'));
+
+  // Serial.write((uint8_t*)adc_samples, sizeof(adc_samples));
+  
+  for(size_t i = 0; i < NUM_PHONES; i++ ){
+    for(size_t k = 0; k <SAMPLE_BUFFER_SIZE; k++){
+      Serial.print(adc_samples[i][k]);
+      Serial.print(",");
+    }
+    Serial.print("|");
+  }
+  // for (size_t i = 0; i < NUM_PHONES; i++) 
+  // {
+  //   Serial.write(((uin8_t*)adc_samples, sizeof(adc_samples)));
+  //   Serial.write(char('|'));
+  // }
+  // Serial.print(((uint8_t*)adc_samples[3],sizeof(adc_samples[3])));
   Serial.print(']');
 }
 
@@ -259,6 +290,13 @@ void setup()
   for (size_t i = 0; i < sizeof(offhook_ctrls)/sizeof(offhook_ctrls[0]); i++)
   {
     pinMode(offhook_ctrls[i], OUTPUT);
+    digitalWrite(offhook_ctrls[i], HIGH);
+  }
+
+
+  for (size_t i = 0; i < sizeof(adc_cs)/sizeof(adc_cs[0]); i++)
+  {
+    pinMode(adc_cs[i], OUTPUT);
   }
 
   pinMode(transfer_shiftout_pin, INPUT);
@@ -267,6 +305,7 @@ void setup()
   pinMode(transfer_shiftinh_pin, OUTPUT);
 
   Serial.begin(115200);
+  SPI.begin();
 
   //uint8_t test_queue[PHONE_DIGITS] = {1, 10, 1, 0, 0, 0, 0, 0, 0, 0};
   //queue_dial(test_queue, phones[0]);
