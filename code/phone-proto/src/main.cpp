@@ -11,7 +11,9 @@
 #define PHONE_DIGITS 10
 #define SPI_F 2340
 
+const uint8_t dial_test_pin = PA1;
 
+size_t curtime = 0;
 
 // binary, eg phone 3 is indexed from PC9 & PC8
 const uint8_t line_ctrls[] =
@@ -107,6 +109,8 @@ void queue_dial(const uint8_t number[PHONE_DIGITS], uint8_t phone_index)
 
   phone& phone = phones[phone_index];
 
+  if(phone.dialing) return;
+
   for (size_t i = 0; i < sizeof(number[0])*PHONE_DIGITS; i++)
   {
     phone.dial_queue[i] = number[i];
@@ -115,10 +119,10 @@ void queue_dial(const uint8_t number[PHONE_DIGITS], uint8_t phone_index)
   phone.cur_dial_pos = 0;
   phone.dialing = true;
   phone.offhook = true;
-
-  size_t curtime = millis();
+  
   phone.next_update_ms = curtime + dial_number_wait;
-
+  // Serial.print("Dial phone ");
+  // Serial.println(phone_index);
   digitalWrite(offhook_ctrls[phone_index], LOW);
 }
 
@@ -126,7 +130,6 @@ void process_dialing()
 {
   for (size_t phone_index = 0; phone_index < NUM_PHONES; phone_index++)
   {
-    size_t curtime = millis();
     phone &curphone = phones[phone_index];
     if (!curphone.dialing || curphone.next_update_ms > curtime)
     {
@@ -165,6 +168,7 @@ void process_dialing()
       digitalWrite(offhook_ctrls[phone_index], LOW);
       digitalWrite(LED_BUILTIN, LOW);
       line_ctrl_mux_write(phone_index, LOW);
+      curphone.offhook = false;
     }
 
   }
@@ -228,27 +232,43 @@ void process_adcs()
 
 void process_transfer_btns()
 {
+  // lower test pin for scope trigger
+  digitalWrite(dial_test_pin, LOW);
+
   // load button states into register
+  digitalWrite(transfer_shiftclk_pin, HIGH);
   digitalWrite(transfer_shiftinh_pin, HIGH);
+  digitalWrite(transfer_shiftclk_pin, LOW);
+  digitalWrite(transfer_shiftclk_pin, HIGH);
   digitalWrite(transfer_shiftld_pin, LOW);
 
+  digitalWrite(transfer_shiftclk_pin, LOW);
   digitalWrite(transfer_shiftclk_pin, HIGH);
 
   // shift out states
-  digitalWrite(transfer_shiftinh_pin, LOW);
   digitalWrite(transfer_shiftld_pin, HIGH);
-
+  digitalWrite(transfer_shiftclk_pin, HIGH);
   digitalWrite(transfer_shiftclk_pin, LOW);
 
+  //end inhibit
+  digitalWrite(transfer_shiftclk_pin, HIGH);
+  digitalWrite(transfer_shiftinh_pin, LOW);
+
+  //shift out data
   for (size_t i = 0; i < NUM_TRANSFER_BTNS; i++)
   {
     digitalWrite(transfer_shiftclk_pin, HIGH);
-    if (digitalRead(transfer_shiftout_pin))
+    digitalWrite(transfer_shiftclk_pin, LOW);
+    //read in the middle of the clock cycle
+
+    if (!(digitalRead(transfer_shiftout_pin)^(!(int)((float)i/NUM_TRANSFER_BTNS+0.5))))
     {
       queue_dial(baird_number, i);
     }
-    digitalWrite(transfer_shiftclk_pin, LOW);
   }
+
+  // raise test pin for scope end
+  digitalWrite(dial_test_pin, HIGH);
 }
 
 void process_serial_transfer()
@@ -262,20 +282,20 @@ void process_serial_transfer()
 
   // Serial.write((uint8_t*)adc_samples, sizeof(adc_samples));
   
-  for(size_t i = 0; i < NUM_PHONES; i++ ){
-    for(size_t k = 0; k <SAMPLE_BUFFER_SIZE; k++){
-      Serial.print(adc_samples[i][k]);
-      Serial.print(",");
-    }
-    Serial.print("|");
-  }
+  // for(size_t i = 0; i < NUM_PHONES; i++ ){
+  //   for(size_t k = 0; k <SAMPLE_BUFFER_SIZE; k++){
+  //     Serial.print(adc_samples[i][k]);
+  //     Serial.print(",");
+  //   }
+  //   Serial.print("|");
+  // }
   // for (size_t i = 0; i < NUM_PHONES; i++) 
   // {
   //   Serial.write(((uin8_t*)adc_samples, sizeof(adc_samples)));
   //   Serial.write(char('|'));
   // }
   // Serial.print(((uint8_t*)adc_samples[3],sizeof(adc_samples[3])));
-  Serial.print(']');
+  Serial.print("]\n");
 }
 
 void setup() 
@@ -303,6 +323,8 @@ void setup()
   pinMode(transfer_shiftld_pin, OUTPUT);
   pinMode(transfer_shiftclk_pin, OUTPUT);
   pinMode(transfer_shiftinh_pin, OUTPUT);
+  pinMode(dial_test_pin, OUTPUT);
+  digitalWrite(dial_test_pin, HIGH);
 
   Serial.begin(115200);
   SPI.begin();
@@ -313,7 +335,8 @@ void setup()
 
 void loop() 
 {
-  process_adcs();
+  curtime = millis();
+  // process_adcs();
   process_transfer_btns();
   process_dialing();
   process_serial_transfer();
