@@ -134,7 +134,7 @@ void process_dialing()
     if (!curphone.dialing || curphone.next_update_ms > curtime)
     {
       //digitalWrite(CTRL_LINE_PIN, LOW);
-      return;
+      continue;
     }
 
     line_ctrl_mux_write(phone_index, HIGH);
