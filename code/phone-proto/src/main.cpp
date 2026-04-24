@@ -72,9 +72,12 @@ const uint8_t transfer_shiftld_pin = PC11;
 const uint8_t transfer_shiftclk_pin = PC12;
 const uint8_t transfer_shiftinh_pin = PD2;
 
-size_t dial_offhook_ms = 100;
+size_t dial_offonhook_ms = 100;
 size_t dial_onhook_ms = 100;
 size_t dial_number_wait = 400;
+size_t dial_hookswitch_ms = 400;
+size_t dial_transfer_wait = 2000;
+size_t dial_delays[4] = {dial_offonhook_ms, dial_hookswitch_ms, dial_transfer_wait,0};
 
 const uint8_t baird_number[PHONE_DIGITS] = {1, 10, 1, 0, 0, 0, 0, 0, 0, 0};
 
@@ -83,21 +86,27 @@ struct phone
   size_t next_update_ms = 0;
   uint8_t cur_dial_num = 0;
   uint8_t cur_dial_pos = 0;
-  uint8_t dial_queue[PHONE_DIGITS] = {0};
+  uint8_t cur_dial_context = 0;
+  uint8_t dial_context_queue[PHONE_DIGITS+3] = {0};
+  uint8_t dial_queue[PHONE_DIGITS+3] = {0};
   bool offhook = false;
   bool dialing = false;
 };
 
 phone phones[NUM_PHONES] = {0};
 
-void line_ctrl_mux_write(uint32_t value, uint8_t phone_index)
+void line_ctrl_mux_select(uint8_t phone_index)
 {
   for (size_t i = 0; i < sizeof(line_ctrls)/sizeof(line_ctrls[0]); i++)
   {
     bool bit = (phone_index >> i) & 1;
     if (bit)
     {
-      digitalWrite(line_ctrls[i], value);
+      digitalWrite(line_ctrls[i], HIGH);
+    }
+    else
+    {
+      digitalWrite(line_ctrls[i], LOW);
     }
   }
 }
@@ -110,11 +119,21 @@ void queue_dial(const uint8_t number[PHONE_DIGITS], uint8_t phone_index)
   phone& phone = phones[phone_index];
 
   if(phone.dialing) return;
+  phone.dial_context_queue[0] = 1;
+  phone.dial_queue[0] = 1;
 
   for (size_t i = 0; i < sizeof(number[0])*PHONE_DIGITS; i++)
   {
+    phone.dial_context_queue[i] = 0;
     phone.dial_queue[i] = number[i];
   }
+
+  phone.dial_context_queue[PHONE_DIGITS+1] = 2;
+  phone.dial_queue[PHONE_DIGITS+1] = 1;
+  phone.dial_context_queue[PHONE_DIGITS+2] = 1;
+  phone.dial_queue[PHONE_DIGITS+2] = 1;
+  phone.dial_context_queue[PHONE_DIGITS+3] = 0;
+  phone.dial_queue[PHONE_DIGITS+3] = 3;
   phone.cur_dial_num = number[0];
   phone.cur_dial_pos = 0;
   phone.dialing = true;
@@ -137,7 +156,8 @@ void process_dialing()
       continue;
     }
 
-    line_ctrl_mux_write(phone_index, HIGH);
+    line_ctrl_mux_select(phone_index);
+    Serial.println();
 
     curphone.offhook = !curphone.offhook;
 
@@ -145,29 +165,48 @@ void process_dialing()
     {
       digitalWrite(offhook_ctrls[phone_index], HIGH);
       digitalWrite(LED_BUILTIN, HIGH);
-      curphone.next_update_ms = curtime + dial_onhook_ms;
+      curphone.next_update_ms = curtime + dial_delays[curphone.cur_dial_context];
+      Serial.print(curtime);
+      Serial.print(", ");
+      Serial.print(curphone.next_update_ms);
+      Serial.print(" Going off hook, position ");
+      Serial.print(curphone.cur_dial_pos);
+      Serial.print(" delay ");
+      Serial.println(dial_delays[curphone.cur_dial_context]);
     }
     else
     {
       digitalWrite(offhook_ctrls[phone_index], LOW);
       digitalWrite(LED_BUILTIN, LOW);
       curphone.cur_dial_num--;
-      curphone.next_update_ms = curtime + dial_offhook_ms;
+      curphone.next_update_ms = curtime + dial_delays[curphone.cur_dial_context];
+      Serial.print(curtime);
+      Serial.print(", ");
+      Serial.print(curphone.next_update_ms);
+      Serial.print(" Going on hook, position ");
+      Serial.print(curphone.cur_dial_pos);
+      Serial.print(" context ");
+      Serial.print(curphone.cur_dial_context);
+      Serial.print(" number ");
+      Serial.print(curphone.cur_dial_num);
+      Serial.print(" delay ");
+      Serial.println(dial_delays[curphone.cur_dial_context]);
     }
-
+ 
     if (!curphone.cur_dial_num)
     {
       curphone.cur_dial_pos++;
+      curphone.cur_dial_context = curphone.dial_context_queue[curphone.cur_dial_pos];
       curphone.cur_dial_num = curphone.dial_queue[curphone.cur_dial_pos];
       curphone.next_update_ms = curtime + dial_number_wait;
     }
 
-    if (curphone.cur_dial_pos >= PHONE_DIGITS || !curphone.cur_dial_num)
+    if (curphone.cur_dial_pos >= PHONE_DIGITS+3 && !curphone.cur_dial_num)
     {
       curphone.dialing = false;
       digitalWrite(offhook_ctrls[phone_index], LOW);
       digitalWrite(LED_BUILTIN, LOW);
-      line_ctrl_mux_write(phone_index, LOW);
+      line_ctrl_mux_select(0);
       curphone.offhook = false;
     }
 
@@ -339,5 +378,5 @@ void loop()
   // process_adcs();
   process_transfer_btns();
   process_dialing();
-  process_serial_transfer();
+  // process_serial_transfer();
 }
