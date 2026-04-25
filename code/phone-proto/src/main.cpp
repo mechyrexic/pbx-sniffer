@@ -179,23 +179,42 @@ void run_sequence() {
 void check_buttons() {
   if (task.state != IDLE) return;
 
-  digitalWrite(transfer_shiftld_pin, LOW);
-  delayMicroseconds(5);
-  digitalWrite(transfer_shiftld_pin, HIGH);
-  
-  digitalWrite(transfer_shiftinh_pin, LOW);
-  for (int i = 0; i < NUM_TRANSFER_BTNS; i++) {
-    bool pressed = !digitalRead(transfer_shiftout_pin);
-    if (pressed) {
-      task.active_index = i; // Save which phone triggered this
-      task.state = LOCAL_PICKUP;
-      break; 
-    }
-    digitalWrite(transfer_shiftclk_pin, HIGH);
-    delayMicroseconds(5);
-    digitalWrite(transfer_shiftclk_pin, LOW);
-  }
+  // lower test pin for scope trigger
+  digitalWrite(dial_test_pin, LOW);
+
+  // load button states into register
+  digitalWrite(transfer_shiftclk_pin, HIGH);
   digitalWrite(transfer_shiftinh_pin, HIGH);
+  digitalWrite(transfer_shiftclk_pin, LOW);
+  digitalWrite(transfer_shiftclk_pin, HIGH);
+  digitalWrite(transfer_shiftld_pin, LOW);
+
+  digitalWrite(transfer_shiftclk_pin, LOW);
+  digitalWrite(transfer_shiftclk_pin, HIGH);
+
+  // shift out states
+  digitalWrite(transfer_shiftld_pin, HIGH);
+  digitalWrite(transfer_shiftclk_pin, HIGH);
+  digitalWrite(transfer_shiftclk_pin, LOW);
+
+  //end inhibit
+  digitalWrite(transfer_shiftclk_pin, HIGH);
+  digitalWrite(transfer_shiftinh_pin, LOW);
+
+  //shift out data
+  for (size_t i = 0; i < NUM_TRANSFER_BTNS; i++)
+  {
+    digitalWrite(transfer_shiftclk_pin, HIGH);
+    digitalWrite(transfer_shiftclk_pin, LOW);
+    //read in the middle of the clock cycle
+
+    if (!(digitalRead(transfer_shiftout_pin)^(!(int)((float)i/NUM_TRANSFER_BTNS+0.5))))
+    {
+      task.active_index = i;
+      task.state = LOCAL_PICKUP;
+      break;
+    }
+  }
 }
 
 void setup() {
