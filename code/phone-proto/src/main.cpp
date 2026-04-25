@@ -76,13 +76,13 @@ size_t dial_offonhook_ms = 100;
 size_t dial_onhook_ms = 100;
 size_t dial_number_wait = 400;
 size_t dial_hookswitch_ms = 400;
-size_t dial_transfer_wait = 2000;
+size_t dial_transfer_wait = 4000;
 size_t dial_delays[4] = {dial_offonhook_ms, dial_hookswitch_ms, dial_transfer_wait,0};
 
-const uint8_t baird_number[PHONE_DIGITS] = {1, 1, 10, 0, 0, 0, 0, 0, 0, 0};
-const uint8_t jkaudio_number[PHONE_DIGITS] = {1, 10, 9, 0, 0, 0, 0, 0, 0, 0};
-const uint8_t baird_phone = 16; // currently pointless, baird phone not on the sniffer
-const uint8_t jkaudio_phone = 11;
+const uint8_t jkaudio_number[PHONE_DIGITS] = {1, 1, 10, 0, 0, 0, 0, 0, 0, 0};
+const uint8_t baird_number[PHONE_DIGITS] = {1, 10, 9, 0, 0, 0, 0, 0, 0, 0};
+const uint8_t jkaudio_phone = 10; // currently pointless, baird phone not on the sniffer
+const uint8_t baird_phone = 11;
 
 struct phone
 {
@@ -119,6 +119,8 @@ void queue_dial(const uint8_t number[PHONE_DIGITS], uint8_t phone_index)
 
   if (phone_index > NUM_PHONES) return; // bounds check
 
+  Serial.print("Phone called: ");
+  Serial.println(phone_index);
   phone& phone = phones[phone_index];
 
   if(phone.dialing) return;
@@ -134,7 +136,7 @@ void queue_dial(const uint8_t number[PHONE_DIGITS], uint8_t phone_index)
   phone.dial_context_queue[0] = 1;
   phone.dial_queue[0] = 1;  
   phone.dial_context_queue[PHONE_DIGITS+1] = 2;
-  phone.dial_queue[PHONE_DIGITS+1] = 1;
+  phone.dial_queue[PHONE_DIGITS+1] = 2; // context 2 needs to have value 2 for delay to work
   phone.dial_context_queue[PHONE_DIGITS+2] = 1;
   phone.dial_queue[PHONE_DIGITS+2] = 1;
   phone.dial_context_queue[PHONE_DIGITS+3] = 0;
@@ -233,16 +235,17 @@ void process_dialing()
     if (curphone.cur_dial_pos >= PHONE_DIGITS+4 || !curphone.cur_dial_num)
     {
       curphone.dialing = false;
-      digitalWrite(offhook_ctrls[phone_index], LOW);
+      digitalWrite(offhook_ctrls[phone_index], HIGH);
       digitalWrite(LED_BUILTIN, LOW);
       line_ctrl_mux_select(0);
+      Serial.println("releasing mux");
       curphone.offhook = false;
 
       //hacky solution to sequence call to baird
       // future solution should read the respective adc value to detect when the JKaudio/control station
       // line goes active.
       if ((phone_index != jkaudio_phone) && (phone_index != baird_phone)){
-        queue_dial(baird_number, jkaudio_phone);
+        queue_dial(jkaudio_number, baird_phone);
       }
     }
 
@@ -335,10 +338,14 @@ void process_transfer_btns()
     digitalWrite(transfer_shiftclk_pin, HIGH);
     digitalWrite(transfer_shiftclk_pin, LOW);
     //read in the middle of the clock cycle
-
-    if (!(digitalRead(transfer_shiftout_pin)^(!(int)((float)i/NUM_TRANSFER_BTNS+0.5))))
+    bool reading = digitalRead(transfer_shiftout_pin);
+    if (i>7){
+      reading = !reading;
+    }
+    // if (!(digitalRead(transfer_shiftout_pin)^(!(int)((float)i/NUM_TRANSFER_BTNS+0.5))))
+    if(reading)
     {
-      queue_dial(jkaudio_number, i);
+      queue_dial(baird_number, i);
     }
   }
 
