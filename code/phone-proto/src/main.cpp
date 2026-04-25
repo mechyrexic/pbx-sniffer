@@ -79,7 +79,10 @@ size_t dial_hookswitch_ms = 400;
 size_t dial_transfer_wait = 2000;
 size_t dial_delays[4] = {dial_offonhook_ms, dial_hookswitch_ms, dial_transfer_wait,0};
 
-const uint8_t baird_number[PHONE_DIGITS] = {1, 10, 1, 0, 0, 0, 0, 0, 0, 0};
+const uint8_t baird_number[PHONE_DIGITS] = {1, 10, 8, 0, 0, 0, 0, 0, 0, 0};
+const uint8_t jkaudio_number[PHONE_DIGITS] = {1, 10, 9, 0, 0, 0, 0, 0, 0, 0};
+const uint8_t baird_phone = 8;
+const uint8_t jkaudio_phone = 9;
 
 struct phone
 {
@@ -87,8 +90,8 @@ struct phone
   uint8_t cur_dial_num = 0;
   uint8_t cur_dial_pos = 0;
   uint8_t cur_dial_context = 0;
-  uint8_t dial_context_queue[PHONE_DIGITS+3] = {0};
-  uint8_t dial_queue[PHONE_DIGITS+3] = {0};
+  uint8_t dial_context_queue[PHONE_DIGITS+4] = {0};
+  uint8_t dial_queue[PHONE_DIGITS+4] = {0};
   bool offhook = false;
   bool dialing = false;
 };
@@ -119,23 +122,34 @@ void queue_dial(const uint8_t number[PHONE_DIGITS], uint8_t phone_index)
   phone& phone = phones[phone_index];
 
   if(phone.dialing) return;
-  phone.dial_context_queue[0] = 1;
-  phone.dial_queue[0] = 1;
 
-  for (size_t i = 0; i < sizeof(number[0])*PHONE_DIGITS; i++)
+  for (size_t i = 1; i < sizeof(number[0])*PHONE_DIGITS+1; i++)
   {
     phone.dial_context_queue[i] = 0;
-    phone.dial_queue[i] = number[i];
+    phone.dial_queue[i] = number[i-1];
+    Serial.println(number[i-1]);
   }
 
+
+  phone.dial_context_queue[0] = 1;
+  phone.dial_queue[0] = 1;  
   phone.dial_context_queue[PHONE_DIGITS+1] = 2;
   phone.dial_queue[PHONE_DIGITS+1] = 1;
   phone.dial_context_queue[PHONE_DIGITS+2] = 1;
   phone.dial_queue[PHONE_DIGITS+2] = 1;
   phone.dial_context_queue[PHONE_DIGITS+3] = 0;
   phone.dial_queue[PHONE_DIGITS+3] = 3;
-  phone.cur_dial_num = number[0];
+  Serial.println(phone.dial_queue[PHONE_DIGITS+4]);
+  for (size_t i = 0; i < PHONE_DIGITS+4; i++){
+    Serial.print(i);
+    Serial.print("C:");
+    Serial.print(phone.dial_context_queue[i]);
+    Serial.print(" N:");
+    Serial.println(phone.dial_queue[i]);
+  }
+  phone.cur_dial_num = phone.dial_queue[0];
   phone.cur_dial_pos = 0;
+  phone.cur_dial_context = phone.dial_context_queue[0];
   phone.dialing = true;
   phone.offhook = true;
   
@@ -160,30 +174,51 @@ void process_dialing()
     Serial.println();
 
     curphone.offhook = !curphone.offhook;
-
-    if (!curphone.offhook)
-    {
-      digitalWrite(offhook_ctrls[phone_index], HIGH);
-      digitalWrite(LED_BUILTIN, HIGH);
-      curphone.next_update_ms = curtime + dial_delays[curphone.cur_dial_context];
-      Serial.print(curtime);
-      Serial.print(", ");
-      Serial.print(curphone.next_update_ms);
-      Serial.print(" Going off hook, position ");
-      Serial.print(curphone.cur_dial_pos);
-      Serial.print(" delay ");
-      Serial.println(dial_delays[curphone.cur_dial_context]);
-    }
-    else
-    {
-      digitalWrite(offhook_ctrls[phone_index], LOW);
-      digitalWrite(LED_BUILTIN, LOW);
+    if (curphone.cur_dial_context == 2){
       curphone.cur_dial_num--;
       curphone.next_update_ms = curtime + dial_delays[curphone.cur_dial_context];
-      Serial.print(curtime);
-      Serial.print(", ");
-      Serial.print(curphone.next_update_ms);
-      Serial.print(" Going on hook, position ");
+    } else {
+      if (!curphone.offhook)
+      {
+        digitalWrite(offhook_ctrls[phone_index], HIGH);
+        digitalWrite(LED_BUILTIN, HIGH);
+        curphone.next_update_ms = curtime + dial_delays[curphone.cur_dial_context];
+        Serial.print(curtime);
+        Serial.print(", ");
+        Serial.print(curphone.next_update_ms);
+        Serial.print(" Going off hook, position ");
+        Serial.print(curphone.cur_dial_pos);
+        Serial.print(" delay ");
+        Serial.println(dial_delays[curphone.cur_dial_context]);
+      }
+      else
+      {
+        digitalWrite(offhook_ctrls[phone_index], LOW);
+        digitalWrite(LED_BUILTIN, LOW);
+        curphone.cur_dial_num--;
+        curphone.next_update_ms = curtime + dial_delays[curphone.cur_dial_context];
+        Serial.print(curtime);
+        Serial.print(", ");
+        Serial.print(curphone.next_update_ms);
+        Serial.print(" Going on hook, position ");
+        Serial.print(curphone.cur_dial_pos);
+        Serial.print(" context ");
+        Serial.print(curphone.cur_dial_context);
+        Serial.print(" number ");
+        Serial.print(curphone.cur_dial_num);
+        Serial.print(" delay ");
+        Serial.println(dial_delays[curphone.cur_dial_context]);
+      }
+    }
+    if (!curphone.cur_dial_num)
+    {
+      while (!curphone.cur_dial_num){
+      curphone.cur_dial_pos++;
+      curphone.cur_dial_context = curphone.dial_context_queue[curphone.cur_dial_pos];
+      curphone.cur_dial_num = curphone.dial_queue[curphone.cur_dial_pos];
+      curphone.next_update_ms = curtime + dial_number_wait;
+
+      Serial.print(" Going to next number, position ");
       Serial.print(curphone.cur_dial_pos);
       Serial.print(" context ");
       Serial.print(curphone.cur_dial_context);
@@ -191,23 +226,24 @@ void process_dialing()
       Serial.print(curphone.cur_dial_num);
       Serial.print(" delay ");
       Serial.println(dial_delays[curphone.cur_dial_context]);
-    }
- 
-    if (!curphone.cur_dial_num)
-    {
-      curphone.cur_dial_pos++;
-      curphone.cur_dial_context = curphone.dial_context_queue[curphone.cur_dial_pos];
-      curphone.cur_dial_num = curphone.dial_queue[curphone.cur_dial_pos];
-      curphone.next_update_ms = curtime + dial_number_wait;
+      }
+
     }
 
-    if (curphone.cur_dial_pos >= PHONE_DIGITS+3 && !curphone.cur_dial_num)
+    if (curphone.cur_dial_pos >= PHONE_DIGITS+4 || !curphone.cur_dial_num)
     {
       curphone.dialing = false;
       digitalWrite(offhook_ctrls[phone_index], LOW);
       digitalWrite(LED_BUILTIN, LOW);
       line_ctrl_mux_select(0);
       curphone.offhook = false;
+
+      //hacky solution to sequence call to baird
+      // future solution should read the respective adc value to detect when the JKaudio/control station
+      // line goes active.
+      if ((phone_index != jkaudio_phone) && (phone_index != baird_phone)){
+        queue_dial(baird_number, jkaudio_phone);
+      }
     }
 
   }
@@ -302,7 +338,7 @@ void process_transfer_btns()
 
     if (!(digitalRead(transfer_shiftout_pin)^(!(int)((float)i/NUM_TRANSFER_BTNS+0.5))))
     {
-      queue_dial(baird_number, i);
+      queue_dial(jkaudio_number, i);
     }
   }
 
