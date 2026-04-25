@@ -27,7 +27,6 @@ const uint8_t NUMBER_JK[]   = {1, 10, 9};  // "109"
 #define T_HOOK_Hookswitch 600   
 #define T_STABILIZE 500    
 
-// Hardware Pins (Matching your Nucleo setup)
 const uint8_t line_ctrls[] = { PC9, PC8, PB8, PC6, PB9 };
 const uint8_t offhook_ctrls[] = {
   PB6, PB11, PC7, PA9, PB2, PA8, PB1, PB10, PB15, PB4, PB14, PB5,
@@ -45,7 +44,7 @@ enum SeqState {
   LOCAL_PICKUP,     // 1. Offhook Local
   LOCAL_DIAL_HOST,  // 2. Dial Baird
   WAIT_FOR_HOST,    // 3. Wait 5s
-  LOCAL_Hookswitch,      // 4. Hookswitch Local
+  LOCAL_HOOKSWITCH,      // 4. Hookswitch Local
   LOCAL_HANGUP,     // 5 & 6. Hangup & Release Local
   HOST_PICKUP,      // 7 & 8. Control Host & Offhook
   HOST_DIAL_JK,     // 9. Dial JK
@@ -123,11 +122,11 @@ void run_sequence() {
 
     case WAIT_FOR_HOST:
       set_hook(task.active_index, false); // Start Hookswitch
-      task.state = LOCAL_Hookswitch;
+      task.state = LOCAL_HOOKSWITCH;
       task.next_ms = curtime + T_HOOK_Hookswitch;
       break;
 
-    case LOCAL_Hookswitch:
+    case LOCAL_HOOKSWITCH:
       set_hook(task.active_index, true); // End Hookswitch
       task.state = LOCAL_HANGUP;
       task.next_ms = curtime + T_STABILIZE;
