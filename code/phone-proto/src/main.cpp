@@ -79,10 +79,10 @@ size_t dial_hookswitch_ms = 400;
 size_t dial_transfer_wait = 2000;
 size_t dial_delays[4] = {dial_offonhook_ms, dial_hookswitch_ms, dial_transfer_wait,0};
 
-const uint8_t baird_number[PHONE_DIGITS] = {1, 10, 8, 0, 0, 0, 0, 0, 0, 0};
+const uint8_t baird_number[PHONE_DIGITS] = {1, 1, 10, 0, 0, 0, 0, 0, 0, 0};
 const uint8_t jkaudio_number[PHONE_DIGITS] = {1, 10, 9, 0, 0, 0, 0, 0, 0, 0};
-const uint8_t baird_phone = 8;
-const uint8_t jkaudio_phone = 9;
+const uint8_t baird_phone = 16; // currently pointless, baird phone not on the sniffer
+const uint8_t jkaudio_phone = 11;
 
 struct phone
 {
