@@ -61,13 +61,11 @@ struct PhoneTask {
   uint8_t dial_pos = 0;
   uint8_t pulses_left = 0;
   bool is_break = false;
-  uint8_t active_index = 0; // The phone index currently being manipulated
+  uint8_t active_index = 0;
 };
 
-PhoneTask task; // Single sequencer task for the transfer logic
+PhoneTask task;
 uint32_t curtime = 0;
-
-// --- Hardware Control ---
 
 void line_ctrl_mux_select(uint8_t index) {
   for (int i = 0; i < sizeof(line_ctrls)/sizeof(line_ctrls[0]); i++) {
@@ -79,8 +77,6 @@ void set_hook(uint8_t index, bool offhook) {
   // Active-Low: LOW = Energized = Off-hook
   digitalWrite(offhook_ctrls[index], offhook ? LOW : HIGH);
 }
-
-// --- Pulse Dialing Engine ---
 
 bool process_dialing(uint8_t index) {
   if (task.pulses_left == 0) {
@@ -103,8 +99,6 @@ bool process_dialing(uint8_t index) {
   }
   return false;
 }
-
-// --- The 12-Step Master Sequence ---
 
 void run_sequence() {
   if (task.state == IDLE || curtime < task.next_ms) return;
@@ -182,8 +176,6 @@ void run_sequence() {
       break;
   }
 }
-
-// --- Input Handling ---
 
 void check_buttons() {
   if (task.state != IDLE) return;
