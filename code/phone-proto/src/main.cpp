@@ -21,9 +21,9 @@ const uint8_t NUMBER_BAIRD[] = {1, 10, 9}; // "101"
 const uint8_t NUMBER_JK[]   = {1, 1, 10};  // "110"
 
 // Panasonic KX-TA824 Timings
-#define T_PULSE_BREAK 100   // On-hook (Relay OFF / Pin HIGH)
-#define T_PULSE_MAKE 100    // Off-hook (Relay ON / Pin LOW)
-#define T_DIGIT_GAP 800    
+#define T_PULSE_BREAK 40   // On-hook (Relay OFF / Pin HIGH)
+#define T_PULSE_MAKE 60    // Off-hook (Relay ON / Pin LOW)
+#define T_DIGIT_GAP 400    
 #define T_HOOK_Hookswitch 400   
 #define T_STABILIZE 500    
 
@@ -149,7 +149,7 @@ void run_sequence() {
       Serial.println("LOCAL_HOOKSWITCH2");
       set_hook(task.active_index, true); // End Hookswitch
       task.state = LOCAL_DIAL_3;
-      task.next_ms = curtime + T_STABILIZE + 500;
+      task.next_ms = curtime + T_STABILIZE;
       task.dial_buf[2] = 3;
       
       task.dial_pos = 2;
@@ -169,7 +169,7 @@ void run_sequence() {
       Serial.println("LOCAL_HOOKWAIT");
       set_hook(task.active_index, false); // Hangup
       task.state = LOCAL_HANGUP;
-      task.next_ms = curtime + 3000;
+      task.next_ms = curtime + 2000;
       break;
 
     case LOCAL_HANGUP:
