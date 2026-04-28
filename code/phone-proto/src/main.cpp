@@ -17,14 +17,14 @@ const uint8_t dial_test_pin = PA1;
 #define BAIRD_INDEX 11
 
 // Extension Numbers (PBX Logic: '0' is 10 pulses)
-const uint8_t NUMBER_BAIRD[] = {1, 10, 1}; // "101"
-const uint8_t NUMBER_JK[]   = {1, 10, 9};  // "109"
+const uint8_t NUMBER_BAIRD[] = {1, 10, 9}; // "101"
+const uint8_t NUMBER_JK[]   = {1, 1, 10};  // "110"
 
 // Panasonic KX-TA824 Timings
-#define T_PULSE_BREAK 60   // On-hook (Relay OFF / Pin HIGH)
-#define T_PULSE_MAKE 40    // Off-hook (Relay ON / Pin LOW)
+#define T_PULSE_BREAK 100   // On-hook (Relay OFF / Pin HIGH)
+#define T_PULSE_MAKE 100    // Off-hook (Relay ON / Pin LOW)
 #define T_DIGIT_GAP 800    
-#define T_HOOK_Hookswitch 600   
+#define T_HOOK_Hookswitch 400   
 #define T_STABILIZE 500    
 
 const uint8_t line_ctrls[] = { PC9, PC8, PB8, PC6, PB9 };
@@ -41,15 +41,20 @@ const uint8_t transfer_shiftinh_pin = PD2;
 
 enum SeqState {
   IDLE,
+  LOCAL_HOOKSWITCH1,
   LOCAL_PICKUP,     // 1. Offhook Local
   LOCAL_DIAL_HOST,  // 2. Dial Baird
   WAIT_FOR_HOST,    // 3. Wait 5s
-  LOCAL_HOOKSWITCH,      // 4. Hookswitch Local
-  LOCAL_HANGUP,     // 5 & 6. Hangup & Release Local
-  HOST_PICKUP,      // 7 & 8. Control Host & Offhook
+  LOCAL_HOOKSWITCH2,      // 4. Hookswitch Local
+  LOCAL_DIAL_3,     // 4.5 dial 3
+  LOCAL_HOOKWAIT,   // 5. start hangup
+  LOCAL_HANGUP,     // 6. Hangup & Release Local
+  HOST_HOOKSWITCH,   // 7. Control Host
+  HOST_PICKUP,      // 8. Control Host & Offhook
   HOST_DIAL_JK,     // 9. Dial JK
   WAIT_FOR_JK,      // 10. Wait 3s
-  HOST_Hookswitch,       // 11. Final Hookswitch
+  HOST_Hookswitch2,       // 11. Final Hookswitch
+  HOST_DIAL_3,      // 11.5 dial 3
   CLEANUP           // 12. Release everything
 };
 
@@ -67,6 +72,8 @@ PhoneTask task;
 uint32_t curtime = 0;
 
 void line_ctrl_mux_select(uint8_t index) {
+  Serial.print("mux select:");
+  Serial.println(index);
   for (int i = 0; i < sizeof(line_ctrls)/sizeof(line_ctrls[0]); i++) {
     digitalWrite(line_ctrls[i], (index >> i) & 0x01);
   }
@@ -74,6 +81,8 @@ void line_ctrl_mux_select(uint8_t index) {
 
 void set_hook(uint8_t index, bool offhook) {
   // Active-Low: LOW = Energized = Off-hook
+  Serial.print("hook state:");
+  Serial.println(offhook);
   digitalWrite(offhook_ctrls[index], offhook ? LOW : HIGH);
 }
 
@@ -103,10 +112,18 @@ void run_sequence() {
   if (task.state == IDLE || curtime < task.next_ms) return;
 
   switch (task.state) {
+    case LOCAL_HOOKSWITCH1:
+      Serial.println("LOCAL_HOOKSWITCH1");
+      set_hook(task.active_index, true); // End Hookswitch
+      task.state = LOCAL_PICKUP;
+      task.next_ms = curtime + T_STABILIZE;
+      break;
+
     case LOCAL_PICKUP:
-      line_ctrl_mux_select(task.active_index);
-      set_hook(task.active_index, true);
-      memcpy(task.dial_buf, NUMBER_BAIRD, 3);
+      Serial.println("LOCAL_PICKUP");
+      for (uint8_t i = 0; i < sizeof(NUMBER_BAIRD)/sizeof(NUMBER_BAIRD[0]); i++) {
+        task.dial_buf[i] = NUMBER_BAIRD[i];
+      }
       task.dial_pos = 0;
       task.pulses_left = task.dial_buf[0];
       task.state = LOCAL_DIAL_HOST;
@@ -114,6 +131,7 @@ void run_sequence() {
       break;
 
     case LOCAL_DIAL_HOST:
+      Serial.println("LOCAL_DIAL_HOST");  
       if (process_dialing(task.active_index)) {
         task.state = WAIT_FOR_HOST;
         task.next_ms = curtime + 5000;
@@ -121,36 +139,73 @@ void run_sequence() {
       break;
 
     case WAIT_FOR_HOST:
+      Serial.println("WAIT_FOR_HOST");
       set_hook(task.active_index, false); // Start Hookswitch
-      task.state = LOCAL_HOOKSWITCH;
+      task.state = LOCAL_HOOKSWITCH2;
       task.next_ms = curtime + T_HOOK_Hookswitch;
       break;
 
-    case LOCAL_HOOKSWITCH:
+    case LOCAL_HOOKSWITCH2:
+      Serial.println("LOCAL_HOOKSWITCH2");
       set_hook(task.active_index, true); // End Hookswitch
+      task.state = LOCAL_DIAL_3;
+      task.next_ms = curtime + T_STABILIZE + 500;
+      task.dial_buf[2] = 3;
+      
+      task.dial_pos = 2;
+      task.pulses_left = task.dial_buf[2];
+      break;
+
+    case LOCAL_DIAL_3:
+      Serial.println("LOCAL_DIAL_3");
+      if (process_dialing(task.active_index)) {
+        task.state = LOCAL_HOOKWAIT;
+        task.next_ms = curtime + T_STABILIZE;
+      }
+      break;
+      
+    
+    case LOCAL_HOOKWAIT:
+      Serial.println("LOCAL_HOOKWAIT");
+      set_hook(task.active_index, false); // Hangup
       task.state = LOCAL_HANGUP;
-      task.next_ms = curtime + T_STABILIZE;
+      task.next_ms = curtime + 3000;
       break;
 
     case LOCAL_HANGUP:
-      set_hook(task.active_index, false); // Hangup
+      Serial.println("LOCAL_HANGUP");
       line_ctrl_mux_select(0); // Release Mux
       task.state = HOST_PICKUP;
-      task.next_ms = curtime + 500;
+      task.next_ms = curtime + T_STABILIZE;
       break;
 
     case HOST_PICKUP:
+      Serial.println("HOST_PICKUP");
+      // line_ctrl_mux_select(task.active_index);
+      // set_hook(task.active_index, true);
+      task.state = HOST_HOOKSWITCH;
+
       task.active_index = BAIRD_INDEX;
       line_ctrl_mux_select(task.active_index);
+      task.next_ms = curtime + T_HOOK_Hookswitch;
+      set_hook(task.active_index, false);
+      break;
+
+    case HOST_HOOKSWITCH:
+      Serial.println("HOST_HOOKSWITCH");
       set_hook(task.active_index, true);
-      memcpy(task.dial_buf, NUMBER_JK, 3);
+      for (uint8_t i = 0; i < sizeof(NUMBER_JK)/sizeof(NUMBER_JK[0]); i++) {
+        task.dial_buf[i] = NUMBER_JK[i];
+      }
       task.dial_pos = 0;
       task.pulses_left = task.dial_buf[0];
       task.state = HOST_DIAL_JK;
       task.next_ms = curtime + T_STABILIZE;
       break;
 
+
     case HOST_DIAL_JK:
+      Serial.println("HOST_DIAL_JK");
       if (process_dialing(task.active_index)) {
         task.state = WAIT_FOR_JK;
         task.next_ms = curtime + 3000;
@@ -158,19 +213,35 @@ void run_sequence() {
       break;
 
     case WAIT_FOR_JK:
+      Serial.println("WAIT_FOR_JK");
       set_hook(task.active_index, false); // Start Hookswitch
-      task.state = HOST_Hookswitch;
+      task.state = HOST_Hookswitch2;
       task.next_ms = curtime + T_HOOK_Hookswitch;
       break;
 
-    case HOST_Hookswitch:
+    case HOST_Hookswitch2:
+      Serial.println("HOST_Hookswitch");
       set_hook(task.active_index, true); // End Hookswitch
-      task.state = CLEANUP;
+      task.state = HOST_DIAL_3;
       task.next_ms = curtime + T_STABILIZE;
+      task.dial_buf[2] = 3;
+      
+      task.dial_pos = 2;
+      task.pulses_left = task.dial_buf[2];
+      break;
+
+    case HOST_DIAL_3:
+      Serial.println("HOST_DIAL_3");
+      if (process_dialing(task.active_index)) {
+        task.state = CLEANUP;
+        task.next_ms = curtime + T_STABILIZE;
+      }
       break;
 
     case CLEANUP:
+      Serial.println("CLEANUP");
       line_ctrl_mux_select(0); // Release Line Control
+      set_hook(task.active_index, false); // End Hookswitch
       task.state = IDLE;
       break;
   }
@@ -211,7 +282,9 @@ void check_buttons() {
     if (!(digitalRead(transfer_shiftout_pin)^(!(int)((float)i/NUM_TRANSFER_BTNS+0.5))))
     {
       task.active_index = i;
-      task.state = LOCAL_PICKUP;
+      task.state = LOCAL_HOOKSWITCH1;
+      line_ctrl_mux_select(task.active_index);
+      task.next_ms = curtime + T_HOOK_Hookswitch;
       break;
     }
   }
@@ -231,6 +304,8 @@ void setup() {
   
   digitalWrite(transfer_shiftinh_pin, HIGH);
   digitalWrite(transfer_shiftld_pin, HIGH);
+
+  Serial.begin(115200);
 }
 
 void loop() {
